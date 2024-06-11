@@ -1,60 +1,60 @@
-import React from 'react'
-import "./NavBar.css"
-import { Link } from 'react-router-dom'
-
+import React, { useState } from "react";
+import "./NavBar.css";
+import logo from "../images/logo.jpeg"
 
 function NavBar() {
-    
+  const [active, setActive] = useState("nav__menu");
+  const [icon, setIcon] = useState("nav__toggler");
+  const navToggle = () => {
+    if (active === "nav__menu") {
+      setActive("nav__menu nav__active");
+    } else setActive("nav__menu");
+
+    // Icon Toggler
+    if (icon === "nav__toggler") {
+      setIcon("nav__toggler toggle");
+    } else setIcon("nav__toggler");
+  };
   return (
-    
-    /* Header Section */
-    <header>
-      <div class="navbar">
-        <div class="logo"><a href="#">Construction Site</a></div>
-        <ul class="links">
-          <li><a href="src/routes/Home.js">Home</a></li>
-          <li><a href="src/routes/About.js">About</a></li>
-          <li><a href="src/routes/Services.js">Services</a></li>
-          <li><a href="src/routes/Portfolio.js">Portfolio</a></li>
-          <li><a href="src/routes/Contact.js">Contact</a></li>
-        </ul>
-        <a href="src/routes/Bookings.js" target="_blank" class="action_btn">Bookings</a>
-        <div class="toggle_btn">
-          <i class="fa-solid fa-bars"></i>
-        </div>
+    <nav className="nav">
+      <a href="#" className="nav__brand">
+       <img src={logo} alt="log" className="logo"/>
+      </a>
+      <ul className={active}>
+        <li className="nav__item">
+          <a href="/" className="nav__link">
+            Home
+          </a>
+        </li>
+       
+        <li className="nav__item">
+          <a href="/Services" className="nav__link">
+            Services
+          </a>
+        </li>
+        <li className="nav__item">
+          <a href="/About" className="nav__link">
+            About
+          </a>
+        </li>
+        <li className="nav__item">
+          <a href="/Bookings" className="nav__link">
+            Bookings
+          </a>
+        </li>
+        <li className="nav__item">
+          <a href="/Contact" className="nav__link">
+            Contact
+          </a>
+        </li>
+      </ul>
+      <div onClick={navToggle} className={icon}>
+        <div className="line1"></div>
+        <div className="line2"></div>
+        <div className="line3"></div>
       </div>
-
-      <div class="dropdown_menu">
-        <li><a href="src/routes/Home.js">Home</a></li>
-        <li><a href="src/routes/About.js">About</a></li>
-        <li><a href="src/routes/Services.js">Services</a></li>
-        <li><a href="src/routes/Portfolio.js">Portfolio</a></li>
-          <li><a href="src/routes/Contact.js">Contact</a></li>
-        <li><a href="src/routes/Bookings.js" target="_blank" class="action_btn">Bookings</a></li>
-      </div>
-
-      <main>
-        <section id="hero">
-          <h1>Welcome</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor at
-            voluptate alias eum aspernatur beatae. <br />
-            Consectetur animi labore voluptate atque, libero nostrum dicta
-            fugiat repellat!
-          </p>
-          <a href="bookanappointment.html" target="_blank" class="action_btn">Bookings</a>
-        </section>
-      </main>
-    </header>
-    
-  )
-
+    </nav>
+  );
 }
 
-<script src="/script.js"></script>
-
-
-export default NavBar
-
-
-    
+export default NavBar;
