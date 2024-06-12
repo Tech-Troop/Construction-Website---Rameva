@@ -8,6 +8,7 @@ import About from './routes/About';
 import Contact from './routes/Contact';
 import NavBar from './components/NavBar';
 import Bookings from './routes/Bookings';
+import SignUp from './routes/SignUp';
 
 
 
@@ -24,6 +25,7 @@ function App() {
           <Route path="/About" element={<About/>}/>
           <Route path="/Contact" element={<Contact/>}/>
           <Route path="/Bookings" element={<Bookings/>}/>
+          <Route path="/SignUp" element={<SignUp/>}/>
         </Routes>
        
       </BrowserRouter>
