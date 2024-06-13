@@ -10,7 +10,7 @@
 :root {
   --scrollbar-color: #D3D3D3;
   --hover-colouor: #ADD8E6;
-  --nav-color: #82bcca;
+  --nav-color: rgb(15, 15, 14);
 }
 
 html::-webkit-scrollbar {
@@ -32,16 +32,17 @@ li {
 }
 a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 a:hover {
-  color: var(--hover-colouor);
+  color: orange;
 }
 
 .nav {
   display: flex;
-  position: fixed;
+  box-shadow: black;
+  border: 1px solid black;
   align-items: center;
   justify-content: space-around;
   background-color: var(--nav-color);
@@ -57,7 +58,7 @@ a:hover {
   align-items: center;
   justify-content: space-around;
   gap: 4rem;
-  background: rgba(225, 225, 225, 0.5);
+
   backdrop-filter: blur(15px);
   border-radius: 35px;
 }
