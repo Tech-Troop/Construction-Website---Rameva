@@ -41,7 +41,6 @@ a:hover {
 
 .nav {
   display: flex;
-  position: fixed;
   align-items: center;
   justify-content: space-around;
   background-color: var(--nav-color);
