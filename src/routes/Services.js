@@ -32,7 +32,7 @@ function Services() {
               alt="BuildingConstruction"
               className="BuildingConstruction"/>
           </div>
-          BUILDING CONSTRUCTION <br />
+          <span className="title">BUILDING CONSTRUCTION</span> <br />
           Expert building construction delivering robust, sustainable, and
           aesthetically pleasing structures. Our quality craftsmanship and
           attention to detail ensure your project is built to last.
@@ -44,7 +44,7 @@ function Services() {
               alt="buildingServices"
               className="BuildingConstruction"/>
           </div>
-          BUILDING SERVICES <br />
+          <span className="title">BUILDING SERVICES</span> <br />
           Comprehensive building services ensuring optimal functionality,
           safety, and comfort for your property. From maintenance to upgrades,
           we handle it all with precision and care.
@@ -56,7 +56,7 @@ function Services() {
               alt="civilConstruction"
               className="BuildingConstruction"/>
           </div>
-          CIVIL CONSTRUCTION <br />
+          <span className="title">CIVIL CONSTRUCTION</span> <br />
           Civil construction solutions from roads to bridges, providing
           reliability and durability in every project. Our experienced team
           ensures your infrastructure is built to the highest standards.
@@ -68,7 +68,7 @@ function Services() {
               alt="StructuralDesign"
               className="BuildingConstruction"/>
           </div>
-          STRUCTURAL DESIGN & CIVIL ENGINEERING SERVICES <br />
+          <span className="title">STRUCTURAL DESIGN & CIVIL ENGINEERING SERVICES</span> <br />
           Innovative structural design and civil engineering services for safe,
           efficient, and modern infrastructure. We bring your vision to life
           with expert planning and execution.
@@ -80,7 +80,7 @@ function Services() {
               alt="welding&Fabrication"
               className="BuildingConstruction"/>
           </div>
-          WELDING & FABRICTION OF PIPES <br />
+          <span className="title">WELDING & FABRICTION OF PIPES</span> <br />
           Precision welding and pipe fabrication services ensuring seamless
           integration and long-lasting performance. Our skilled welders
           guarantee the highest quality in every joint and connection.
@@ -92,7 +92,7 @@ function Services() {
               alt="designServices"
               className="BuildingConstruction"/>
           </div>
-          DESIGN SERVICES & PROJECT MANAGEMENT <br />
+          <span className="title">DESIGN SERVICES & PROJECT MANAGEMENT</span> <br />
           Expert design services and project management for successful, timely,
           and budget-friendly project completion. We turn your ideas into
           reality with meticulous planning and execution.
@@ -104,7 +104,7 @@ function Services() {
               alt="surveyingServices"
               className="BuildingConstruction"/>
           </div>
-          SURVEYING SERVICES-land,hydrographic etc <br />
+          <span className="title">SURVEYING SERVICES-land,hydrographic etc</span> <br />
           Accurate land and hydrographic surveying services for detailed and
           reliable mapping and analysis. Our advanced technology ensures precise
           measurements and comprehensive reports.
@@ -116,7 +116,7 @@ function Services() {
               alt="buildingRenovation"
               className="BuildingConstruction"/>
           </div>
-          BUILDING RENOVATION AND REFURBISHMENT
+          <span className="title">BUILDING RENOVATION AND REFURBISHMENT</span>
           <br />
           Top-notch building renovation and refurbishment to revitalize and
           enhance your property's value and appeal. We transform spaces with
@@ -129,7 +129,7 @@ function Services() {
               alt="boreholdDrilling"
               className="BuildingConstruction"/>
           </div>
-          BOREHOLE DRILLING, CONSTRUCTION & MECHANISATION
+          <span className="title">BOREHOLE DRILLING, CONSTRUCTION & MECHANISATION</span>
           <br />
           Professional borehole drilling, construction, and mechanization for
           reliable and sustainable water solutions. Our services ensure
@@ -142,7 +142,7 @@ function Services() {
               alt="technicalServices"
               className="BuildingConstruction"/>
           </div>
-          TECHNICAL RELATED SERVICES & REPORTING
+          <span className="title">TECHNICAL RELATED SERVICES & REPORTING</span>
           <br />
           Comprehensive technical services and reporting for informed
           decision-making and project success. We provide detailed analysis and
@@ -155,7 +155,7 @@ function Services() {
               alt="installationofBoosterpumps"
               className="BuildingConstruction"/>
           </div>
-          INSTALLATION OF BOOSTER STATION PUMPS & PIPE FITTINGS
+          <span className="title">INSTALLATION OF BOOSTER STATION PUMPS & PIPE FITTINGS</span>
           <br />
           Expert installation of booster station pumps and pipe fittings for
           efficient water flow management. Our solutions enhance water pressure
@@ -168,7 +168,7 @@ function Services() {
               alt="waterSystems"
               className="BuildingConstruction"/>
           </div>
-          WATER SYSTEMS <br />
+          <span className="title">WATER SYSTEMS</span> <br />
           Reliable water systems installation and maintenance for consistent and
           clean water supply. We ensure your water systems are efficient, safe,
           and durable.
@@ -177,7 +177,7 @@ function Services() {
           <div>
             <img src={img13} alt="HDPE&PVC" className="BuildingConstruction" />
           </div>
-          HDPE AND PVC
+          <span className="title">HDPE AND PVC</span>
           <br />
           Professional HDPE and PVC pipe laying services ensuring durability and
           leak-free connections. Our experienced team delivers precision and
@@ -190,7 +190,7 @@ function Services() {
               alt="pipelinedesign&Reservoirs"
               className="BuildingConstruction"/>
           </div>
-          PIPELINE DESIGN AND RESERVOIRS <br />
+          <span className="title">PIPELINE DESIGN AND RESERVOIRS</span> <br />
           Innovative pipeline design and reservoir construction for efficient
           water storage and distribution. We create robust systems tailored to
           your specific requirements.
@@ -202,7 +202,7 @@ function Services() {
               alt="PressureTesting"
               className="BuildingConstruction"/>
           </div>
-          PRESSURE TESTING AND STERILIZATION OF PIPELINES
+          <span className="title">PRESSURE TESTING AND STERILIZATION OF PIPELINES</span>
           <br />
           Ensure pipeline integrity with thorough pressure testing and
           sterilization services. Our rigorous processes guarantee safety and
@@ -215,7 +215,7 @@ function Services() {
               alt="WaterpumpInstallation"
               className="BuildingConstruction"/>
           </div>
-          WATER PUMP INSTALLATION AND ALIGNMENT
+          <span className="title">WATER PUMP INSTALLATION AND ALIGNMENT</span>
           <br />
           Precision water pump installation and alignment for optimal
           performance and longevity. Our expert technicians ensure your pumps

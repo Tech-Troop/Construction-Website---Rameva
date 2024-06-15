@@ -5,7 +5,6 @@
     padding-top: 10px;
     display: flex;
     flex-direction: column;
-   
 }
 
 .introContainer {
@@ -34,30 +33,63 @@
 
 .serviceCards > div {
     background-color: #fff;
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: left;
-    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative; /* Needed for pseudo-elements */
 }
 
 .serviceCards > div:hover {
-    transform: scale(1.05); 
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.serviceCards > div::before,
+.serviceCards > div::after {
+    content: "";
+    position: absolute;
+    width: 5px; 
+}
+
+.serviceCards > div::before {
+    left: 0;
+    bottom: 0;
+    height: 60%; /* Bottom half of left border */
+    background-color: #979595;
+}
+
+.serviceCards > div::after {
+    right: 0;
+    bottom: 0;
+    height: 60%; /* Bottom half of right border */
+    background-color: #979595;
+}
+
+.serviceCards > div::after {
+    right: 0;
+    bottom: 0;
+    height: 5px; 
+    width: 100%; /* Bottom border */
+    background-color: #979595;
+    position: absolute;
 }
 
 .serviceCard1, .serviceCard2, .serviceCard3, .serviceCard4,
 .serviceCard5, .serviceCard6, .serviceCard7, .serviceCard8,
 .serviceCard9, .serviceCard10, .serviceCard11, .serviceCard12,
 .serviceCard13, .serviceCard14, .serviceCard15, .serviceCard16 {
-    height: 300px; 
-    /* display: flex; */
+    height: 350px;
     align-items: center;
     justify-content: center;
 }
 
-
 .BuildingConstruction {
-    height:60px;
+    height: 60px;
     width: 60px;
+}
+
+.title {
+    font-weight: bold;
 }
