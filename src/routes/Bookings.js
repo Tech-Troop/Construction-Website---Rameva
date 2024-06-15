@@ -32,12 +32,6 @@ function Bookings() {
            		    	<input type="password" class="input" placeholder='password'/>
             	   </div>
             	</div >
-              <div className='link'>
-                <a href="#">Forgot Password?</a>
-              </div>
-              <div className='link2'>
-                <a href="#">SignUp</a>
-              </div>
             	<input type="submit" class="btn" value="Login"/>
             </form>
         </div>

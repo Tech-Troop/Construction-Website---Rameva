@@ -12,7 +12,7 @@ li {
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: black;
   font-size: 1rem;
 }
 
@@ -25,6 +25,7 @@ a:hover {
 header {
   position: relative;
   padding: 0 2rem;
+  background-color: rgb(236, 232, 227);
 }
 
 .navbar {
@@ -35,20 +36,26 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  
 }
 
 .navbar .logo a {
   font-size: 1.5rem;
   font-weight: bold;
+  
+}
+.logo{
+  margin-bottom: 10px;
 }
 
 .navbar .links {
   display: flex;
   gap: 2rem;
+  margin-top: 7px;
 }
 
 .navbar .toggle_btn {
-  color: #fff;
+  color: black;
   font-size: 1.5rem;
   cursor: pointer;
   display: none;
@@ -56,7 +63,7 @@ header {
 
 .action_btn {
   background-color: orange;
-  color: #fff;
+  color: black;
   padding: 0.5rem 1rem;
   border: none;
   outline: none;
@@ -69,7 +76,7 @@ header {
 
 .action_btn:hover {
   scale: 1.05;
-  color: #fff;
+  color: black;
 }
 
 .action_btn:active {
