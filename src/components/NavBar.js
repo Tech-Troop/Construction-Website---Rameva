@@ -1,60 +1,71 @@
 import React, { useState } from "react";
 import "./NavBar.css";
-import logo from "../images/logo.jpeg"
+import logo from "../images/logo.jpeg";
 
-function NavBar() {
-  const [active, setActive] = useState("nav__menu");
-  const [icon, setIcon] = useState("nav__toggler");
-  const navToggle = () => {
-    if (active === "nav__menu") {
-      setActive("nav__menu nav__active");
-    } else setActive("nav__menu");
+function Navbar() {
+  const [isOpen, setIsOpen] = useState(false);
 
-    // Icon Toggler
-    if (icon === "nav__toggler") {
-      setIcon("nav__toggler toggle");
-    } else setIcon("nav__toggler");
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
   };
+
   return (
-    <nav className="nav">
-      <a href="#" className="nav__brand">
-       <img src={logo} alt="log" className="logo"/>
-      </a>
-      <ul className={active}>
-        <li className="nav__item">
-          <a href="/" className="nav__link">
-            Home
-          </a>
-        </li>
-       
-        <li className="nav__item">
-          <a href="/Services" className="nav__link">
-            Services
-          </a>
-        </li>
-        <li className="nav__item">
-          <a href="/About" className="nav__link">
-            About
-          </a>
-        </li>
-        <li className="nav__item">
-          <a href="/Bookings" className="nav__link">
-            Bookings
-          </a>
-        </li>
-        <li className="nav__item">
-          <a href="/Contact" className="nav__link">
-            Contact
-          </a>
-        </li>
-      </ul>
-      <div onClick={navToggle} className={icon}>
-        <div className="line1"></div>
-        <div className="line2"></div>
-        <div className="line3"></div>
+    <header>
+      <div className="navbar">
+        <div className="logo">
+          <a href="#">Rameva Consult</a>
+        </div>
+        <ul className="links">
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="/About">About</a>
+          </li>
+          <li>
+            <a href="/Portfolio">Portfolio</a>
+          </li>
+          <li>
+            <a href="/Services">Services</a>
+          </li>
+          <li>
+            <a href="/Contact">Contact</a>
+          </li>
+        </ul>
+        <a href="/Bookings" className="action_btn">
+          Bookings
+        </a>
+        <div className="toggle_btn" onClick={toggleMenu}>
+          <i className={isOpen ? "fa-solid fa-xmark" : "fa-solid fa-bars"}></i>
+        </div>
       </div>
-    </nav>
+
+      <div className={`dropdown_menu ${isOpen ? 'open' : ''}`}>
+  <ul>
+    <li>
+      <a href="/">Home</a>
+    </li>
+    <li>
+      <a href="/About">About</a>
+    </li>
+    <li>
+      <a href="/Portfolio">Portfolio</a>
+    </li>
+    <li>
+      <a href="/Services">Services</a>
+    </li>
+    <li>
+      <a href="/Contact">Contact</a>
+    </li>
+    <li>
+      <a href="/Bookings" className="action_btn">
+        Bookings
+      </a>
+    </li>
+  </ul>
+</div>
+    </header>
   );
 }
 
-export default NavBar;
+export default Navbar;
