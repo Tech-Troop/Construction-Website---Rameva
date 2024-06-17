@@ -5,7 +5,19 @@
     padding-top: 10px;
     display: flex;
     flex-direction: column;
+    
 }
+.serviceCards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    width: 95%;
+    margin-top: 20px;
+    margin-left: 20px;
+    align-items: center;
+    overflow-y: auto; /* Add this line */
+    max-height: 800px; /* Set a maximum height for the container */
+  }
 
 .introContainer {
     background-color: hsl(0, 100%, 100%);
@@ -19,6 +31,7 @@
     font-weight: 1000;
     text-align: center;
     align-items: center;
+    color: black;
 }
 
 .serviceCards {
@@ -40,7 +53,9 @@
     text-align: left;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     position: relative; /* Needed for pseudo-elements */
-    background-color: #f8be52;
+    background-color: white;
+    color: rgb(48, 48, 106);
+    font-weight: 700;
 }
 
 .serviceCards > div:hover {
@@ -124,6 +139,7 @@
         line-height: 1%;
     }
 }
+
 
 
 
