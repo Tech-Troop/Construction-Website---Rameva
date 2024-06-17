@@ -97,6 +97,64 @@
     font-weight: bold;
 }
 
+@media screen and (max-width: 1228px) {
+    .serviceCards {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+        width: 90%;
+        margin-top: 20px;
+        margin-left: 20px;
+        align-items: center;
+        
+    }
+
+    
+    .serviceCard1, .serviceCard2, .serviceCard3, .serviceCard4,
+    .serviceCard5, .serviceCard6, .serviceCard7, .serviceCard8,
+    .serviceCard9, .serviceCard10, .serviceCard11, .serviceCard12,
+    .serviceCard13, .serviceCard14, .serviceCard15, .serviceCard16 {
+        height: 500px;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFA500;
+    }
+
+    .title {
+        line-height: 1%;
+    }
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .serviceCards {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+        width: 90%;
+        margin-top: 20px;
+        margin-left: 20px;
+        align-items: center;
+        
+    }
+
+    
+    .serviceCard1, .serviceCard2, .serviceCard3, .serviceCard4,
+    .serviceCard5, .serviceCard6, .serviceCard7, .serviceCard8,
+    .serviceCard9, .serviceCard10, .serviceCard11, .serviceCard12,
+    .serviceCard13, .serviceCard14, .serviceCard15, .serviceCard16 {
+        height: 500px;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFA500;
+    }
+
+    .title {
+        line-height: 1%;
+    }
+}
+
 
 @media screen and (max-width: 1024px) {
     .serviceCards {
