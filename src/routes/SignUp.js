@@ -55,7 +55,8 @@ const handleSignup = async(e)=>{
 				<h2 class="title">Welcome</h2>
         <div class="input-div one">
            		   <div class="i">
-           		   		<i class="fas fa-user"></i>
+					  <i class="fas fa-envelope"></i>
+
            		   </div>
                  
            		   <div class="div">
