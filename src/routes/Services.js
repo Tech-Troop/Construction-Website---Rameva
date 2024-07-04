@@ -20,6 +20,7 @@ import img16 from "../images/pumpInstallationAlignment.png";
 
 function Services() {
   return (
+    <div>
     <div className="servicesContainer">
       <div className="introContainer">All Services ──</div>
 
@@ -222,6 +223,7 @@ function Services() {
           operate efficiently and reliably.
         </div>
       </div>
+    </div>
     </div>
   );
 }

@@ -4,7 +4,9 @@
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
 }
-
+body{
+  padding-top: 60px;
+}
 
 li {
   list-style: none;
@@ -22,10 +24,15 @@ a:hover {
 
 /* HEADER */
 
-header {
-  position: relative;
+nav {
+ 
   padding: 0 2rem;
   background-color: rgb(236, 232, 227);
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  top: 0;
+ 
 }
 
 .navbar {
@@ -37,7 +44,9 @@ header {
   align-items: center;
   justify-content: space-between;
   
+  
 }
+
 
 .navbar .logo a {
   font-size: 1.5rem;
