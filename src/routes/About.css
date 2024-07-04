@@ -5,4 +5,16 @@
     width: 990px;
   }
 
-  
+  .title1{
+    font-size: 35px;
+    text-align: center;
+  }
+  .picture{
+    width: 60%;
+  }
+  .about{
+    display: flex;
+  }
+  .texts{
+    font-size: 20px;
+  }
