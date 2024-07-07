@@ -1,29 +1,42 @@
 //services.js
 import React from "react";
 import "./Services.css";
-import img1 from "../images/Buildingconstruction.png";
-import img2 from "../images/BuildingServices.png";
-import img3 from "../images/CivilConstruction.png";
-import img4 from "../images/StructuralDesign_CivilEngineering.png";
-import img5 from "../images/Welding_Fabrication_pipe.png";
+import house1 from "../images/house1.jpg"
+import house2 from "../images/house2.jpeg"
+import house3 from "../images/house3.jpeg"
+import img1 from "../images/skyscraper.png";
+import img2 from "../images/building.png";
+import img3 from "../images/civil-engineering.png";
+import img4 from "../images/structural design.png";
+import img5 from "../images/welding.png";
 import img6 from "../images/project-management.png";
-import img7 from "../images/SurveyingServices.png";
-import img8 from "../images/BuildingRenovation.png";
-import img9 from "../images/BoreholeDrilling.png";
+import img7 from "../images/surveying.png";
+import img8 from "../images/renovation.png";
+import img9 from "../images/borehole_drill.png";
 import img10 from "../images/technical-support.png";
-import img11 from "../images/BoosterPump.png";
-import img12 from "../images/waterSystems.png";
-import img13 from "../images/pvc-pipe.png";
+import img11 from "../images/booster.png";
+import img12 from "../images/water_systems.png";
+import img13 from "../images/pvc_hdpe.png";
 import img14 from "../images/pipeline.png";
-import img15 from "../images/pressureTesting.png";
-import img16 from "../images/pumpInstallationAlignment.png";
+import img15 from "../images/pressure-meter.png";
+import img16 from "../images/pump.png";
 
 function Services() {
   return (
     <div>
-    <div className="servicesContainer">
-      <div className="introContainer">All Services ──</div>
-
+      <div className="servicepageHeader">
+        <div className="headerContent">
+          <span className="bestServiceText">WE PROVIDE THE BEST SERVICES</span>
+          <span className="HeroText">We are here to make your dreams come true</span>
+        </div>
+        <div className="headerpicsdiv">
+          <img src={house3} className="house3"/>
+          <img src={house1} className="house1"/>
+          <img src={house2} className="house2"/>
+        </div>
+      </div>
+      <div className="servicepageContent">
+        <div className="servicepageContentheader">Our Services</div>
       <div className="serviceCards">
         <div className="serviceCard1">
           {" "}
@@ -33,10 +46,13 @@ function Services() {
               alt="BuildingConstruction"
               className="BuildingConstruction"/>
           </div>
-          <span className="title">BUILDING CONSTRUCTION</span> <br />
-          Expert building construction delivering robust, sustainable, and
+          <span className="cardTitle">BUILDING CONSTRUCTION</span> <br />
+          <span className="serviceCardText">Expert building construction delivering robust, sustainable, and
           aesthetically pleasing structures. Our quality craftsmanship and
-          attention to detail ensure your project is built to last.
+          attention to detail ensure your project is built to last.</span>
+          <div>
+                <button type="read More" className='readMoreButton'><span className='readMore'>Read More</span></button>
+          </div>
         </div>
         <div className="serviceCard2">
           <div>
@@ -45,10 +61,13 @@ function Services() {
               alt="buildingServices"
               className="BuildingConstruction"/>
           </div>
-          <span className="title">BUILDING SERVICES</span> <br />
-          Comprehensive building services ensuring optimal functionality,
+          <span className="cardTitle">BUILDING SERVICES</span> <br />
+          <span className="serviceCardText">Comprehensive building services ensuring optimal functionality,
           safety, and comfort for your property. From maintenance to upgrades,
-          we handle it all with precision and care.
+          we handle it all with precision and care.</span>
+          <div>
+                <button type="read More" className='readMoreButton'><span className='readMore'>Read More</span></button>
+          </div>
         </div>
         <div className="serviceCard3">
           <div>
@@ -57,10 +76,13 @@ function Services() {
               alt="civilConstruction"
               className="BuildingConstruction"/>
           </div>
-          <span className="title">CIVIL CONSTRUCTION</span> <br />
-          Civil construction solutions from roads to bridges, providing
+          <span className="cardTitle">CIVIL CONSTRUCTION</span> <br />
+          <span className="serviceCardText">Civil construction solutions from roads to bridges, providing
           reliability and durability in every project. Our experienced team
-          ensures your infrastructure is built to the highest standards.
+          ensures your infrastructure is built to the highest standards.</span>
+          <div>
+                <button type="read More" className='readMoreButton'><span className='readMore'>Read More</span></button>
+          </div>
         </div>
         <div className="serviceCard4">
           <div>
@@ -69,10 +91,13 @@ function Services() {
               alt="StructuralDesign"
               className="BuildingConstruction"/>
           </div>
-          <span className="title">STRUCTURAL DESIGN & CIVIL ENGINEERING SERVICES</span> <br />
-          Innovative structural design and civil engineering services for safe,
+          <span className="cardTitle">STRUCTURAL DESIGN & CIVIL ENGINEERING SERVICES</span> <br />
+          <span className="serviceCardText">Innovative structural design and civil engineering services for safe,
           efficient, and modern infrastructure. We bring your vision to life
-          with expert planning and execution.
+          with expert planning and execution.</span>
+          <div>
+                <button type="read More" className='readMoreButton'><span className='readMore'>Read More</span></button>
+          </div>
         </div>
         <div className="serviceCard5">
           <div>
@@ -81,10 +106,13 @@ function Services() {
               alt="welding&Fabrication"
               className="BuildingConstruction"/>
           </div>
-          <span className="title">WELDING & FABRICTION OF PIPES</span> <br />
-          Precision welding and pipe fabrication services ensuring seamless
+          <span className="cardTitle">WELDING & FABRICTION OF PIPES</span> <br />
+          <span className="serviceCardText">Precision welding and pipe fabrication services ensuring seamless
           integration and long-lasting performance. Our skilled welders
-          guarantee the highest quality in every joint and connection.
+          guarantee the highest quality in every joint and connection.</span>
+          <div>
+                <button type="read More" className='readMoreButton'><span className='readMore'>Read More</span></button>
+          </div>
         </div>
         <div className="serviceCard6">
           <div>
@@ -93,10 +121,13 @@ function Services() {
               alt="designServices"
               className="BuildingConstruction"/>
           </div>
-          <span className="title">DESIGN SERVICES & PROJECT MANAGEMENT</span> <br />
-          Expert design services and project management for successful, timely,
+          <span className="cardTitle">DESIGN SERVICES & PROJECT MANAGEMENT</span> <br />
+          <span className="serviceCardText">Expert design services and project management for successful, timely,
           and budget-friendly project completion. We turn your ideas into
-          reality with meticulous planning and execution.
+          reality with meticulous planning and execution.</span>
+          <div>
+                <button type="read More" className='readMoreButton'><span className='readMore'>Read More</span></button>
+          </div>
         </div>
         <div className="serviceCard7">
           <div>
@@ -105,10 +136,13 @@ function Services() {
               alt="surveyingServices"
               className="BuildingConstruction"/>
           </div>
-          <span className="title">SURVEYING SERVICES-land,hydrographic etc</span> <br />
-          Accurate land and hydrographic surveying services for detailed and
+          <span className="cardTitle">SURVEYING SERVICES-land,hydrographic etc</span> <br />
+          <span className="serviceCardText">Accurate land and hydrographic surveying services for detailed and
           reliable mapping and analysis. Our advanced technology ensures precise
-          measurements and comprehensive reports.
+          measurements and comprehensive reports.</span>
+          <div>
+                <button type="read More" className='readMoreButton'><span className='readMore'>Read More</span></button>
+          </div>
         </div>
         <div className="serviceCard8">
           <div>
@@ -117,11 +151,14 @@ function Services() {
               alt="buildingRenovation"
               className="BuildingConstruction"/>
           </div>
-          <span className="title">BUILDING RENOVATION AND REFURBISHMENT</span>
+          <span className="cardTitle">BUILDING RENOVATION AND REFURBISHMENT</span>
           <br />
-          Top-notch building renovation and refurbishment to revitalize and
+          <span className="serviceCardText">Top-notch building renovation and refurbishment to revitalize and
           enhance your property's value and appeal. We transform spaces with
-          quality craftsmanship and innovative solutions.
+          quality craftsmanship and innovative solutions.</span>
+          <div>
+                <button type="read More" className='readMoreButton'><span className='readMore'>Read More</span></button>
+          </div>
         </div>
         <div className="serviceCard9">
           <div>
@@ -130,11 +167,14 @@ function Services() {
               alt="boreholdDrilling"
               className="BuildingConstruction"/>
           </div>
-          <span className="title">BOREHOLE DRILLING, CONSTRUCTION & MECHANISATION</span>
+          <span className="cardTitle">BOREHOLE DRILLING, CONSTRUCTION & MECHANISATION</span>
           <br />
-          Professional borehole drilling, construction, and mechanization for
+          <span className="serviceCardText">Professional borehole drilling, construction, and mechanization for
           reliable and sustainable water solutions. Our services ensure
-          efficient and long-lasting water access for your needs.
+          efficient and long-lasting water access for your needs.</span>
+          <div>
+                <button type="read More" className='readMoreButton'><span className='readMore'>Read More</span></button>
+          </div>
         </div>
         <div className="serviceCard10">
           <div>
@@ -143,11 +183,14 @@ function Services() {
               alt="technicalServices"
               className="BuildingConstruction"/>
           </div>
-          <span className="title">TECHNICAL RELATED SERVICES & REPORTING</span>
+          <span className="cardTitle">TECHNICAL RELATED SERVICES & REPORTING</span>
           <br />
-          Comprehensive technical services and reporting for informed
+          <span className="serviceCardText">Comprehensive technical services and reporting for informed
           decision-making and project success. We provide detailed analysis and
-          expert recommendations to support your objectives.
+          expert recommendations to support your objectives.</span>
+          <div>
+                <button type="read More" className='readMoreButton'><span className='readMore'>Read More</span></button>
+          </div>
         </div>
         <div className="serviceCard11">
           <div>
@@ -156,11 +199,14 @@ function Services() {
               alt="installationofBoosterpumps"
               className="BuildingConstruction"/>
           </div>
-          <span className="title">INSTALLATION OF BOOSTER STATION PUMPS & PIPE FITTINGS</span>
+          <span className="cardTitle">INSTALLATION OF BOOSTER STATION PUMPS & PIPE FITTINGS</span>
           <br />
-          Expert installation of booster station pumps and pipe fittings for
+          <span className="serviceCardText">Expert installation of booster station pumps and pipe fittings for
           efficient water flow management. Our solutions enhance water pressure
-          and system reliability.
+          and system reliability.</span>
+          <div>
+                <button type="read More" className='readMoreButton'><span className='readMore'>Read More</span></button>
+          </div>
         </div>
         <div className="serviceCard12">
           <div>
@@ -169,20 +215,26 @@ function Services() {
               alt="waterSystems"
               className="BuildingConstruction"/>
           </div>
-          <span className="title">WATER SYSTEMS</span> <br />
-          Reliable water systems installation and maintenance for consistent and
+          <span className="cardTitle">WATER SYSTEMS</span> <br />
+          <span className="serviceCardText">Reliable water systems installation and maintenance for consistent and
           clean water supply. We ensure your water systems are efficient, safe,
-          and durable.
+          and durable.</span>
+          <div>
+                <button type="read More" className='readMoreButton'><span className='readMore'>Read More</span></button>
+          </div>
         </div>
         <div className="serviceCard13">
           <div>
             <img src={img13} alt="HDPE&PVC" className="BuildingConstruction" />
           </div>
-          <span className="title">HDPE AND PVC</span>
+          <span className="cardTitle">HDPE AND PVC</span>
           <br />
-          Professional HDPE and PVC pipe laying services ensuring durability and
+          <span className="serviceCardText">Professional HDPE and PVC pipe laying services ensuring durability and
           leak-free connections. Our experienced team delivers precision and
-          reliability in every installation.
+          reliability in every installation.</span>
+          <div>
+                <button type="read More" className='readMoreButton'><span className='readMore'>Read More</span></button>
+          </div>
         </div>
         <div className="serviceCard14">
           <div>
@@ -191,10 +243,13 @@ function Services() {
               alt="pipelinedesign&Reservoirs"
               className="BuildingConstruction"/>
           </div>
-          <span className="title">PIPELINE DESIGN AND RESERVOIRS</span> <br />
-          Innovative pipeline design and reservoir construction for efficient
+          <span className="cardTitle">PIPELINE DESIGN AND RESERVOIRS</span> <br />
+          <span className="serviceCardText">Innovative pipeline design and reservoir construction for efficient
           water storage and distribution. We create robust systems tailored to
-          your specific requirements.
+          your specific requirements.</span>
+          <div>
+                <button type="read More" className='readMoreButton'><span className='readMore'>Read More</span></button>
+          </div>
         </div>
         <div className="serviceCard15">
           <div>
@@ -203,11 +258,14 @@ function Services() {
               alt="PressureTesting"
               className="BuildingConstruction"/>
           </div>
-          <span className="title">PRESSURE TESTING AND STERILIZATION OF PIPELINES</span>
+          <span className="cardTitle">PRESSURE TESTING AND STERILIZATION OF PIPELINES</span>
           <br />
-          Ensure pipeline integrity with thorough pressure testing and
+          <span className="serviceCardText">Ensure pipeline integrity with thorough pressure testing and
           sterilization services. Our rigorous processes guarantee safety and
-          compliance with industry standards.
+          compliance with industry standards.</span>
+          <div>
+                <button type="read More" className='readMoreButton'><span className='readMore'>Read More</span></button>
+          </div>
         </div>
         <div className="serviceCard16">
           <div>
@@ -216,16 +274,18 @@ function Services() {
               alt="WaterpumpInstallation"
               className="BuildingConstruction"/>
           </div>
-          <span className="title">WATER PUMP INSTALLATION AND ALIGNMENT</span>
+          <span className="cardTitle">WATER PUMP INSTALLATION AND ALIGNMENT</span>
           <br />
-          Precision water pump installation and alignment for optimal
+          <span className="serviceCardText">Precision water pump installation and alignment for optimal
           performance and longevity. Our expert technicians ensure your pumps
-          operate efficiently and reliably.
+          operate efficiently and reliably.</span>
+          <div>
+                <button type="read More" className='readMoreButton'><span className='readMore'>Read More</span></button>
+          </div>
         </div>
       </div>
-    </div>
+      </div>
     </div>
   );
 }
-
 export default Services;
