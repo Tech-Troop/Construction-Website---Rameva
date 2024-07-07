@@ -1,0 +1,3433 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: auto;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(214, 210, 210);
+    position: relative;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.subContainer1 {
+    background-color: #152262;
+    position: relative; 
+}
+
+.subContainer2 {
+    background-color: rgb(214, 210, 210);
+    position: relative;
+    height: 100vh;
+}
+
+.cardsContainer{
+    display: grid;
+    margin-top: -160px;
+    margin-left: 150px;
+    grid-template-columns: repeat(4, 1fr);
+    position: relative;
+    gap: 30px;
+    column-gap: -3px;
+    width: 70%;
+    z-index: 2;   
+}
+
+.card1, 
+.card2, 
+.card3, 
+.card4 {
+    background-color: #fff;
+    height: 260px;
+    width: 260px;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+
+.location{
+    height: 60px;
+    width: 60px;
+    margin-top: 30px;
+    margin-left: 100px;
+    display: block;
+}
+.telephone,
+.mailbox{
+    height: 60px;
+    width: 60px;
+    margin-top: 20px;
+    margin-left: 90px;
+    display: block;
+}
+.email {
+    height: 60px;
+    width: 60px;
+    margin-top: 30px;
+    margin-left: 100px;
+    display: block;
+    
+}
+
+.cardHeader {
+    font-weight: 600;
+    font-size: 24px;
+    display:block;
+}
+
+.cardText {
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.twosectioneddiv{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+
+.form{
+    width: 600px;
+    align-content: 'center';
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    padding-left: 30px;
+}
+
+.formdiv1{
+    display: flex;
+    justify-content: 'space-between'; 
+    margin-bottom: 10px;
+}
+
+.emailText{
+    display: block; 
+    color: #152262;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.nameText{
+    display: block;
+    color: #152262;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.messageText {
+    display: block;
+    color: #152262;
+    font-size: 18px; 
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.emailInput{
+    width: 280px;
+    margin-right: 20px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid #152262;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(214, 210, 210);
+}
+
+.nameInput{
+    width: 280px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid #152262;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(214, 210, 210);
+}
+
+.messageInput{
+    width: 580px;
+    resize: vertical;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid #152262;
+    background-color: rgb(214, 210, 210);
+    padding: 10px;
+}
+
+.submitButton {
+    padding-top: 10px;
+    padding-bottom:10px;
+    padding-left: 250px; 
+    padding-right: 250px; 
+    background-color: #152262;
+    border-radius: 20px;
+    border-color: #152262;
+}
+
+.moreInfo{
+    width: 600px;
+    padding-top: 20px;
+    margin-left: 90px;
+}
+
+.getinTouch{
+    display: block;
+    font-weight: 600;
+    font-size: 42px;
+    color: #152262;
+}
+
+.socials{
+    display:block;
+    font-weight:700;
+    font-size: 16px;
+    /* color: #152262; */
+}
+
+.submit{
+    color: white;
+    font-weight: 700;
+}
+
+.hearMore{
+    font-family: verdana;
+    text-align: justify;
+}
+
+.socialsIcons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.facebook,
+.twitter,
+.instagram,
+.linkedin {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+
+/* Responsive code */
+
+@media screen and (min-width:200px) and (max-width: 400px) {
+    html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow-y: auto;
+    }
+    
+    .subContainer1 {
+        background-color: #152262;
+        position: relative;
+        height: 800px;
+        width:400px;
+    }
+    
+    .subContainer2 {
+        background-color: rgb(214, 210, 210);
+        position: relative;
+        height: 1000px;
+        width:350px;
+    }
+
+    .cardsContainer{
+        display: grid;
+        margin-top: -200px;
+        margin-left: 90px;
+        grid-template-columns: repeat(1, 1fr);
+        position: relative;
+        gap: 1px;
+        column-gap: -3px;
+        width: '70%';
+        z-index: 2;   
+    }
+
+    .card1, 
+    .card2, 
+    .card3, 
+    .card4 {
+        background-color: #fff;
+        height: 200px;
+        width: 200px;
+        border-radius: 20px;
+        border-style: solid;
+        border-color: #152262;
+        border-width: 5px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .location{
+        height: 40px;
+        width: 40px;
+        margin-top: 30px;
+        margin-left: 80px;
+        display: block;
+    }
+    .telephone,
+    .mailbox{
+        height: 40px;
+        width: 40px;
+        margin-top: 20px;
+        margin-left: 80px;
+        display: block;
+    }
+    .email {
+        height: 40px;
+        width: 40px;
+        margin-top: 30px;
+        margin-left: 80px;
+        display: block;
+        
+    }
+    
+    .cardHeader {
+        font-weight: 600;
+        font-size: 16px;
+        display:block;
+    }
+    
+    .cardText {
+        display: block;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 14px;
+    }
+
+    .locText{
+        font-size: 14px;
+    }
+
+    .twosectioneddiv{
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+        margin-top: 30px;
+        height: 900px;
+    }
+
+    .nameInputdiv{
+        margin-top: 15px;
+    }
+
+    .form{
+        width: 150px;
+        align-content: 'center';
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+        padding-left: 10px;
+    }
+
+    .formdiv1{
+        display: block;
+        justify-content: 'space-between'; 
+        margin-bottom: 10px;
+    }
+
+    .moreInfo{
+        width: 300px;
+        padding-top: 20px;
+        margin-left: 30px;
+    }
+    
+    .getinTouch{
+        display: block;
+        font-weight: 600;
+        font-size: 42px;
+        color: #152262;
+    }
+    
+    .socials{
+        display:block;
+        font-weight:700;
+        font-size: 16px;
+        /* color: #152262; */
+    }
+    
+    .submit{
+        color: white;
+        font-weight: 700;
+    
+    }
+
+    .submitButton {
+        padding-top: 10px;
+        padding-bottom:10px;
+        padding-left: 100px; 
+        padding-right: 100px; 
+        background-color: #152262;
+        border-radius: 20px;
+        border-color: #152262;
+    }
+    
+    .socialsIcons{
+        display: flex;
+        flex-direction: row;
+        /* margin-top: 40px;
+        margin-left: 10px; */
+    }
+
+    .messageInput{
+        width: 280px;
+        resize: vertical;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 2px solid #152262;
+        background-color: rgb(214, 210, 210);
+        padding: 10px;
+    }
+    
+    .facebook,
+    .twitter,
+    .instagram,
+    .linkedin {
+        width: 30px;
+        height: 30px;
+        margin-right: 20px;
+    }
+}
+
+
+@media screen and (min-width: 401px) and (max-width: 500px) {
+    html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow-y: auto;
+    }
+    
+    .subContainer1 {
+        background-color: #152262;
+        position: relative;
+        height: 800px;
+        width:450px;
+    }
+    
+    .subContainer2 {
+        background-color: rgb(214, 210, 210);
+        position: relative;
+        height: 1000px;
+        width:350px;
+    }
+
+    .cardsContainer{
+        display: grid;
+        margin-top: -200px;
+        margin-left: 90px;
+        grid-template-columns: repeat(1, 1fr);
+        position: relative;
+        gap: 1px;
+        column-gap: -3px;
+        width: '70%';
+        z-index: 2;   
+    }
+
+    .card1, 
+    .card2, 
+    .card3, 
+    .card4 {
+        background-color: #fff;
+        height: 200px;
+        width: 200px;
+        border-radius: 20px;
+        border-style: solid;
+        border-color: #152262;
+        border-width: 5px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .location{
+        height: 40px;
+        width: 40px;
+        margin-top: 30px;
+        margin-left: 80px;
+        display: block;
+    }
+    .telephone,
+    .mailbox{
+        height: 40px;
+        width: 40px;
+        margin-top: 20px;
+        margin-left: 80px;
+        display: block;
+    }
+    .email {
+        height: 40px;
+        width: 40px;
+        margin-top: 30px;
+        margin-left: 80px;
+        display: block;
+        
+    }
+    
+    .cardHeader {
+        font-weight: 600;
+        font-size: 16px;
+        display:block;
+    }
+    
+    .cardText {
+        display: block;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 14px;
+    }
+
+    .locText{
+        font-size: 14px;
+    }
+
+    .twosectioneddiv{
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+        margin-top: 30px;
+        height: 900px;
+    }
+
+    .nameInputdiv{
+        margin-top: 15px;
+    }
+
+    .form{
+        width: 150px;
+        align-content: 'center';
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+        padding-left: 10px;
+    }
+
+    .formdiv1{
+        display: block;
+        justify-content: 'space-between'; 
+        margin-bottom: 10px;
+    }
+
+    .moreInfo{
+        width: 300px;
+        padding-top: 20px;
+        margin-left: 30px;
+    }
+    
+    .getinTouch{
+        display: block;
+        font-weight: 600;
+        font-size: 42px;
+        color: #152262;
+    }
+    
+    .socials{
+        display:block;
+        font-weight:700;
+        font-size: 16px;
+        /* color: #152262; */
+    }
+    
+    .submit{
+        color: white;
+        font-weight: 700;
+    
+    }
+
+    .submitButton {
+        padding-top: 10px;
+        padding-bottom:10px;
+        padding-left: 100px; 
+        padding-right: 100px; 
+        background-color: #152262;
+        border-radius: 20px;
+        border-color: #152262;
+    }
+    
+    .socialsIcons{
+        display: flex;
+        flex-direction: row;
+        /* margin-top: 40px;
+        margin-left: 10px; */
+    }
+
+    .messageInput{
+        width: 280px;
+        resize: vertical;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 2px solid #152262;
+        background-color: rgb(214, 210, 210);
+        padding: 10px;
+    }
+    
+    .facebook,
+    .twitter,
+    .instagram,
+    .linkedin {
+        width: 30px;
+        height: 30px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 600px) {
+    html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow-y: auto;
+    }
+    
+    .subContainer1 {
+        background-color: #152262;
+        position: relative;
+        height: 800px;
+        width:550px;
+    }
+    
+    .subContainer2 {
+        background-color: rgb(214, 210, 210);
+        position: relative;
+        height: 1000px;
+        width:550px;
+    }
+
+    .cardsContainer{
+        display: grid;
+        margin-top: -170px;
+        margin-left: 90px;
+        grid-template-columns: repeat(2, 1fr);
+        position: relative;
+        gap: 10px;
+        column-gap: -3px;
+        width: 70%;
+        z-index: 2;   
+    }
+
+    .card1, 
+    .card2, 
+    .card3, 
+    .card4 {
+        background-color: #fff;
+        height: 200px;
+        width: 200px;
+        border-radius: 20px;
+        border-style: solid;
+        border-color: #152262;
+        border-width: 5px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .location{
+        height: 40px;
+        width: 40px;
+        margin-top: 30px;
+        margin-left: 80px;
+        display: block;
+    }
+    .telephone,
+    .mailbox{
+        height: 40px;
+        width: 40px;
+        margin-top: 20px;
+        margin-left: 80px;
+        display: block;
+    }
+    .email {
+        height: 40px;
+        width: 40px;
+        margin-top: 30px;
+        margin-left: 80px;
+        display: block;
+        
+    }
+    
+    .cardHeader {
+        font-weight: 600;
+        font-size: 16px;
+        display:block;
+    }
+    
+    .cardText {
+        display: block;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 14px;
+    }
+
+    .locText{
+        font-size: 14px;
+    }
+
+    .twosectioneddiv{
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+        margin-top: 30px;
+        height: 900px;
+    }
+
+    .nameInputdiv{
+        margin-top: 15px;
+    }
+
+    .emailInput{
+        width: 400px;
+        margin-right: 20px;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 2px solid #152262;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgb(214, 210, 210);
+    }
+    
+    .nameInput{
+        width: 400px;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 2px solid #152262;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgb(214, 210, 210);
+    }
+
+    .form{
+        width: 250px;
+        align-content: 'center';
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+        padding-left: 10px;
+    }
+
+    .formdiv1{
+        display: block;
+        justify-content: 'space-between'; 
+        margin-bottom: 10px;
+    }
+
+    .moreInfo{
+        width: 450px;
+        padding-top: 20px;
+        margin-left: 30px;
+    }
+    
+    .getinTouch{
+        display: block;
+        font-weight: 600;
+        font-size: 42px;
+        color: #152262;
+    }
+    
+    .socials{
+        display:block;
+        font-weight:700;
+        font-size: 16px;
+        /* color: #152262; */
+    }
+    
+    .submit{
+        color: white;
+        font-weight: 700;
+    
+    }
+
+    .submitButton {
+        padding-top: 10px;
+        padding-bottom:10px;
+        padding-left: 170px; 
+        padding-right: 170px; 
+        background-color: #152262;
+        border-radius: 20px;
+        border-color: #152262;
+    }
+    
+    .socialsIcons{
+        display: flex;
+        flex-direction: row;
+        /* margin-top: 40px;
+        margin-left: 10px; */
+    }
+
+    .messageInput{
+        width: 400px;
+        resize: vertical;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 2px solid #152262;
+        background-color: rgb(214, 210, 210);
+        padding: 10px;
+    }
+    
+    .facebook,
+    .twitter,
+    .instagram,
+    .linkedin {
+        width: 30px;
+        height: 30px;
+        margin-right: 20px;
+    }
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 700px) {
+    html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow-y: auto;
+    }
+    
+    .subContainer1 {
+        background-color: #152262;
+        position: relative;
+        height: 800px;
+        width:550px;
+    }
+    
+    .subContainer2 {
+        background-color: rgb(214, 210, 210);
+        position: relative;
+        height: 1000px;
+        width:550px;
+    }
+
+    .cardsContainer{
+        display: grid;
+        margin-top: -170px;
+        margin-left: 90px;
+        grid-template-columns: repeat(2, 1fr);
+        position: relative;
+        gap: 10px;
+        column-gap: -3px;
+        width: 70%;
+        z-index: 2;   
+    }
+
+    .card1, 
+    .card2, 
+    .card3, 
+    .card4 {
+        background-color: #fff;
+        height: 200px;
+        width: 200px;
+        border-radius: 20px;
+        border-style: solid;
+        border-color: #152262;
+        border-width: 5px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .location{
+        height: 40px;
+        width: 40px;
+        margin-top: 30px;
+        margin-left: 80px;
+        display: block;
+    }
+    .telephone,
+    .mailbox{
+        height: 40px;
+        width: 40px;
+        margin-top: 20px;
+        margin-left: 80px;
+        display: block;
+    }
+    .email {
+        height: 40px;
+        width: 40px;
+        margin-top: 30px;
+        margin-left: 80px;
+        display: block;
+        
+    }
+    
+    .cardHeader {
+        font-weight: 600;
+        font-size: 16px;
+        display:block;
+    }
+    
+    .cardText {
+        display: block;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 14px;
+    }
+
+    .locText{
+        font-size: 14px;
+    }
+
+    .twosectioneddiv{
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+        margin-top: 30px;
+        height: 900px;
+    }
+
+    .nameInputdiv{
+        margin-top: 15px;
+    }
+
+    .emailInput{
+        width: 400px;
+        margin-right: 20px;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 2px solid #152262;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgb(214, 210, 210);
+    }
+    
+    .nameInput{
+        width: 400px;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 2px solid #152262;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgb(214, 210, 210);
+    }
+
+    .form{
+        width: 250px;
+        align-content: 'center';
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+        padding-left: 10px;
+    }
+
+    .formdiv1{
+        display: block;
+        justify-content: 'space-between'; 
+        margin-bottom: 10px;
+    }
+
+    .moreInfo{
+        width: 450px;
+        padding-top: 20px;
+        margin-left: 30px;
+    }
+    
+    .getinTouch{
+        display: block;
+        font-weight: 600;
+        font-size: 42px;
+        color: #152262;
+    }
+    
+    .socials{
+        display:block;
+        font-weight:700;
+        font-size: 16px;
+        /* color: #152262; */
+    }
+    
+    .submit{
+        color: white;
+        font-weight: 700;
+    
+    }
+
+    .submitButton {
+        padding-top: 10px;
+        padding-bottom:10px;
+        padding-left: 170px; 
+        padding-right: 170px; 
+        background-color: #152262;
+        border-radius: 20px;
+        border-color: #152262;
+    }
+    
+    .socialsIcons{
+        display: flex;
+        flex-direction: row;
+        /* margin-top: 40px;
+        margin-left: 10px; */
+    }
+
+    .messageInput{
+        width: 400px;
+        resize: vertical;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 2px solid #152262;
+        background-color: rgb(214, 210, 210);
+        padding: 10px;
+    }
+    
+    .facebook,
+    .twitter,
+    .instagram,
+    .linkedin {
+        width: 30px;
+        height: 30px;
+        margin-right: 20px;
+    }
+}
+
+
+
+@media screen and (min-width: 701px) and (max-width: 800px) {
+    html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow-y: auto;
+    }
+    
+    .subContainer1 {
+        background-color: #152262;
+        position: relative;
+        height: 800px;
+        width:800px;
+    }
+    
+    .subContainer2 {
+        background-color: rgb(214, 210, 210);
+        position: relative;
+        height: 1000px;
+        width:800px;
+    }
+
+    .cardsContainer{
+        display: grid;
+        margin-top: -170px;
+        margin-left: 140px;
+        grid-template-columns: repeat(2, 1fr);
+        position: relative;
+        gap: 30px;
+        column-gap: -3px;
+        width: 70%;
+        z-index: 2;   
+    }
+
+    .card1, 
+    .card2, 
+    .card3, 
+    .card4 {
+        background-color: #fff;
+        height: 200px;
+        width: 200px;
+        border-radius: 20px;
+        border-style: solid;
+        border-color: #152262;
+        border-width: 5px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .location{
+        height: 40px;
+        width: 40px;
+        margin-top: 30px;
+        margin-left: 80px;
+        display: block;
+    }
+    .telephone,
+    .mailbox{
+        height: 40px;
+        width: 40px;
+        margin-top: 20px;
+        margin-left: 80px;
+        display: block;
+    }
+    .email {
+        height: 40px;
+        width: 40px;
+        margin-top: 30px;
+        margin-left: 80px;
+        display: block;
+        
+    }
+    
+    .cardHeader {
+        font-weight: 600;
+        font-size: 16px;
+        display:block;
+    }
+    
+    .cardText {
+        display: block;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 14px;
+    }
+
+    .locText{
+        font-size: 14px;
+    }
+
+    .twosectioneddiv{
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+        margin-top: 30px;
+        height: 900px;
+    }
+
+    .nameInputdiv{
+        margin-top: 15px;
+    }
+
+    .emailInput{
+        width: 500px;
+        margin-right: 20px;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 2px solid #152262;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgb(214, 210, 210);
+    }
+    
+    .nameInput{
+        width: 500px;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 2px solid #152262;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgb(214, 210, 210);
+    }
+
+    .form{
+        width: 250px;
+        align-content: 'center';
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+        padding-left: 10px;
+    }
+
+    .formdiv1{
+        display: block;
+        justify-content: 'space-between'; 
+        margin-bottom: 10px;
+    }
+
+    .moreInfo{
+        width: 500px;
+        padding-top: 20px;
+        margin-left: 30px;
+        text-align: justify;
+    }
+    
+    .getinTouch{
+        display: block;
+        font-weight: 600;
+        font-size: 42px;
+        color: #152262;
+    }
+    
+    .socials{
+        display:block;
+        font-weight:700;
+        font-size: 16px;
+        /* color: #152262; */
+    }
+    
+    .submit{
+        color: white;
+        font-weight: 700;
+    
+    }
+
+    .submitButton {
+        padding-top: 10px;
+        padding-bottom:10px;
+        padding-left: 230px; 
+        padding-right: 200px; 
+        background-color: #152262;
+        border-radius: 20px;
+        border-color: #152262;
+    }
+    
+    .socialsIcons{
+        display: flex;
+        flex-direction: row;
+        /* margin-top: 40px; */
+        margin-left: 140px; 
+    }
+
+    .messageInput{
+        width: 500px;
+        resize: vertical;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 2px solid #152262;
+        background-color: rgb(214, 210, 210);
+        padding: 10px;
+    }
+    
+    .facebook,
+    .twitter,
+    .instagram,
+    .linkedin {
+        width: 30px;
+        height: 30px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (min-width: 801px) and (max-width: 900px) {
+    html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow-y: auto;
+    }
+    
+    .subContainer1 {
+        background-color: #152262;
+        position: relative;
+        height: 800px;
+        width:900px;
+    }
+    
+    .subContainer2 {
+        background-color: rgb(214, 210, 210);
+        position: relative;
+        height: 1000px;
+        width:900px;
+    }
+
+    .cardsContainer{
+        display: grid;
+        margin-top: -170px;
+        margin-left: 180px;
+        grid-template-columns: repeat(2, 1fr);
+        position: relative;
+        gap: 30px;
+        column-gap: -3px;
+        width: 70%;
+        z-index: 2;   
+    }
+
+    .card1, 
+    .card2, 
+    .card3, 
+    .card4 {
+        background-color: #fff;
+        height: 200px;
+        width: 200px;
+        border-radius: 20px;
+        border-style: solid;
+        border-color: #152262;
+        border-width: 5px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .location{
+        height: 40px;
+        width: 40px;
+        margin-top: 30px;
+        margin-left: 80px;
+        display: block;
+    }
+    .telephone,
+    .mailbox{
+        height: 40px;
+        width: 40px;
+        margin-top: 20px;
+        margin-left: 80px;
+        display: block;
+    }
+    .email {
+        height: 40px;
+        width: 40px;
+        margin-top: 30px;
+        margin-left: 80px;
+        display: block;
+        
+    }
+    
+    .cardHeader {
+        font-weight: 600;
+        font-size: 16px;
+        display:block;
+    }
+    
+    .cardText {
+        display: block;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 14px;
+    }
+
+    .locText{
+        font-size: 14px;
+    }
+
+    .twosectioneddiv{
+        display: flex;
+        flex-direction: column;
+        margin-left: 160px;
+        margin-top: 30px;
+        height: 900px;
+    }
+
+    .nameInputdiv{
+        margin-top: 15px;
+    }
+
+    .emailInput{
+        width: 500px;
+        margin-right: 20px;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 2px solid #152262;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgb(214, 210, 210);
+    }
+    
+    .nameInput{
+        width: 500px;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 2px solid #152262;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgb(214, 210, 210);
+    }
+
+    .form{
+        width: 250px;
+        align-content: 'center';
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+        padding-left: 10px;
+    }
+
+    .formdiv1{
+        display: block;
+        justify-content: 'space-between'; 
+        margin-bottom: 10px;
+    }
+
+    .moreInfo{
+        width: 500px;
+        padding-top: 20px;
+        margin-left: 30px;
+        text-align: justify;
+    }
+    
+    .getinTouch{
+        display: block;
+        font-weight: 600;
+        font-size: 42px;
+        color: #152262;
+    }
+    
+    .socials{
+        display:block;
+        font-weight:700;
+        font-size: 16px;
+        /* color: #152262; */
+    }
+    
+    .submit{
+        color: white;
+        font-weight: 700;
+    
+    }
+
+    .submitButton {
+        padding-top: 10px;
+        padding-bottom:10px;
+        padding-left: 230px; 
+        padding-right: 200px; 
+        background-color: #152262;
+        border-radius: 20px;
+        border-color: #152262;
+    }
+    
+    .socialsIcons{
+        display: flex;
+        flex-direction: row;
+        /* margin-top: 40px; */
+        margin-left: 140px; 
+    }
+
+    .messageInput{
+        width: 500px;
+        resize: vertical;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 2px solid #152262;
+        background-color: rgb(214, 210, 210);
+        padding: 10px;
+    }
+    
+    .facebook,
+    .twitter,
+    .instagram,
+    .linkedin {
+        width: 30px;
+        height: 30px;
+        margin-right: 20px;
+    }
+}
+
+
+
+@media screen and (min-width: 901px) and (max-width: 1000px) {
+    html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow-y: auto;
+    }
+    
+    .subContainer1 {
+        background-color: #152262;
+        position: relative;
+        height: 200px;
+        width:1000px;
+    }
+    
+    .subContainer2 {
+        background-color: rgb(214, 210, 210);
+        position: relative;
+        height: 200px;
+        width:1000px;
+    }
+
+    .cardsContainer{
+        display: grid;
+        margin-top: -170px;
+        margin-left: 25px;
+        grid-template-columns: repeat(4, 1fr);
+        position: relative;
+        gap: 30px;
+        column-gap: -3px;
+        width: 80%;
+        z-index: 2;   
+    }
+
+    .card1, 
+    .card2, 
+    .card3, 
+    .card4 {
+        background-color: #fff;
+        height: 200px;
+        width: 200px;
+        border-radius: 20px;
+        border-style: solid;
+        border-color: #152262;
+        border-width: 5px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .location{
+        height: 40px;
+        width: 40px;
+        margin-top: 30px;
+        margin-left: 80px;
+        display: block;
+    }
+    .telephone,
+    .mailbox{
+        height: 40px;
+        width: 40px;
+        margin-top: 20px;
+        margin-left: 80px;
+        display: block;
+    }
+    .email {
+        height: 40px;
+        width: 40px;
+        margin-top: 30px;
+        margin-left: 80px;
+        display: block;
+        
+    }
+    
+    .cardHeader {
+        font-weight: 600;
+        font-size: 16px;
+        display:block;
+    }
+    
+    .cardText {
+        display: block;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 14px;
+    }
+
+    .locText{
+        font-size: 14px;
+    }
+
+    .twosectioneddiv{
+        display: flex;
+        flex-direction: row;
+        margin-left: 20px;
+        margin-top: 30px;
+        height: 500px;
+    }
+
+    .nameInputdiv{
+        margin-top: 15px;
+    }
+
+    .emailInput{
+        width: 350px;
+        margin-right: 20px;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 2px solid #152262;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgb(214, 210, 210);
+    }
+    
+    .nameInput{
+        width: 350px;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 2px solid #152262;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgb(214, 210, 210);
+    }
+
+    .form{
+        width: 400px;
+        align-content: 'center';
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+        padding-left: 10px;
+    }
+
+    .formdiv1{
+        display: block;
+        justify-content: 'space-between'; 
+        margin-bottom: 10px;
+    }
+
+    .moreInfo{
+        width: 380px;
+        padding-top: 20px;
+        margin-left: 40px;
+        text-align: justify;
+    }
+    
+    .getinTouch{
+        display: block;
+        font-weight: 600;
+        font-size: 42px;
+        color: #152262;
+    }
+    
+    .socials{
+        display:block;
+        font-weight:700;
+        font-size: 16px;
+        /* color: #152262; */
+    }
+    
+    .submit{
+        color: white;
+        font-weight: 700;
+    
+    }
+
+    .submitButton {
+        padding-top: 10px;
+        padding-bottom:10px;
+        padding-left: 130px; 
+        padding-right: 130px; 
+        background-color: #152262;
+        border-radius: 20px;
+        border-color: #152262;
+    }
+    
+    .socialsIcons{
+        display: flex;
+        flex-direction: row;
+        /* margin-top: 40px; */
+        margin-left: 30px; 
+    }
+
+    .messageInput{
+        width: 350px;
+        resize: vertical;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 2px solid #152262;
+        background-color: rgb(214, 210, 210);
+        padding: 10px;
+    }
+    
+    .facebook,
+    .twitter,
+    .instagram,
+    .linkedin {
+        width: 30px;
+        height: 30px;
+        margin-right: 20px;
+    }
+}
+
+
+
+@media screen and (min-width: 1001px) and (max-width: 1012px) {
+    html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow-y: auto;
+    }
+    
+    .subContainer1 {
+        background-color: #152262;
+        position: relative;
+        height: 200px;
+        width:1050px;
+    }
+    
+    .subContainer2 {
+        background-color: rgb(214, 210, 210);
+        position: relative;
+        height: 200px;
+        width: 1050px;
+    }
+
+    .cardsContainer{
+        display: grid;
+        margin-top: -150px;
+        margin-left: 40px;
+        grid-template-columns: repeat(4, 1fr);
+        position: relative;
+        gap: 40px;
+        column-gap: -3px;
+        width: 80%;
+        z-index: 2;   
+    }
+
+    .card1, 
+    .card2, 
+    .card3, 
+    .card4 {
+        background-color: #fff;
+        height: 200px;
+        width: 200px;
+        border-radius: 20px;
+        /* border-style: solid;
+        border-color: #152262;
+        border-width: 5px; */
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .location{
+        height: 40px;
+        width: 40px;
+        margin-top: 30px;
+        margin-left: 80px;
+        display: block;
+    }
+    .telephone,
+    .mailbox{
+        height: 40px;
+        width: 40px;
+        margin-top: 20px;
+        margin-left: 80px;
+        display: block;
+    }
+    .email {
+        height: 40px;
+        width: 40px;
+        margin-top: 30px;
+        margin-left: 80px;
+        display: block;
+        
+    }
+    
+    .cardHeader {
+        font-weight: 600;
+        font-size: 16px;
+        display:block;
+    }
+    
+    .cardText {
+        display: block;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 14px;
+    }
+
+    .locText{
+        font-size: 14px;
+    }
+
+
+    .twosectioneddiv{
+        display: flex;
+        flex-direction: row;
+        margin-left: 30px;
+        margin-top: 30px;
+        height: 500px;
+    }
+    
+    
+    .form{
+        width: 500px;
+        align-content: 'center';
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+        padding-left: 30px;
+    }
+    
+    .formdiv1{
+        display: flex;
+        justify-content: 'space-between'; 
+        margin-bottom: 10px;
+    }
+    
+    .emailText{
+        display: block; 
+        color: #152262;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    .nameText{
+        display: block;
+        color: #152262;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    .messageText {
+        display: block;
+        color: #152262;
+        font-size: 18px; 
+        font-weight: 600;
+        margin-top: 30px;
+    }
+    
+    .emailInput{
+        width: 200px;
+        margin-right: 20px;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 2px solid #152262;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgb(214, 210, 210);
+    }
+    
+    .nameInput{
+        width: 200px;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 2px solid #152262;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgb(214, 210, 210);
+    }
+    
+    .messageInput{
+        width: 400px;
+        resize: vertical;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 2px solid #152262;
+        background-color: rgb(214, 210, 210);
+        padding: 10px;
+    }
+    
+    .submitButton {
+        padding-top: 10px;
+        padding-bottom:10px;
+        padding-left: 150px; 
+        padding-right: 150px; 
+        background-color: #152262;
+        border-radius: 20px;
+        border-color: #152262;
+    }
+    
+    .moreInfo{
+        width: 400px;
+        padding-top: 20px;
+        margin-left: 10px;
+    }
+    
+    .getinTouch{
+        display: block;
+        font-weight: 600;
+        font-size: 42px;
+        color: #152262;
+    }
+    
+    .socials{
+        display:block;
+        font-weight:700;
+        font-size: 16px;
+        /* color: #152262; */
+    }
+    
+    .submit{
+        color: white;
+        font-weight: 700;
+    }
+    
+    .hearMore{
+        font-family: verdana;
+        text-align: justify;
+    }
+    
+    .socialsIcons{
+        display: flex;
+        flex-direction: row;
+        margin-top: 40px;
+        margin-left: 10px;
+    }
+    
+    .facebook,
+    .twitter,
+    .instagram,
+    .linkedin {
+        width: 30px;
+        height: 30px;
+        margin-right: 20px;
+    }
+    
+}
+
+
+
+@media screen and (min-width: 1001px) and (max-width: 1012px) {
+    html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow-y: auto;
+    }
+    
+    .subContainer1 {
+        background-color: #152262;
+        position: relative;
+        height: 200px;
+        width:1050px;
+    }
+    
+    .subContainer2 {
+        background-color: rgb(214, 210, 210);
+        position: relative;
+        height: 200px;
+        width: 1050px;
+    }
+
+    .cardsContainer{
+        display: grid;
+        margin-top: -150px;
+        margin-left: 40px;
+        grid-template-columns: repeat(4, 1fr);
+        position: relative;
+        gap: 50px;
+        column-gap: -3px;
+        width: 80%;
+        z-index: 2;   
+    }
+
+    .card1, 
+    .card2, 
+    .card3, 
+    .card4 {
+        background-color: #fff;
+        height: 200px;
+        width: 200px;
+        border-radius: 20px;
+        /* border-style: solid;
+        border-color: #152262;
+        border-width: 5px; */
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .location{
+        height: 40px;
+        width: 40px;
+        margin-top: 30px;
+        margin-left: 80px;
+        display: block;
+    }
+    .telephone,
+    .mailbox{
+        height: 40px;
+        width: 40px;
+        margin-top: 20px;
+        margin-left: 80px;
+        display: block;
+    }
+    .email {
+        height: 40px;
+        width: 40px;
+        margin-top: 30px;
+        margin-left: 80px;
+        display: block;
+        
+    }
+    
+    .cardHeader {
+        font-weight: 600;
+        font-size: 16px;
+        display:block;
+    }
+    
+    .cardText {
+        display: block;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 14px;
+    }
+
+    .locText{
+        font-size: 14px;
+    }
+
+
+    .twosectioneddiv{
+        display: flex;
+        flex-direction: row;
+        margin-left: 30px;
+        margin-top: 30px;
+        height: 500px;
+    }
+    
+    
+    .form{
+        width: 500px;
+        align-content: 'center';
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+        padding-left: 30px;
+    }
+    
+    .formdiv1{
+        display: flex;
+        justify-content: 'space-between'; 
+        margin-bottom: 10px;
+    }
+    
+    .emailText{
+        display: block; 
+        color: #152262;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    .nameText{
+        display: block;
+        color: #152262;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    .messageText {
+        display: block;
+        color: #152262;
+        font-size: 18px; 
+        font-weight: 600;
+        margin-top: 30px;
+    }
+    
+    .emailInput{
+        width: 200px;
+        margin-right: 20px;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 2px solid #152262;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgb(214, 210, 210);
+    }
+    
+    .nameInput{
+        width: 200px;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 2px solid #152262;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgb(214, 210, 210);
+    }
+    
+    .messageInput{
+        width: 400px;
+        resize: vertical;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 2px solid #152262;
+        background-color: rgb(214, 210, 210);
+        padding: 10px;
+    }
+    
+    .submitButton {
+        padding-top: 10px;
+        padding-bottom:10px;
+        padding-left: 150px; 
+        padding-right: 150px; 
+        background-color: #152262;
+        border-radius: 20px;
+        border-color: #152262;
+    }
+    
+    .moreInfo{
+        width: 400px;
+        padding-top: 20px;
+        margin-left: 10px;
+    }
+    
+    .getinTouch{
+        display: block;
+        font-weight: 600;
+        font-size: 42px;
+        color: #152262;
+    }
+    
+    .socials{
+        display:block;
+        font-weight:700;
+        font-size: 16px;
+        /* color: #152262; */
+    }
+    
+    .submit{
+        color: white;
+        font-weight: 700;
+    }
+    
+    .hearMore{
+        font-family: verdana;
+        text-align: justify;
+    }
+    
+    .socialsIcons{
+        display: flex;
+        flex-direction: row;
+        margin-top: 40px;
+        margin-left: 10px;
+    }
+    
+    .facebook,
+    .twitter,
+    .instagram,
+    .linkedin {
+        width: 30px;
+        height: 30px;
+        margin-right: 20px;
+    }
+    
+}
+
+
+@media screen and (min-width: 1013px) and (max-width: 1032px) {
+    html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow-y: auto;
+    }
+    
+    .subContainer1 {
+        background-color: #152262;
+        position: relative;
+        height: 200px;
+        width:1050px;
+    }
+    
+    .subContainer2 {
+        background-color: rgb(214, 210, 210);
+        position: relative;
+        height: 200px;
+        width: 1050px;
+    }
+
+    .cardsContainer{
+        display: grid;
+        margin-top: -150px;
+        margin-left: 40px;
+        grid-template-columns: repeat(4, 1fr);
+        position: relative;
+        gap: 50px;
+        column-gap: -3px;
+        width: 80%;
+        z-index: 2;   
+    }
+
+    .card1, 
+    .card2, 
+    .card3, 
+    .card4 {
+        background-color: #fff;
+        height: 200px;
+        width: 200px;
+        border-radius: 20px;
+        /* border-style: solid;
+        border-color: #152262;
+        border-width: 5px; */
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .location{
+        height: 40px;
+        width: 40px;
+        margin-top: 30px;
+        margin-left: 80px;
+        display: block;
+    }
+    .telephone,
+    .mailbox{
+        height: 40px;
+        width: 40px;
+        margin-top: 20px;
+        margin-left: 80px;
+        display: block;
+    }
+    .email {
+        height: 40px;
+        width: 40px;
+        margin-top: 30px;
+        margin-left: 80px;
+        display: block;
+        
+    }
+    
+    .cardHeader {
+        font-weight: 600;
+        font-size: 16px;
+        display:block;
+    }
+    
+    .cardText {
+        display: block;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 14px;
+    }
+
+    .locText{
+        font-size: 14px;
+    }
+
+
+    .twosectioneddiv{
+        display: flex;
+        flex-direction: row;
+        margin-left: 30px;
+        margin-top: 30px;
+        height: 500px;
+    }
+    
+    
+    .form{
+        width: 500px;
+        align-content: 'center';
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+        padding-left: 30px;
+    }
+    
+    .formdiv1{
+        display: flex;
+        justify-content: 'space-between'; 
+        margin-bottom: 10px;
+    }
+    
+    .emailText{
+        display: block; 
+        color: #152262;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    .nameText{
+        display: block;
+        color: #152262;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    .messageText {
+        display: block;
+        color: #152262;
+        font-size: 18px; 
+        font-weight: 600;
+        margin-top: 30px;
+    }
+    
+    .emailInput{
+        width: 200px;
+        margin-right: 20px;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 2px solid #152262;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgb(214, 210, 210);
+    }
+    
+    .nameInput{
+        width: 200px;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 2px solid #152262;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgb(214, 210, 210);
+    }
+    
+    .messageInput{
+        width: 400px;
+        resize: vertical;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 2px solid #152262;
+        background-color: rgb(214, 210, 210);
+        padding: 10px;
+    }
+    
+    .submitButton {
+        padding-top: 10px;
+        padding-bottom:10px;
+        padding-left: 150px; 
+        padding-right: 150px; 
+        background-color: #152262;
+        border-radius: 20px;
+        border-color: #152262;
+    }
+    
+    .moreInfo{
+        width: 400px;
+        padding-top: 20px;
+        margin-left: 10px;
+    }
+    
+    .getinTouch{
+        display: block;
+        font-weight: 600;
+        font-size: 42px;
+        color: #152262;
+    }
+    
+    .socials{
+        display:block;
+        font-weight:700;
+        font-size: 16px;
+        /* color: #152262; */
+    }
+    
+    .submit{
+        color: white;
+        font-weight: 700;
+    }
+    
+    .hearMore{
+        font-family: verdana;
+        text-align: justify;
+    }
+    
+    .socialsIcons{
+        display: flex;
+        flex-direction: row;
+        margin-top: 40px;
+        margin-left: 10px;
+    }
+    
+    .facebook,
+    .twitter,
+    .instagram,
+    .linkedin {
+        width: 30px;
+        height: 30px;
+        margin-right: 20px;
+    }
+    
+}
+
+
+
+@media screen and (min-width: 1033px) and (max-width: 1090px) {
+    html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow-y: auto;
+    }
+    
+    .subContainer1 {
+        background-color: #152262;
+        position: relative;
+        height: 200px;
+        width:1100px;
+    }
+    
+    .subContainer2 {
+        background-color: rgb(214, 210, 210);
+        position: relative;
+        height: 200px;
+        width: 1100px;
+    }
+
+    .cardsContainer{
+        display: grid;
+        margin-top: -150px;
+        margin-left: 70px;
+        grid-template-columns: repeat(4, 1fr);
+        position: relative;
+        gap: 50px;
+        column-gap: -3px;
+        width: 80%;
+        z-index: 2;   
+    }
+
+    .card1, 
+    .card2, 
+    .card3, 
+    .card4 {
+        background-color: #fff;
+        height: 200px;
+        width: 200px;
+        border-radius: 20px;
+        /* border-style: solid;
+        border-color: #152262;
+        border-width: 5px; */
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .location{
+        height: 40px;
+        width: 40px;
+        margin-top: 30px;
+        margin-left: 80px;
+        display: block;
+    }
+    .telephone,
+    .mailbox{
+        height: 40px;
+        width: 40px;
+        margin-top: 20px;
+        margin-left: 80px;
+        display: block;
+    }
+    .email {
+        height: 40px;
+        width: 40px;
+        margin-top: 30px;
+        margin-left: 80px;
+        display: block;
+        
+    }
+    
+    .cardHeader {
+        font-weight: 600;
+        font-size: 16px;
+        display:block;
+    }
+    
+    .cardText {
+        display: block;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 14px;
+    }
+
+    .locText{
+        font-size: 14px;
+    }
+
+
+    .twosectioneddiv{
+        display: flex;
+        flex-direction: row;
+        margin-left: 30px;
+        margin-top: 30px;
+        height: 500px;
+    }
+    
+    
+    .form{
+        width: 500px;
+        align-content: 'center';
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+        padding-left: 30px;
+    }
+    
+    .formdiv1{
+        display: flex;
+        justify-content: 'space-between'; 
+        margin-bottom: 10px;
+    }
+    
+    .emailText{
+        display: block; 
+        color: #152262;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    .nameText{
+        display: block;
+        color: #152262;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    .messageText {
+        display: block;
+        color: #152262;
+        font-size: 18px; 
+        font-weight: 600;
+        margin-top: 30px;
+    }
+    
+    .emailInput{
+        width: 200px;
+        margin-right: 20px;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 2px solid #152262;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgb(214, 210, 210);
+    }
+    
+    .nameInput{
+        width: 200px;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 2px solid #152262;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgb(214, 210, 210);
+    }
+    
+    .messageInput{
+        width: 400px;
+        resize: vertical;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 2px solid #152262;
+        background-color: rgb(214, 210, 210);
+        padding: 10px;
+    }
+    
+    .submitButton {
+        padding-top: 10px;
+        padding-bottom:10px;
+        padding-left: 150px; 
+        padding-right: 150px; 
+        background-color: #152262;
+        border-radius: 20px;
+        border-color: #152262;
+    }
+    
+    .moreInfo{
+        width: 400px;
+        padding-top: 20px;
+        margin-left: 10px;
+    }
+    
+    .getinTouch{
+        display: block;
+        font-weight: 600;
+        font-size: 42px;
+        color: #152262;
+    }
+    
+    .socials{
+        display:block;
+        font-weight:700;
+        font-size: 16px;
+        /* color: #152262; */
+    }
+    
+    .submit{
+        color: white;
+        font-weight: 700;
+    }
+    
+    .hearMore{
+        font-family: verdana;
+        text-align: justify;
+    }
+    
+    .socialsIcons{
+        display: flex;
+        flex-direction: row;
+        margin-top: 40px;
+        margin-left: 10px;
+    }
+    
+    .facebook,
+    .twitter,
+    .instagram,
+    .linkedin {
+        width: 30px;
+        height: 30px;
+        margin-right: 20px;
+    }
+    
+}
+
+
+
+@media screen and (min-width: 1091px) and (max-width: 1124px) {
+    html, body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        overflow: auto;
+    }
+    
+    .mainContainer {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(214, 210, 210);
+        position: relative;
+        height: 100vh;
+        overflow-y: auto;
+    }
+    
+    .subContainer1 {
+        background-color: #152262;
+        position: relative; 
+        width: 1124px;
+    }
+    
+    .subContainer2 {
+        background-color: rgb(214, 210, 210);
+        position: relative;
+        height: 100vh;
+        width: 1124px;
+    }
+    
+    .cardsContainer{
+        display: grid;
+        margin-top: -160px;
+        margin-left: 80px;
+        grid-template-columns: repeat(4, 1fr);
+        position: relative;
+        gap: 20px;
+        column-gap: -3px;
+        width: 70%;
+        z-index: 2;   
+    }
+    
+    .card1, 
+    .card2, 
+    .card3, 
+    .card4 {
+        background-color: #fff;
+        height: 240px;
+        width: 240px;
+        border-radius: 20px;
+        text-align: center;
+        
+    }
+    
+    .location{
+        height: 60px;
+        width: 60px;
+        margin-top: 30px;
+        margin-left: 100px;
+        display: block;
+    }
+    .telephone,
+    .mailbox{
+        height: 60px;
+        width: 60px;
+        margin-top: 20px;
+        margin-left: 90px;
+        display: block;
+    }
+    .email {
+        height: 60px;
+        width: 60px;
+        margin-top: 30px;
+        margin-left: 100px;
+        display: block;
+        
+    }
+    
+    .cardHeader {
+        font-weight: 600;
+        font-size: 24px;
+        display:block;
+    }
+    
+    .cardText {
+        display: block;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    .twosectioneddiv{
+        display: flex;
+        flex-direction: row;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    
+    
+    .form{
+        width: 600px;
+        align-content: 'center';
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+        padding-left: 30px;
+    }
+    
+    .formdiv1{
+        display: flex;
+        justify-content: 'space-between'; 
+        margin-bottom: 10px;
+    }
+    
+    .emailText{
+        display: block; 
+        color: #152262;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    .nameText{
+        display: block;
+        color: #152262;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    .messageText {
+        display: block;
+        color: #152262;
+        font-size: 18px; 
+        font-weight: 600;
+        margin-top: 30px;
+    }
+    
+    .emailInput{
+        width: 240px;
+        margin-right: 20px;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 2px solid #152262;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgb(214, 210, 210);
+    }
+    
+    .nameInput{
+        width: 240px;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 2px solid #152262;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgb(214, 210, 210);
+    }
+    
+    .messageInput{
+        width: 500px;
+        resize: vertical;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 2px solid #152262;
+        background-color: rgb(214, 210, 210);
+        padding: 10px;
+    }
+    
+    .submitButton {
+        padding-top: 10px;
+        padding-bottom:10px;
+        padding-left: 200px; 
+        padding-right: 200px; 
+        background-color: #152262;
+        border-radius: 20px;
+        border-color: #152262;
+    }
+    
+    .moreInfo{
+        width: 600px;
+        padding-top: 20px;
+        margin-left: 90px;
+    }
+    
+    .getinTouch{
+        display: block;
+        font-weight: 600;
+        font-size: 42px;
+        color: #152262;
+    }
+    
+    .socials{
+        display:block;
+        font-weight:700;
+        font-size: 16px;
+        /* color: #152262; */
+    }
+    
+    .submit{
+        color: white;
+        font-weight: 700;
+    }
+    
+    .hearMore{
+        font-family: verdana;
+        text-align: justify;
+    }
+    
+    .socialsIcons{
+        display: flex;
+        flex-direction: row;
+        margin-top: 40px;
+        margin-left: 10px;
+    }
+    
+    .facebook,
+    .twitter,
+    .instagram,
+    .linkedin {
+        width: 30px;
+        height: 30px;
+        margin-right: 20px;
+    }    
+    
+}
+
+
+
+@media screen and (min-width: 1125px) and (max-width: 1200px) {
+    html, body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        overflow: auto;
+    }
+    
+    .mainContainer {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(214, 210, 210);
+        position: relative;
+        height: 100vh;
+        overflow-y: auto;
+    }
+    
+    .subContainer1 {
+        background-color: #152262;
+        position: relative; 
+        width: 1200px;
+    }
+    
+    .subContainer2 {
+        background-color: rgb(214, 210, 210);
+        position: relative;
+        height: 100vh;
+        width: 1200px;
+    }
+    
+    .cardsContainer{
+        display: grid;
+        margin-top: -160px;
+        margin-left: 80px;
+        grid-template-columns: repeat(4, 1fr);
+        position: relative;
+        gap: 40px;
+        column-gap: -3px;
+        width: 70%;
+        z-index: 2;   
+    }
+    
+    .card1, 
+    .card2, 
+    .card3, 
+    .card4 {
+        background-color: #fff;
+        height: 240px;
+        width: 240px;
+        border-radius: 20px;
+        text-align: center;
+        
+    }
+    
+    .location{
+        height: 60px;
+        width: 60px;
+        margin-top: 30px;
+        margin-left: 100px;
+        display: block;
+    }
+    .telephone,
+    .mailbox{
+        height: 60px;
+        width: 60px;
+        margin-top: 20px;
+        margin-left: 90px;
+        display: block;
+    }
+    .email {
+        height: 60px;
+        width: 60px;
+        margin-top: 30px;
+        margin-left: 100px;
+        display: block;
+        
+    }
+    
+    .cardHeader {
+        font-weight: 600;
+        font-size: 24px;
+        display:block;
+    }
+    
+    .cardText {
+        display: block;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    .twosectioneddiv{
+        display: flex;
+        flex-direction: row;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    
+    
+    .form{
+        width: 600px;
+        align-content: 'center';
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+        padding-left: 30px;
+    }
+    
+    .formdiv1{
+        display: flex;
+        justify-content: 'space-between'; 
+        margin-bottom: 10px;
+    }
+    
+    .emailText{
+        display: block; 
+        color: #152262;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    .nameText{
+        display: block;
+        color: #152262;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    .messageText {
+        display: block;
+        color: #152262;
+        font-size: 18px; 
+        font-weight: 600;
+        margin-top: 30px;
+    }
+    
+    .emailInput{
+        width: 240px;
+        margin-right: 20px;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 2px solid #152262;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgb(214, 210, 210);
+    }
+    
+    .nameInput{
+        width: 240px;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 2px solid #152262;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgb(214, 210, 210);
+    }
+    
+    .messageInput{
+        width: 500px;
+        resize: vertical;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 2px solid #152262;
+        background-color: rgb(214, 210, 210);
+        padding: 10px;
+    }
+    
+    .submitButton {
+        padding-top: 10px;
+        padding-bottom:10px;
+        padding-left: 200px; 
+        padding-right: 200px; 
+        background-color: #152262;
+        border-radius: 20px;
+        border-color: #152262;
+    }
+    
+    .moreInfo{
+        width: 600px;
+        padding-top: 20px;
+        margin-left: 90px;
+    }
+    
+    .getinTouch{
+        display: block;
+        font-weight: 600;
+        font-size: 42px;
+        color: #152262;
+    }
+    
+    .socials{
+        display:block;
+        font-weight:700;
+        font-size: 16px;
+        /* color: #152262; */
+    }
+    
+    .submit{
+        color: white;
+        font-weight: 700;
+    }
+    
+    .hearMore{
+        font-family: verdana;
+        text-align: justify;
+    }
+    
+    .socialsIcons{
+        display: flex;
+        flex-direction: row;
+        margin-top: 40px;
+        margin-left: 10px;
+    }
+    
+    .facebook,
+    .twitter,
+    .instagram,
+    .linkedin {
+        width: 30px;
+        height: 30px;
+        margin-right: 20px;
+    }    
+    
+}
+
+
+@media screen and (min-width: 1201px) and (max-width: 1300px) {
+    html, body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        overflow: auto;
+    }
+    
+    .mainContainer {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(214, 210, 210);
+        position: relative;
+        height: 100vh;
+        overflow-y: auto;
+    }
+    
+    .subContainer1 {
+        background-color: #152262;
+        position: relative; 
+        width: 1300px;
+    }
+    
+    .subContainer2 {
+        background-color: rgb(214, 210, 210);
+        position: relative;
+        height: 100vh;
+        width: 1300px;
+    }
+    
+    .cardsContainer{
+        display: grid;
+        margin-top: -160px;
+        margin-left: 90px;
+        grid-template-columns: repeat(4, 1fr);
+        position: relative;
+        gap: 50px;
+        column-gap: -3px;
+        width: 70%;
+        z-index: 2;   
+    }
+    
+    .card1, 
+    .card2, 
+    .card3, 
+    .card4 {
+        background-color: #fff;
+        height: 240px;
+        width: 240px;
+        border-radius: 20px;
+        text-align: center;
+        
+    }
+    
+    .location{
+        height: 60px;
+        width: 60px;
+        margin-top: 30px;
+        margin-left: 100px;
+        display: block;
+    }
+    .telephone,
+    .mailbox{
+        height: 60px;
+        width: 60px;
+        margin-top: 20px;
+        margin-left: 90px;
+        display: block;
+    }
+    .email {
+        height: 60px;
+        width: 60px;
+        margin-top: 30px;
+        margin-left: 100px;
+        display: block;
+        
+    }
+    
+    .cardHeader {
+        font-weight: 600;
+        font-size: 24px;
+        display:block;
+    }
+    
+    .cardText {
+        display: block;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    .twosectioneddiv{
+        display: flex;
+        flex-direction: row;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    
+    
+    .form{
+        width: 500px;
+        align-content: 'center';
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+        padding-left: 30px;
+    }
+    
+    .formdiv1{
+        display: flex;
+        justify-content: 'space-between'; 
+        margin-bottom: 10px;
+    }
+    
+    .emailText{
+        display: block; 
+        color: #152262;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    .nameText{
+        display: block;
+        color: #152262;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    .messageText {
+        display: block;
+        color: #152262;
+        font-size: 18px; 
+        font-weight: 600;
+        margin-top: 30px;
+    }
+    
+    .emailInput{
+        width: 240px;
+        margin-right: 20px;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 2px solid #152262;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgb(214, 210, 210);
+    }
+    
+    .nameInput{
+        width: 240px;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 2px solid #152262;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgb(214, 210, 210);
+    }
+    
+    .messageInput{
+        width: 500px;
+        resize: vertical;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 2px solid #152262;
+        background-color: rgb(214, 210, 210);
+        padding: 10px;
+    }
+    
+    .submitButton {
+        padding-top: 10px;
+        padding-bottom:10px;
+        padding-left: 200px; 
+        padding-right: 200px; 
+        background-color: #152262;
+        border-radius: 20px;
+        border-color: #152262;
+    }
+    
+    .moreInfo{
+        width: 600px;
+        padding-top: 20px;
+        margin-left: 90px;
+    }
+    
+    .getinTouch{
+        display: block;
+        font-weight: 600;
+        font-size: 42px;
+        color: #152262;
+    }
+    
+    .socials{
+        display:block;
+        font-weight:700;
+        font-size: 16px;
+        /* color: #152262; */
+    }
+    
+    .submit{
+        color: white;
+        font-weight: 700;
+    }
+    
+    .hearMore{
+        font-family: verdana;
+        text-align: justify;
+    }
+    
+    .socialsIcons{
+        display: flex;
+        flex-direction: row;
+        margin-top: 40px;
+        margin-left: 10px;
+    }
+    
+    .facebook,
+    .twitter,
+    .instagram,
+    .linkedin {
+        width: 30px;
+        height: 30px;
+        margin-right: 20px;
+    }    
+    
+}
+
+@media screen and (min-width: 1600px) and (max-width: 2000px) {
+    html, body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: auto;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(214, 210, 210);
+    position: relative;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.subContainer1 {
+    background-color: #152262;
+    position: relative; 
+}
+
+.subContainer2 {
+    background-color: rgb(214, 210, 210);
+    position: relative;
+    height: 100vh;
+}
+
+.cardsContainer{
+    display: grid;
+    margin-top: -160px;
+    margin-left: 210px;
+    grid-template-columns: repeat(4, 1fr);
+    position: relative;
+    gap: 100px;
+    column-gap: -3px;
+    width: 70%;
+    z-index: 2;   
+}
+
+.card1, 
+.card2, 
+.card3, 
+.card4 {
+    background-color: #fff;
+    height: 260px;
+    width: 260px;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+
+.location{
+    height: 60px;
+    width: 60px;
+    margin-top: 30px;
+    margin-left: 100px;
+    display: block;
+}
+.telephone,
+.mailbox{
+    height: 60px;
+    width: 60px;
+    margin-top: 20px;
+    margin-left: 90px;
+    display: block;
+}
+.email {
+    height: 60px;
+    width: 60px;
+    margin-top: 30px;
+    margin-left: 100px;
+    display: block;
+    
+}
+
+.cardHeader {
+    font-weight: 600;
+    font-size: 24px;
+    display:block;
+}
+
+.cardText {
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.twosectioneddiv{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+
+.form{
+    width: 600px;
+    align-content: 'center';
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-bottom: 30px;
+    padding-left: 30px;
+}
+
+.formdiv1{
+    display: flex;
+    justify-content: 'space-between'; 
+    margin-bottom: 10px;
+}
+
+.emailText{
+    display: block; 
+    color: #152262;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.nameText{
+    display: block;
+    color: #152262;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.messageText {
+    display: block;
+    color: #152262;
+    font-size: 18px; 
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.emailInput{
+    width: 280px;
+    margin-right: 20px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid #152262;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(214, 210, 210);
+}
+
+.nameInput{
+    width: 280px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid #152262;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(214, 210, 210);
+}
+
+.messageInput{
+    width: 580px;
+    resize: vertical;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid #152262;
+    background-color: rgb(214, 210, 210);
+    padding: 10px;
+}
+
+.submitButton {
+    padding-top: 10px;
+    padding-bottom:10px;
+    padding-left: 250px; 
+    padding-right: 250px; 
+    background-color: #152262;
+    border-radius: 20px;
+    border-color: #152262;
+}
+
+.moreInfo{
+    width: 600px;
+    padding-top: 20px;
+    margin-left: 120px;
+}
+
+.getinTouch{
+    display: block;
+    font-weight: 600;
+    font-size: 42px;
+    color: #152262;
+}
+
+.socials{
+    display:block;
+    font-weight:700;
+    font-size: 16px;
+    /* color: #152262; */
+}
+
+.submit{
+    color: white;
+    font-weight: 700;
+}
+
+.hearMore{
+    font-family: verdana;
+    text-align: justify;
+}
+
+.socialsIcons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.facebook,
+.twitter,
+.instagram,
+.linkedin {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+}
