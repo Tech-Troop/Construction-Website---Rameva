@@ -7,17 +7,7 @@
     flex-direction: column;
     
 }
-.serviceCards {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 30px;
-    width: 95%;
-    margin-top: 20px;
-    margin-left: 20px;
-    align-items: center;
-    overflow-y: auto; /* Add this line */
-    max-height: 800px; /* Set a maximum height for the container */
-  }
+
 
 .introContainer {
     background-color: hsl(0, 100%, 100%);

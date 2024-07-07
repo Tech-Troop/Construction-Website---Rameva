@@ -14,12 +14,13 @@ import {ToastContainer} from 'react-toastify'
 
 
 
+
 function App() {
   return (
     <div >
-         
+      
       <BrowserRouter>
-      <NavBar/>
+      <NavBar/>  
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/Services" element={<Services/>} />
@@ -31,8 +32,8 @@ function App() {
           <Route path="/Appointment" element={<Appointment/>}/>
         </Routes>
         <ToastContainer theme='dark' />
-       
       </BrowserRouter>
+      
      
       
     </div>
