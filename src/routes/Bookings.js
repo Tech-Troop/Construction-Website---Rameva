@@ -32,10 +32,11 @@ function Bookings() {
 	  }catch(error){
 		console.log(error.message)
 		toast.error('Invalid Credentials')
-		
 	  }
   
 	}
+
+
 
   return (
     <div class="container">
