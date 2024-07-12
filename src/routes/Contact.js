@@ -37,6 +37,7 @@ function Contact() {
     emailjs.send(serviceId, templateId, templateParams, publicKey)
       .then((response)=>{
         console.log('Message sent successfully', response)
+        alert('Message sent successfully')
         setName('')
         setEmail('')
         setMessage('')
