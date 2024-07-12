@@ -10,6 +10,7 @@ import NavBar from './components/NavBar';
 import Bookings from './routes/Bookings';
 import SignUp from './routes/SignUp';
 import Appointment from './routes/Appointment';
+import UpdateUserProfile from './routes/UpdateUserProfile';
 import {ToastContainer} from 'react-toastify'
 
 
@@ -30,6 +31,7 @@ function App() {
           <Route path="/Bookings" element={<Bookings/>}/>
           <Route path="/SignUp" element={<SignUp/>}/>
           <Route path="/Appointment" element={<Appointment/>}/>
+          <Route path="/UpdateUserProfile" element={<UpdateUserProfile/>}/>
         </Routes>
         <ToastContainer theme='dark' />
       </BrowserRouter>

@@ -1,15 +1,50 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./Contact.css"
 import location from '../images/location.png';
 import telephone from '../images/telephone.png';
 import mailbox from '../images/mailbox.png';
-import email from '../images/email.png';
+import emailIcon from '../images/emailIcon.png';
 import facebook from '../images/facebook.png'
 import twitter from '../images/twitter.png'
 import instagram from '../images/instagram.png'
 import linkedin from '../images/linkedin.png'
+import emailjs from '@emailjs/browser'
 
 function Contact() {
+
+  const [name, setName] = useState ('');
+  const [email, setEmail] = useState('')
+  const [message, setMessage] = useState('')
+
+  const handleSubmit = (e) => {
+    e.preventDefault()
+
+    //This is the service id, template Id, and Public Key of the EmailJS service
+    const serviceId = 'service_91xqc9i'
+    const templateId = 'template_l1jxm6m'
+    const publicKey = 'VSN-3hNWDYl0-P1Ds'
+
+
+    //We create a new object that contains dynamic template params
+    const templateParams = {
+      from_name: name,
+      from_email: email,
+      to_name: 'RAMEVA Consult',
+      message: message
+    }
+
+    //We now configure the form to send the email using EmailJS
+    emailjs.send(serviceId, templateId, templateParams, publicKey)
+      .then((response)=>{
+        console.log('Message sent successfully', response)
+        setName('')
+        setEmail('')
+        setMessage('')
+      }).catch((error)=>{
+        console.error('Error sending email:', error)
+      })
+  }
+
   return (
     <div className='mainContainer'>
       <div className='subContainer1'> <br/><br/><br/><br/><br/><br/><br/><br/><br/></div>
@@ -59,7 +94,7 @@ function Contact() {
           </div>
           <div className='card4'> 
             <img
-              src={email}
+              src={emailIcon}
               alt="email"
               className="email"/> 
               <span className='cardHeader'>Email</span>
@@ -70,15 +105,17 @@ function Contact() {
 
         <div className='twosectioneddiv'>
           <div className='form'>
-            <form>
+            <form onSubmit={handleSubmit}>
               <div className='formdiv1' >
                 <div>
                   <span className='emailText'>Email</span>
                   <input
                     type="email"
                     name="email"
+                    value={email} //this is a target for the email service
                     placeholder="Enter a valid email address"
                     className='emailInput'
+                    onChange={(e)=> setEmail(e.target.value)}
                     required
                   />
                 </div>
@@ -87,8 +124,10 @@ function Contact() {
                   <input
                     type="text"
                     name="name"
+                    value={name} //this is a target for the email service
                     placeholder="Enter your name"
                     className='nameInput'
+                    onChange={(e)=> setName(e.target.value)}
                     required
                   />
                 </div>
@@ -97,9 +136,11 @@ function Contact() {
                 <span className='messageText'>Message</span>
                 <textarea
                     name="message"
+                    value={message}  //this is a target for the email service
                     rows="3"
                     placeholder="Enter your message"
                     className='messageInput'
+                    onChange={(e)=> setMessage(e.target.value)}
                     required
                   />
               </div>
