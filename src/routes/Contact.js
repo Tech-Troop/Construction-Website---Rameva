@@ -12,7 +12,7 @@ import linkedin from '../images/linkedin.png'
 function Contact() {
   return (
     <div className='mainContainer'>
-      <div className='subContainer1'> <br/><br/><br/><br/><br/><br/><br/><br/><br/></div>
+      <div className='servicepageHeader'> <br/><br/><br/><br/><br/><br/><br/><br/><br/></div>
       <div className='subContainer2'> 
         <br/>
         <div className='cardsContainer'>
