@@ -48,7 +48,7 @@ function Contact() {
 
   return (
     <div className='mainContainer'>
-      <div className='servicepageHeader'> <br/><br/><br/><br/><br/><br/><br/><br/><br/></div>
+      <div className='contactpageHeader'> <br/><br/><br/><br/><br/><br/><br/><br/><br/></div>
       <div className='subContainer2'> 
         <br/>
         <div className='cardsContainer'>

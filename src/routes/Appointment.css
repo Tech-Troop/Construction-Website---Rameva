@@ -1,0 +1,799 @@
+.appointmentpagebody{
+    align-content: center;
+    align-items: center;
+    width: 95%;
+    height: 80%;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #152262;
+    border-radius: 10px;
+    background-color: rgb(242, 240, 240);
+}
+
+.appointmentheader{
+    font-size: 30px;
+    font-weight: bold;
+    color: #152262;
+    margin-left: 520px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.twosectionAppointmentdiv{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.calendardiv{
+    margin-top: 5px;
+}
+
+.appointmentForm{
+    width: 100%;
+}
+
+.selectAvailablePeriod{
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.selectTimestext{
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.consultancyselectionfield{
+    width: 280px;
+    margin-right: 20px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid #152262;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(242, 240, 240);
+}
+
+.timesAvailable{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.timesdiv1{
+    background-color: rgb(227, 238, 249);
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.timesdiv2{
+    background-color: rgb(227, 238, 249);
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.timesdiv3{
+    background-color: rgb(227, 238, 249);
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.timesdiv4{
+    background-color: rgb(227, 238, 249);
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.timesdiv5{
+    background-color: rgb(227, 238, 249);
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.timesdiv6{
+    background-color: rgb(227, 238, 249);
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.timesdiv7{
+    background-color: rgb(227, 238, 249);
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.timesdiv8{
+    background-color: rgb(227, 238, 249);
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.timesdiv9 {
+    background-color: rgb(227, 238, 249);
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bookAppointmentButtondiv{
+    align-content: center;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.bookAppointment{
+    font-size: 18px;
+    font-weight: 200;
+    color: #fff;
+}
+
+.bookAppointmentButton {
+    padding-top: 10px;
+    margin-top: 60px;
+    padding-bottom:10px;
+    padding-left: 80px; 
+    padding-right: 80px; 
+    background-color: #152262;
+    border-radius: 10px;
+    border-color: #4459c2;
+    border-style: none;
+    align-self: center;
+    margin-left: 36%;
+}
+
+.timesZonediv{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: rgba(248, 222, 197, 0.578);
+}
+
+.warningIcon{
+    height: 25px;
+    width: 25px;
+}
+
+.warningIcondiv{
+    background-color:rgba(241, 224, 207, 0.866);
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.timesZone{
+    font-size: 16px;
+    font-weight:bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 6px;
+    padding-left: 10px;
+}
+
+.appointmentpic{
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin-left: 180px;
+}
+
+.bookAppointmentButton:hover {
+    background-color: #45a049;
+}
+
+
+
+@media screen and (min-width:200px) and (max-width: 400px) {
+    .appointmentpagebody{
+        align-content: center;
+        align-items: center;
+        width: 95%;
+        height: 80%;
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        padding: 20px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: #152262;
+        border-radius: 10px;
+        background-color: rgb(242, 240, 240);
+    }
+    
+    .appointmentheader{
+        font-size: 30px;
+        font-weight: bold;
+        color: #152262;
+        margin-left: 20px;
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+
+    .appointmentpic{
+        height: 80px;
+        width: 80px;
+        display: block;
+        margin-left: 80px;
+    }
+    
+    .twosectionAppointmentdiv{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    
+    .calendardiv{
+        margin-top: 5px;
+    }
+    
+    .appointmentForm{
+        width: 100%;
+    }
+
+    .consultancyselectionfield{
+        width: 280px;
+        margin-right: 20px;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 2px solid #152262;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgb(242, 240, 240);
+        margin-top: 20px;
+    }
+
+    .bookAppointmentButton {
+        padding-top: 10px;
+        margin-top: 60px;
+        padding-bottom:10px;
+        padding-left: 80px; 
+        padding-right: 80px; 
+        background-color: #152262;
+        border-radius: 10px;
+        border-color: #4459c2;
+        border-style: none;
+        align-self: center;
+        margin-left: 2%;
+    }
+    
+}
+@media screen and (min-width: 401px) and (max-width: 500px) {
+    .appointmentpagebody{
+        align-content: center;
+        align-items: center;
+        width: 95%;
+        height: 80%;
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        padding: 20px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: #152262;
+        border-radius: 10px;
+        background-color: rgb(242, 240, 240);
+    }
+    
+    .appointmentheader{
+        font-size: 30px;
+        font-weight: bold;
+        color: #152262;
+        margin-left: 20px;
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+
+    .appointmentpic{
+        height: 80px;
+        width: 80px;
+        display: block;
+        margin-left: 80px;
+    }
+    
+    .twosectionAppointmentdiv{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    
+    .calendardiv{
+        margin-top: 5px;
+    }
+    
+    .appointmentForm{
+        width: 100%;
+    }
+
+    .consultancyselectionfield{
+        width: 280px;
+        /* margin-right: 10px; */
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 2px solid #152262;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgb(242, 240, 240);
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+
+    
+
+    .bookAppointmentButton {
+        padding-top: 10px;
+        margin-top: 60px;
+        padding-bottom:10px;
+        padding-left: 80px; 
+        padding-right: 80px; 
+        background-color: #152262;
+        border-radius: 10px;
+        border-color: #4459c2;
+        border-style: none;
+        align-self: center;
+        margin-left: 10%;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 600px) {
+    .appointmentpagebody{
+        align-content: center;
+        align-items: center;
+        width: 95%;
+        height: 80%;
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        padding: 20px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: #152262;
+        border-radius: 10px;
+        background-color: rgb(242, 240, 240);
+    }
+    
+    .appointmentheader{
+        font-size: 30px;
+        font-weight: bold;
+        color: #152262;
+        margin-left: 50px;
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+
+    .appointmentpic{
+        height: 80px;
+        width: 80px;
+        display: block;
+        margin-left: 80px;
+    }
+    
+    .twosectionAppointmentdiv{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    
+    .calendardiv{
+        margin-top: 5px;
+    }
+    
+    .appointmentForm{
+        width: 100%;
+    }
+
+    .consultancyselectionfield{
+        width: 280px;
+        /* margin-right: 10px; */
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 2px solid #152262;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgb(242, 240, 240);
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+
+    
+
+    .bookAppointmentButton {
+        padding-top: 10px;
+        margin-top: 60px;
+        padding-bottom:10px;
+        padding-left: 80px; 
+        padding-right: 80px; 
+        background-color: #152262;
+        border-radius: 10px;
+        border-color: #4459c2;
+        border-style: none;
+        align-self: center;
+        margin-left: 20%;
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 700px) {
+    .appointmentpagebody{
+        align-content: center;
+        align-items: center;
+        width: 95%;
+        height: 80%;
+        margin-top: 20px;
+        margin-left: 15px;
+        margin-bottom: 10px;
+        padding: 20px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: #152262;
+        border-radius: 10px;
+        background-color: rgb(242, 240, 240);
+    }
+    
+    .appointmentheader{
+        font-size: 30px;
+        font-weight: bold;
+        color: #152262;
+        margin-left: 20%;
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+
+    .appointmentpic{
+        height: 80px;
+        width: 80px;
+        display: block;
+        margin-left: 40%;
+    }
+    
+    .twosectionAppointmentdiv{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    
+    .calendardiv{
+        margin-top: 5px;
+    }
+    
+    .appointmentForm{
+        width: 100%;
+    }
+
+
+    .consultancyselectionfield{
+        width: 280px;
+        /* margin-right: 10px; */
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 2px solid #152262;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgb(242, 240, 240);
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .selectAvailablePeriod{
+        font-size: 20px;
+        font-weight: bold;
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+    
+    .selectTimestext{
+        font-size: 20px;
+        font-weight: bold;
+        display: block;
+        margin-top: 40px;
+        margin-bottom: 10px;
+
+    }
+
+    .bookAppointmentButton {
+        padding-top: 10px;
+        margin-top: 60px;
+        padding-bottom:10px;
+        padding-left: 80px; 
+        padding-right: 80px; 
+        background-color: #152262;
+        border-radius: 10px;
+        border-color: #4459c2;
+        border-style: none;
+        align-self: center;
+        margin-left: 20%;
+    }
+}
+@media screen and (min-width: 701px) and (max-width: 800px) {
+    .appointmentpagebody{
+        align-content: center;
+        align-items: center;
+        width: 95%;
+        height: 80%;
+        margin-top: 20px;
+        margin-left: 15px;
+        margin-bottom: 10px;
+        padding: 20px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: #152262;
+        border-radius: 10px;
+        background-color: rgb(242, 240, 240);
+    }
+    
+    .appointmentheader{
+        font-size: 30px;
+        font-weight: bold;
+        color: #152262;
+        margin-left: 20%;
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+
+    .appointmentpic{
+        height: 80px;
+        width: 80px;
+        display: block;
+        margin-left: 40%;
+    }
+    
+    .twosectionAppointmentdiv{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    
+    .calendardiv{
+        margin-top: 5px;
+    }
+    
+    .appointmentForm{
+        width: 100%;
+    }
+
+
+    .consultancyselectionfield{
+        width: 280px;
+        /* margin-right: 10px; */
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 2px solid #152262;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgb(242, 240, 240);
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .selectAvailablePeriod{
+        font-size: 20px;
+        font-weight: bold;
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+    
+    .selectTimestext{
+        font-size: 20px;
+        font-weight: bold;
+        display: block;
+        margin-top: 40px;
+        margin-bottom: 10px;
+
+    }
+
+    .bookAppointmentButton {
+        padding-top: 10px;
+        margin-top: 60px;
+        padding-bottom:10px;
+        padding-left: 80px; 
+        padding-right: 80px; 
+        background-color: #152262;
+        border-radius: 10px;
+        border-color: #4459c2;
+        border-style: none;
+        align-self: center;
+        margin-left: 20%;
+    }
+}
+@media screen and (min-width: 801px) and (max-width: 900px) {
+    .appointmentpagebody{
+        align-content: center;
+        align-items: center;
+        width: 95%;
+        height: 80%;
+        margin-top: 20px;
+        margin-left: 15px;
+        margin-bottom: 10px;
+        padding: 20px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: #152262;
+        border-radius: 10px;
+        background-color: rgb(242, 240, 240);
+    }
+    
+    .appointmentheader{
+        font-size: 30px;
+        font-weight: bold;
+        color: #152262;
+        margin-left: 20%;
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+
+    .appointmentpic{
+        height: 80px;
+        width: 80px;
+        display: block;
+        margin-left: 40%;
+    }
+    
+    .twosectionAppointmentdiv{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    
+    .calendardiv{
+        margin-top: 5px;
+    }
+    
+    .appointmentForm{
+        width: 100%;
+    }
+
+
+    .consultancyselectionfield{
+        width: 280px;
+        /* margin-right: 10px; */
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 2px solid #152262;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgb(242, 240, 240);
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .selectAvailablePeriod{
+        font-size: 20px;
+        font-weight: bold;
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+    
+    .selectTimestext{
+        font-size: 20px;
+        font-weight: bold;
+        display: block;
+        margin-top: 40px;
+        margin-bottom: 10px;
+
+    }
+
+    .bookAppointmentButton {
+        padding-top: 10px;
+        margin-top: 60px;
+        padding-bottom:10px;
+        padding-left: 80px; 
+        padding-right: 80px; 
+        background-color: #152262;
+        border-radius: 10px;
+        border-color: #4459c2;
+        border-style: none;
+        align-self: center;
+        margin-left: 20%;
+    }
+}
+@media screen and (min-width: 901px) and (max-width: 1000px) {
+    .appointmentpagebody{
+        align-content: center;
+        align-items: center;
+        width: 95%;
+        height: 80%;
+        margin-top: 30px;
+        margin-left: 25px;
+        margin-bottom: 10px;
+        padding: 20px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: #152262;
+        border-radius: 10px;
+        background-color: rgb(242, 240, 240);
+    }
+    
+    .appointmentheader{
+        font-size: 30px;
+        font-weight: bold;
+        color: #152262;
+        margin-left: 30%;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+
+    .appointmentpic{
+        height: 80px;
+        width: 80px;
+        display: block;
+        margin-left: 20%;
+    }
+
+    .bookAppointmentButton {
+        padding-top: 10px;
+        margin-top: 60px;
+        padding-bottom:10px;
+        padding-left: 80px; 
+        padding-right: 80px; 
+        background-color: #152262;
+        border-radius: 10px;
+        border-color: #4459c2;
+        border-style: none;
+        align-self: center;
+        margin-left: 28%;
+    }
+}
+@media screen and (min-width: 1001px) and (max-width: 1012px) {
+    .appointmentpagebody{
+        margin-left: 25px;
+    }
+    
+}
+@media screen and (min-width: 1013px) and (max-width: 1032px) {
+    .appointmentpagebody{
+        margin-left: 25px;
+    }
+}
+@media screen and (min-width: 1033px) and (max-width: 1090px) {
+    .appointmentpagebody{
+        margin-left: 25px;
+    }
+}
+@media screen and (min-width: 1091px) and (max-width: 1124px) {
+    .appointmentpagebody{
+        margin-left: 25px;
+    }
+}
+@media screen and (min-width: 1125px) and (max-width: 1200px) {
+    .appointmentpagebody{
+        margin-left: 25px;
+    }
+}
+@media screen and (min-width: 1201px) and (max-width: 1300px) {
+    .appointmentpagebody{
+        margin-left: 25px;
+    }
+}
+@media screen and (min-width: 1600px) and (max-width: 2000px) {
+    .appointmentpagebody{
+        margin-left: 25px;
+    }
+}
