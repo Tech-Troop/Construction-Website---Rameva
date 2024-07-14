@@ -3,11 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-<<<<<<< HEAD
+
     "@fortawesome/fontawesome-free": "^6.5.2",
-=======
     "@emailjs/browser": "^4.4.1",
->>>>>>> ca1392445d855044ee3e08f71f7548c9a704efbd
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
     "@fortawesome/free-solid-svg-icons": "^6.5.2",
     "@testing-library/jest-dom": "^5.17.0",
