@@ -12,6 +12,7 @@ import SignUp from './routes/SignUp';
 import Appointment from './routes/Appointment';
 import UpdateUserProfile from './routes/UpdateUserProfile';
 import {ToastContainer} from 'react-toastify'
+import PortfolioItem from './components/portfolio/PortfolioIterm';
 
 
 
@@ -32,6 +33,7 @@ function App() {
           <Route path="/SignUp" element={<SignUp/>}/>
           <Route path="/Appointment" element={<Appointment/>}/>
           <Route path="/UpdateUserProfile" element={<UpdateUserProfile/>}/>
+          <Route path="/portfolio/:id" element={<PortfolioItem />} />
         </Routes>
         <ToastContainer theme='dark' />
       </BrowserRouter>
