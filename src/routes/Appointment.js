@@ -6,9 +6,11 @@ import Calendar from '../components/Calendar';
 import appointmentpic from '../images/appointment-book.png';
 import { db } from '../config/firebase' //Over here we import the firebase database (firestore) config file
 import { collection, addDoc } from 'firebase/firestore'
+import 'react-toastify/dist/ReactToastify.css'
+import {toast } from  'react-toastify'
 
 const Appointment = () => {
-  const [selectedService, setSelectedService] = useState("");
+  // const [selectedService, setSelectedService] = useState("");
   const [formData, setFormData] = useState({
     email: '',
     service: '',
@@ -28,7 +30,8 @@ const Appointment = () => {
     e.preventDefault();
     try {
       await addDoc(collection(db, 'appointments'), formData)
-      alert('Appointment booked successfully')
+      // alert('Appointment booked successfully')
+      toast.success('Appointment booked Succesfully')
     } catch (error) {
       console.error('Error adding document: ', error)
     }
@@ -40,7 +43,7 @@ const Appointment = () => {
       <form onSubmit={handleSubmit} className='appointmentForm'>
         <div className='twosectionAppointmentdiv'>
           <div className='calendardiv'>
-            <img src={appointmentpic} className='appointmentpic' />
+            <img src={appointmentpic} className='appointmentpic' alt='' />
             <input type="email" name="email" placeholder="Enter your email" className='consultancyselectionfield' value={formData.email} onChange={handleChange} required/>
             <Calendar/>
           </div>
@@ -71,7 +74,7 @@ const Appointment = () => {
               <div className='timesdiv9'>05:00 pm</div>
             </div>
             <div className='timesZonediv'>
-              <div className='warningIcondiv'><img src={warningIcon} className='warningIcon'/></div>
+              <div className='warningIcondiv'><img src={warningIcon} className='warningIcon' alt=''/></div>
               <span className='timesZone'>All times are in central time (GMT/UTC +00)</span>
             </div>
           </div>
