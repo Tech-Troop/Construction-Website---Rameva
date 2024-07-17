@@ -66,6 +66,7 @@ const PortfolioItem = () => {
               src={leftArrow}
               className="arrow left-arrow"
               onClick={goToPreviousProject}
+              alt=""
             ></img>
           )}
         </div>
@@ -76,6 +77,7 @@ const PortfolioItem = () => {
               src={rightArrow}
               className="arrow right-arrow"
               onClick={goToNextProject}
+              alt=""
             ></img>
           )}
         </div>
