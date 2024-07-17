@@ -1,42 +1,32 @@
-import React from 'react'
-import "./Home.css"
-// Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
-// Import Swiper styles
-// import 'swiper/css';
-import 'swiper/css/navigation';
-// import './styles.css';
 
-// import required modules
-import { Navigation } from 'swiper/modules';
+import AboutHome from "./AboutHome";
+import Contact from "./Contact";
+import ProjectsHome from "./ProjectsHome"
+import ServiceHome from './ServiceHome';
+import Stats from "./Stats";
+import Welcome from './Welcome'
+import React, { useEffect, useState } from 'react';
 
-function Home() {
+
+const Home=() =>{
+
+  const [isLoad, setIsLoad] = useState(false);
+
+	useEffect(() => {
+		setTimeout(() => {
+			setIsLoad(true);
+		}, 3000)
+	}, []);
+
   return (
-    // Hero Section
-    <section className="hero swiper mySwiper">
-      <Swiper
-        navigation={{
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
-        }}
-        modules={[Navigation]}
-        className="mySwiper"
-      >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 1</SwiperSlide>
-        
-      </Swiper>
-      <div className="hero-arrow row">
-        <div className="swiper-button-prev"></div>
-        <div className="swiper-button-next"></div>
-      </div>
-    </section>
+    <div className="App" style={{ height: isLoad ? "fit-content" : "100vh", overflowY: isLoad ? "" : "hidden" }}>
+      <Welcome isLoad={isLoad} />
+      <ServiceHome/>
+      <Stats/>
+      <AboutHome/>
+     
 
-
-
-    // End Hero Section
+    </div>
   )
 }
-
-export default Home
+export default Home;

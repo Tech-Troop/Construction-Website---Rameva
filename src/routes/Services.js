@@ -24,7 +24,7 @@ import img16 from "../images/pump.png";
 function Services() {
   return (
     <div>
-      <div className="servicepageHeader">
+      <div className="servicepage">
         <div className="headerContent">
           <span className="bestServiceText">WE PROVIDE THE BEST SERVICES</span>
           <span className="HeroText">We are here to make your dreams come true</span>
