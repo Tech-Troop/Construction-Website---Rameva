@@ -13,6 +13,7 @@ import Appointment from './routes/Appointment';
 import UpdateUserProfile from './routes/UpdateUserProfile';
 import {ToastContainer} from 'react-toastify'
 import PortfolioItem from './components/portfolio/PortfolioIterm';
+import Footer from './components/Footer';
 
 
 
@@ -36,6 +37,7 @@ function App() {
           <Route path="/portfolio/:id" element={<PortfolioItem />} />
         </Routes>
         <ToastContainer theme='dark' />
+        <Footer/>
       </BrowserRouter>
       
      
