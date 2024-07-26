@@ -1,55 +1,127 @@
+// src/components/UserProfile.js
+
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
-import axios from 'axios';
+import './UpdateUserProfile.css';
 
-const UpdateUserProfile = ({ email }) => {
-  const [username, setUsername] = useState('');
-  const [error, setError] = useState('');
-  const navigate = useNavigate();
+const UserProfile = () => {
+  // State to hold user profile data
+  const [user, setUser] = useState({
+    firstName: 'John',
+    lastName: 'Doe',
+    email: 'john.doe@example.com',
+    phone: '123-456-7890',
+    address: '123 Main St, Anytown, USA',
+  });
 
-  const handleUpdate = async (event) => {
-    event.preventDefault();
+  // State to handle edit mode
+  const [isEditing, setIsEditing] = useState(false);
 
-    try {
-      await axios.post('/api/update-profile', { email, username });
-      navigate('/appointment-dashboard', { state: { email, username } });
-    } catch (err) {
-      setError('Failed to update profile');
-    }
+  // State to hold form data
+  const [formData, setFormData] = useState(user);
+
+  // Handle input changes
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prevData) => ({
+      ...prevData,
+      [name]: value,
+    }));
+  };
+
+  // Toggle edit mode
+  const toggleEdit = () => {
+    setIsEditing(!isEditing);
+    setFormData(user); // Reset form data to current user data
+  };
+
+  // Save updated profile data
+  const saveProfile = () => {
+    setUser(formData);
+    setIsEditing(false);
   };
 
   return (
-    <div>
-      <span>Congrats on successfully registering as a customer at RAMEVA_Consult</span>
-      <br />
-      <span>Just a few more steps and then you're done</span>
-      <div className='userProfileform'>
-        {error && <p style={{ color: 'red' }}>{error}</p>}
-        <form onSubmit={handleUpdate}>
-          <label>
-            Email:
-            <input
-              type="email"
-              value={email}
-              readOnly
-              required
-            />
-          </label>
-          <br />
-          <label>
-            Username:
+    <div className="user-profile-container">
+      <h2>User Profile</h2>
+      <div className="profile-card">
+        <div className="profile-item">
+          <label>First Name:</label>
+          {isEditing ? (
             <input
               type="text"
-              value={username}
-              onChange={(e) => setUsername(e.target.value)}
-              required
+              name="firstName"
+              value={formData.firstName}
+              onChange={handleInputChange}
             />
-          </label>
-          <button type="submit">Update Profile</button>
-        </form>
+          ) : (
+            <span>{user.firstName}</span>
+          )}
+        </div>
+        <div className="profile-item">
+          <label>Last Name:</label>
+          {isEditing ? (
+            <input
+              type="text"
+              name="lastName"
+              value={formData.lastName}
+              onChange={handleInputChange}
+            />
+          ) : (
+            <span>{user.lastName}</span>
+          )}
+        </div>
+        <div className="profile-item">
+          <label>Email:</label>
+          {isEditing ? (
+            <input
+              type="email"
+              name="email"
+              value={formData.email}
+              onChange={handleInputChange}
+            />
+          ) : (
+            <span>{user.email}</span>
+          )}
+        </div>
+        <div className="profile-item">
+          <label>Phone:</label>
+          {isEditing ? (
+            <input
+              type="tel"
+              name="phone"
+              value={formData.phone}
+              onChange={handleInputChange}
+            />
+          ) : (
+            <span>{user.phone}</span>
+          )}
+        </div>
+        <div className="profile-item">
+          <label>Address:</label>
+          {isEditing ? (
+            <input
+              type="text"
+              name="address"
+              value={formData.address}
+              onChange={handleInputChange}
+            />
+          ) : (
+            <span>{user.address}</span>
+          )}
+        </div>
+        <div className="profile-actions">
+          {isEditing ? (
+            <>
+              <button onClick={saveProfile} className="save-btn">Save</button>
+              <button onClick={toggleEdit} className="cancel-btn">Cancel</button>
+            </>
+          ) : (
+            <button onClick={toggleEdit} className="edit-btn">Edit Profile</button>
+          )}
+        </div>
       </div>
     </div>
   );
 };
 
-export default UpdateUserProfile;
+export default UserProfile;
