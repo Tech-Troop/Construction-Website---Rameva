@@ -27,7 +27,7 @@ function Bookings() {
 		await signInWithEmailAndPassword(auth,email,password)
 		console.log("Login Succesful")
 		toast.success("Login Succesful")
-		window.location.href="/Appointment"
+		window.location.href="/Dashboard"
   
 	  }catch(error){
 		console.log(error.message)

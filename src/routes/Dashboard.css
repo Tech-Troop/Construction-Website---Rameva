@@ -1,0 +1,35 @@
+.dashboardcontainer{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.dashboardheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 40px;
+}
+
+.userIcon{
+    width: 40px;
+    height: 40px;
+    margin-right: 40px;
+}
+
+.appointmentIcon{
+    width: 40px;
+    height: 40px;
+}
+
+.threedivdasboarddisplay{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.TechSupport{
+    display: block;
+}
