@@ -40,8 +40,10 @@
     .portfolio-title-text {
       padding: 20px;
       margin-left: 70px;
-      font-size: 1.5em;
+      font-size: 1em;
       font-weight: bold;
+      color: #0b2362;
+
     }
   
     .project-grid {
@@ -83,6 +85,7 @@
       grid-row: 1;
       font-size: 1em;
       color: #fff;
+      text-decoration: none;
     }
     
     .project-card-button {
@@ -234,8 +237,12 @@
     .portfolio-item-hero-text {
       text-align: center;
      }
-     .portfolio-title-text {
-      margin-left: 70px;    
+     
+     h2.portfolio-title-text {
+      text-align: left;
+      padding-left: 10%; 
+      margin-left: 0;
+     
     }
      
     .portfolio-item-hero-text::after {
@@ -259,8 +266,8 @@
    
 @media (max-width: 480px) {
     .hero-text {
-       font-size: 36px;   
-       margin-left: -100px;       
+    font-size: 36px;   
+    margin-left: -100px;       
     }
      
     .portfolio-item-hero-text {
@@ -289,9 +296,9 @@
           
     }
 
-    .project-description-text{
+    .portfolio-item-text h3 {
       text-align: center;
-      
+      color: #0b2362;
     }
 
     .project-card-button {
@@ -306,5 +313,13 @@
         cursor: pointer;
         border: none;
       }
+
+      h2.portfolio-title-text {
+        text-align: left;
+        padding-left: 10%; 
+        margin-left: 0;
+       
+      }
+      
    }
     
