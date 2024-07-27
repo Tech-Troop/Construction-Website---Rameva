@@ -6,6 +6,7 @@ import ContsructionPic from "../../images/portfolio_images/contruction_pic.jpg";
 import rightArrow from "../../images/portfolio_images/right-arrow.png";
 import leftArrow from "../../images/portfolio_images/left-arrow.png";
 import "../../routes/Portfolio.css";
+import { motion } from 'framer-motion';
 
 const PortfolioItem = () => {
   const { id } = useParams();
@@ -48,17 +49,23 @@ const PortfolioItem = () => {
         <img src={ContsructionPic} alt="" className="hero-pic" />
         <h1 className="portfolio-item-hero-text">{project.title}</h1>
       </div>
+
       <div className="portfolio-item-content">
         <div className="portfolio-item-text">
-            <h3 className="project-description-text">Project Discription</h3>
+            <h3 className="project-description-text">Project Description</h3>
           <p>{project.description}</p>
         </div>
-        <img
-          src={project.image}
-          className="portfolio-item-image"
-          alt={project.title}
-        />
+            <motion.img
+            src={project.image}
+            className="portfolio-item-image"
+            alt={project.title}
+            initial={{ x: '100%', opacity: 0 }}
+            animate={{ x: 0, opacity: 1 }}
+            transition={{ duration: 0.3, ease: 'easeInOut' }}
+          />
       </div>
+
+
       <div className="navigation-arrows">
         <div className="arrow-wrapper">
           {previousId >= 0 && (
