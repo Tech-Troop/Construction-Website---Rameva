@@ -1,0 +1,80 @@
+.userProfileContainer {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+  }
+  
+  .profileHeader {
+    text-align: center;
+    color: #333333;
+  }
+  
+  .profileCard {
+    margin-top: 20px;
+  }
+  
+  .profileItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+  
+  .profileLabel {
+    font-weight: bold;
+    color: #333333;
+  }
+  
+  .profileValue,
+  .profileInput {
+    flex: 1;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 1rem;
+    color: #555555;
+  }
+  
+  .profileInput {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .profileActions {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .button {
+    background-color: #4caf50;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+  }
+  
+  .saveBtn {
+    background-color: #4caf50;
+  }
+  
+  .cancelBtn {
+    background-color: #f44336;
+  }
+  
+  .editBtn {
+    background-color: #007bff;
+  }
+  

@@ -25,10 +25,13 @@ function Services() {
   return (
     <div>
       <div className="servicepage">
-        <div className="headerContent">
-          <span className="bestServiceText">WE PROVIDE THE BEST SERVICES</span>
-          <span className="HeroText">We are here to make your dreams come true</span>
+        <div className="servicepageHeader">
+          <div className="headerContent">
+            <span className="bestServiceText">WE PROVIDE THE BEST SERVICES</span>
+            <span className="HeroText">We are here to make your dreams come true</span>
+          </div>  
         </div>
+        
         <div className="headerpicsdiv">
           <img src={house3} className="house3"/>
           <img src={house1} className="house1"/>
