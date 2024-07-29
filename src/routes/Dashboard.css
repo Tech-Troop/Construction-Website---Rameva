@@ -1,3 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+.dashboardMainContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboardfirstdiv{
+    background-color: #152262;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    color:#fff;
+    height: 440px;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.userWelcomeTextdiv{
+    display:flex;
+    flex-direction: column;
+}
+
+.browseProjectsbutton{
+    width: 150px;
+    font-size: 16px;
+    font-weight: 700;
+    align-self: center;
+    padding: 8px;
+    color: #fff;
+    background-color: #FFA500;
+    border-style: none;
+}
+
+
+
+.dashboardseconddiv{
+    margin: 0 auto;
+}
+
+.dashboardCardsContainer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0px;
+    align-content: center;
+    margin-top: -210px;
+    padding-bottom: 60px;
+    
+}
+
+.dashboardCard1{
+    width: 300px;
+    height: 260px;
+    background-color: #fff;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 550;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.dashboardCard2{
+    width: 300px;
+    height: 260px;
+    background-color: #FFA500;
+    color: #fff;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 550;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.dashboardCard3{
+    width: 300px;
+    height: 260px;
+    background-color:#fff;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 550;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.dashboardCard4{
+    width: 300px;
+    height: 260px;
+    background-color: #FFA500;
+    color: #fff;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 550;
+    font-family:'Courier New', Courier, monospace;
+    
+}
+
+.dashboardCard4 :hover{
+    cursor: pointer;
+}
+
+.dashboardCard1,
+.dashboardCard2,
+.dashboardCard3,
+.dashboardCard4,
+.browseProjectsbutton :hover{
+    cursor: pointer;
+}
+
+.techsupporticon{
+    height:70px;
+    width:70px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    margin-left: 110px;
+    display: block;
+}
+
+.additionalTextGrid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+    gap: 10px;
+}
+
+.belowTextdiv{
+    height: 400px;
+    width: 600px;
+    font-size: 30px;
+    font-weight: 500;
+    font-family:'Poppins';
+}
+
+.belowTextdiv2{
+    width: 400px;
+    font-family: 'Poppins';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .dashboardcontainer{
     padding-left: 40px;
     padding-right: 40px;

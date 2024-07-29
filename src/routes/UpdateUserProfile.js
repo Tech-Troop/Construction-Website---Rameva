@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import styles from './UserProfile.module.css'; // Import the CSS module
+import ProfilePictureUpload from '../components/ProfilePictureUpload';
 
 const UserProfile = () => {
   // State to hold user profile data
@@ -43,6 +44,7 @@ const UserProfile = () => {
   return (
     <div className={styles.userProfileContainer}>
       <h2 className={styles.profileHeader}>User Profile</h2>
+      <ProfilePictureUpload/>
       <div className={styles.profileCard}>
         <div className={styles.profileItem}>
           <label className={styles.profileLabel}>First Name:</label>
