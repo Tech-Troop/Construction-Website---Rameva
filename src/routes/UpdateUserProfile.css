@@ -8,6 +8,17 @@
   margin-top: 50px;
 }
 
+.changeUserProfilegrid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin: 0 auto;
+}
+
+.profilepictureUploaddiv{
+  width: 600px;
+}
+
 .profileHeader {
   text-align: center;
   color: #333333;

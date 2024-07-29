@@ -1,24 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
 .userProfileContainer {
-    max-width: 600px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 20px;
     background-color: #ffffff;
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-top: 50px;
+    margin-bottom: 40px;
   }
+  
   
   .profileHeader {
     text-align: center;
     color: #333333;
+    font-family: 'Poppins';
   }
   
   .profileCard {
     margin-top: 20px;
+    width: 500px;
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr); */
   }
   
   .profileItem {
-    display: flex;
+
     justify-content: space-between;
     align-items: center;
     margin-bottom: 15px;

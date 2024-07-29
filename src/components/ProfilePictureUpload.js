@@ -23,7 +23,7 @@ const ProfilePictureUpload = () => {
 
   return (
     <div className="profile-picture-upload">
-      <h2>Upload Profile Picture</h2>
+      <h2 className="headerText">Upload Profile Picture</h2>
       <div className="image-preview">
         <img
           src={image || uploadImage}
