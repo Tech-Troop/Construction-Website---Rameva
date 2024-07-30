@@ -150,7 +150,7 @@
 
 
 
-
+/* 
 
 .dashboardcontainer{
     padding-left: 40px;
@@ -186,4 +186,977 @@
 
 .TechSupport{
     display: block;
+} */
+
+@media screen and (min-width: 300px) and (max-width: 400px) {
+    .dashboardfirstdiv{
+        background-color: #152262;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 36px;
+        font-weight: 600;
+        color:#fff;
+        height: 300px;
+        width: 100%;
+        padding-top: 30px;
+    }
+    
+    .dashboardCardsContainer{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 0px;
+        align-content: center;
+        margin-top: -100px;
+        padding-bottom: 60px;
+        
+    }
+   
+    .dashboardCard1{
+        width: 70px;
+        height: 100px;
+        background-color: #fff;
+        text-align: center;
+        font-size: 10px;
+        font-weight: 550;
+        font-family:'Courier New', Courier, monospace;
+    }
+    
+    .dashboardCard2{
+        width: 70px;
+        height: 100px;
+        background-color: #FFA500;
+        color: #fff;
+        text-align: center;
+        font-size: 10px;
+        font-weight: 550;
+        font-family:'Courier New', Courier, monospace;
+    }
+    
+    .dashboardCard3{
+        width: 70px;
+        height: 100px;
+        background-color:#fff;
+        text-align: center;
+        font-size: 10px;
+        font-weight: 550;
+        font-family:'Courier New', Courier, monospace;
+    }
+    
+    .dashboardCard4{
+        width: 70px;
+        height: 100px;
+        background-color: #FFA500;
+        color: #fff;
+        text-align: center;
+        font-size: 10px;
+        font-weight: 550;
+        font-family:'Courier New', Courier, monospace;
+        
+    }
+
+    .techsupporticon{
+        height:25px;
+        width:25px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+        margin-left: 25px;
+        display: block;
+    }
+    
+    .additionalTextGrid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 auto;
+        gap: 10px;
+        padding-left: 10px;
+    }
+
+    .belowTextdiv{
+        height: 250px;
+        width: 150px;
+        font-size: 12px;
+        font-weight: 500;
+        font-family:'Poppins';
+    }
+    
+    .belowTextdiv2{
+        width: 130px;
+        font-size: 12px;
+        font-family: 'Poppins';
+    }
 }
+@media screen and (min-width: 401px) and (max-width: 500px) {
+    .dashboardfirstdiv{
+        background-color: #152262;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 36px;
+        font-weight: 600;
+        color:#fff;
+        height: 300px;
+        width: 100%;
+        padding-top: 30px;
+    }
+    
+    .dashboardCardsContainer{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 0px;
+        align-content: center;
+        margin-top: -100px;
+        padding-bottom: 60px;
+        
+    }
+   
+    .dashboardCard1{
+        width: 90px;
+        height: 100px;
+        background-color: #fff;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 550;
+        font-family:'Courier New', Courier, monospace;
+    }
+    
+    .dashboardCard2{
+        width: 90px;
+        height: 100px;
+        background-color: #FFA500;
+        color: #fff;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 550;
+        font-family:'Courier New', Courier, monospace;
+    }
+    
+    .dashboardCard3{
+        width: 90px;
+        height: 100px;
+        background-color:#fff;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 550;
+        font-family:'Courier New', Courier, monospace;
+    }
+    
+    .dashboardCard4{
+        width: 90px;
+        height: 100px;
+        background-color: #FFA500;
+        color: #fff;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 550;
+        font-family:'Courier New', Courier, monospace;
+        
+    }
+
+    .techsupporticon{
+        height:25px;
+        width:25px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+        margin-left: 25px;
+        display: block;
+    }
+    
+    .additionalTextGrid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 auto;
+        gap: 5px;
+        padding-left: 15px;
+    }
+
+    .belowTextdiv{
+        height: 250px;
+        width: 180px;
+        font-size: 14px;
+        font-weight: 500;
+        font-family:'Poppins';
+    }
+    
+    .belowTextdiv2{
+        width: 180px;
+        font-size: 14px;
+        font-family: 'Poppins';
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 600px) {
+    .dashboardfirstdiv{
+        background-color: #152262;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 36px;
+        font-weight: 600;
+        color:#fff;
+        height: 300px;
+        width: 100%;
+        padding-top: 30px;
+    }
+    
+    .dashboardCardsContainer{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 0px;
+        align-content: center;
+        margin-top: -120px;
+        padding-bottom: 60px;
+        
+    }
+   
+    .dashboardCard1{
+        width: 100px;
+        height: 120px;
+        background-color: #fff;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 550;
+        font-family:'Courier New', Courier, monospace;
+    }
+    
+    .dashboardCard2{
+        width: 100px;
+        height: 120px;
+        background-color: #FFA500;
+        color: #fff;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 550;
+        font-family:'Courier New', Courier, monospace;
+    }
+    
+    .dashboardCard3{
+        width: 100px;
+        height: 120px;
+        background-color:#fff;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 550;
+        font-family:'Courier New', Courier, monospace;
+    }
+    
+    .dashboardCard4{
+        width: 100px;
+        height: 120px;
+        background-color: #FFA500;
+        color: #fff;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 550;
+        font-family:'Courier New', Courier, monospace;
+        
+    }
+
+    .techsupporticon{
+        height:25px;
+        width:25px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+        margin-left: 25px;
+        display: block;
+    }
+    
+    .additionalTextGrid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 auto;
+        gap: 5px;
+        padding-left: 15px;
+    }
+
+    .belowTextdiv{
+        height: 250px;
+        width: 200px;
+        font-size: 14px;
+        font-weight: 500;
+        font-family:'Poppins';
+    }
+    
+    .belowTextdiv2{
+        width: 200px;
+        font-size: 14px;
+        font-family: 'Poppins';
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 700px) {
+    .dashboardfirstdiv{
+        background-color: #152262;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 36px;
+        font-weight: 600;
+        color:#fff;
+        height: 340px;
+        width: 100%;
+        padding-top: 30px;
+    }
+    
+    .dashboardCardsContainer{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 0px;
+        align-content: center;
+        margin-top: -120px;
+        padding-bottom: 60px;
+        
+    }
+   
+    .dashboardCard1{
+        width: 120px;
+        height: 120px;
+        background-color: #fff;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 550;
+        font-family:'Courier New', Courier, monospace;
+    }
+    
+    .dashboardCard2{
+        width: 120px;
+        height: 120px;
+        background-color: #FFA500;
+        color: #fff;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 550;
+        font-family:'Courier New', Courier, monospace;
+    }
+    
+    .dashboardCard3{
+        width: 120px;
+        height: 120px;
+        background-color:#fff;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 550;
+        font-family:'Courier New', Courier, monospace;
+    }
+    
+    .dashboardCard4{
+        width: 120px;
+        height: 120px;
+        background-color: #FFA500;
+        color: #fff;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 550;
+        font-family:'Courier New', Courier, monospace;
+        
+    }
+
+    .techsupporticon{
+        height:35px;
+        width:35px;
+        margin-top: 10px;
+        margin-bottom: 25px;
+        margin-left: 45px;
+        display: block;
+    }
+    
+    .additionalTextGrid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 auto;
+        gap: 5px;
+        padding-left: 15px;
+    }
+
+    .belowTextdiv{
+        height: 250px;
+        width: 250px;
+        font-size: 17px;
+        font-weight: 500;
+        font-family:'Poppins';
+    }
+    
+    .belowTextdiv2{
+        width: 250px;
+        font-family: 'Poppins';
+    }
+}
+
+@media screen and (min-width: 701px) and (max-width: 800px) {
+    .dashboardfirstdiv{
+        background-color: #152262;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 36px;
+        font-weight: 600;
+        color:#fff;
+        height: 300px;
+        width: 100%;
+        padding-top: 30px;
+    }
+    
+    
+    .dashboardfirstdiv{
+        background-color: #152262;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 36px;
+        font-weight: 600;
+        color:#fff;
+        height: 360px;
+        width: 100%;
+        padding-top: 30px;
+    }
+   
+    .dashboardCardsContainer{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 0px;
+        align-content: center;
+        margin-top: -140px;
+        padding-bottom: 60px;
+        
+    }
+   
+    .dashboardCard1{
+        width: 150px;
+        height: 150px;
+        background-color: #fff;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 550;
+        font-family:'Courier New', Courier, monospace;
+    }
+    
+    .dashboardCard2{
+        width: 150px;
+        height: 150px;
+        background-color: #FFA500;
+        color: #fff;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 550;
+        font-family:'Courier New', Courier, monospace;
+    }
+    
+    .dashboardCard3{
+        width: 150px;
+        height: 150px;
+        background-color:#fff;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 550;
+        font-family:'Courier New', Courier, monospace;
+    }
+    
+    .dashboardCard4{
+        width: 150px;
+        height: 150px;
+        background-color: #FFA500;
+        color: #fff;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 550;
+        font-family:'Courier New', Courier, monospace;
+        
+    }
+
+    .techsupporticon{
+        height:45px;
+        width:45px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+        margin-left: 55px;
+        display: block;
+    }
+    
+    .additionalTextGrid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 auto;
+        gap: 5px;
+        padding-left: 15px;
+    }
+
+    .belowTextdiv{
+        height: 300px;
+        width: 300px;
+        font-size: 20px;
+        font-weight: 500;
+        font-family:'Poppins';
+    }
+    
+    .belowTextdiv2{
+        width: 300px;
+        font-family: 'Poppins';
+    }
+}
+
+@media screen and (min-width: 801px) and (max-width: 900px) {
+    .dashboardfirstdiv{
+        background-color: #152262;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 36px;
+        font-weight: 600;
+        color:#fff;
+        height: 390px;
+        width: 100%;
+        padding-top: 30px;
+    }
+    
+    
+    .dashboardCardsContainer{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 0px;
+        align-content: center;
+        margin-top: -140px;
+        padding-bottom: 60px;
+        
+    }
+   
+    .dashboardCard1{
+        width: 165px;
+        height: 165px;
+        background-color: #fff;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 550;
+        font-family:'Courier New', Courier, monospace;
+    }
+    
+    .dashboardCard2{
+        width: 165px;
+        height: 165px;
+        background-color: #FFA500;
+        color: #fff;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 550;
+        font-family:'Courier New', Courier, monospace;
+    }
+    
+    .dashboardCard3{
+        width: 165px;
+        height: 165px;
+        background-color:#fff;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 550;
+        font-family:'Courier New', Courier, monospace;
+    }
+    
+    .dashboardCard4{
+        width: 165px;
+        height: 165px;
+        background-color: #FFA500;
+        color: #fff;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 550;
+        font-family:'Courier New', Courier, monospace;
+        
+    }
+
+    .techsupporticon{
+        height:45px;
+        width:45px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+        margin-left: 55px;
+        display: block;
+    }
+    
+    .additionalTextGrid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 auto;
+        gap: 5px;
+        padding-left: 15px;
+    }
+
+    .belowTextdiv{
+        height: 300px;
+        width: 300px;
+        font-size: 20px;
+        font-weight: 500;
+        font-family:'Poppins';
+    }
+    
+    .belowTextdiv2{
+        width: 300px;
+        font-family: 'Poppins';
+    }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1000px) {
+    .dashboardCardsContainer{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 0px;
+        align-content: center;
+        margin-top: -190px;
+        padding-bottom: 60px;
+        
+    }
+   
+    .dashboardCard1{
+        width: 200px;
+        height: 210px;
+        background-color: #fff;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 550;
+        font-family:'Courier New', Courier, monospace;
+    }
+    
+    .dashboardCard2{
+        width: 200px;
+        height: 210px;
+        background-color: #FFA500;
+        color: #fff;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 550;
+        font-family:'Courier New', Courier, monospace;
+    }
+    
+    .dashboardCard3{
+        width: 200px;
+        height: 210px;
+        background-color:#fff;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 550;
+        font-family:'Courier New', Courier, monospace;
+    }
+    
+    .dashboardCard4{
+        width: 200px;
+        height: 210px;
+        background-color: #FFA500;
+        color: #fff;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 550;
+        font-family:'Courier New', Courier, monospace;
+        
+    }
+
+    .techsupporticon{
+        height:55px;
+        width:55px;
+        margin-top: 30px;
+        margin-bottom: 70px;
+        margin-left: 75px;
+        display: block;
+    }
+    
+    .additionalTextGrid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 auto;
+        gap: 5px;
+        padding-left: 10px;
+    }
+
+    .belowTextdiv{
+        height: 400px;
+        width: 500px;
+        font-size: 20px;
+        font-weight: 500;
+        font-family:'Poppins';
+    }
+    
+    .belowTextdiv2{
+        width: 350px;
+        font-family: 'Poppins';
+    }
+
+}
+@media screen and (min-width: 1001px) and (max-width: 1012px) {
+    .dashboardCard1{
+        width: 230px;
+        height: 240px;
+        background-color: #fff;
+        text-align: center;
+        font-size: 23px;
+        font-weight: 550;
+        font-family:'Courier New', Courier, monospace;
+    }
+    
+    .dashboardCard2{
+        width: 230px;
+        height: 240px;
+        background-color: #FFA500;
+        color: #fff;
+        text-align: center;
+        font-size: 23px;
+        font-weight: 550;
+        font-family:'Courier New', Courier, monospace;
+    }
+    
+    .dashboardCard3{
+        width: 230px;
+        height: 240px;
+        background-color:#fff;
+        text-align: center;
+        font-size: 23px;
+        font-weight: 550;
+        font-family:'Courier New', Courier, monospace;
+    }
+    
+    .dashboardCard4{
+        width: 230px;
+        height: 240px;
+        background-color: #FFA500;
+        color: #fff;
+        text-align: center;
+        font-size: 23px;
+        font-weight: 550;
+        font-family:'Courier New', Courier, monospace;
+        
+    }
+    
+    .additionalTextGrid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 auto;
+        gap: 10px;
+        padding-left: 10px;
+    }
+
+    .belowTextdiv{
+        height: 400px;
+        width: 600px;
+        font-size: 27px;
+        font-weight: 500;
+        font-family:'Poppins';
+    }
+    
+    .belowTextdiv2{
+        width: 400px;
+        font-family: 'Poppins';
+    }
+
+}
+@media screen and (min-width: 1013px) and (max-width: 1032px) {
+    .dashboardCard1{
+        width: 230px;
+        height: 240px;
+        background-color: #fff;
+        text-align: center;
+        font-size: 23px;
+        font-weight: 550;
+        font-family:'Courier New', Courier, monospace;
+    }
+    
+    .dashboardCard2{
+        width: 230px;
+        height: 240px;
+        background-color: #FFA500;
+        color: #fff;
+        text-align: center;
+        font-size: 23px;
+        font-weight: 550;
+        font-family:'Courier New', Courier, monospace;
+    }
+    
+    .dashboardCard3{
+        width: 230px;
+        height: 240px;
+        background-color:#fff;
+        text-align: center;
+        font-size: 23px;
+        font-weight: 550;
+        font-family:'Courier New', Courier, monospace;
+    }
+    
+    .dashboardCard4{
+        width: 230px;
+        height: 240px;
+        background-color: #FFA500;
+        color: #fff;
+        text-align: center;
+        font-size: 23px;
+        font-weight: 550;
+        font-family:'Courier New', Courier, monospace;
+        
+    }
+    
+    .additionalTextGrid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 auto;
+        gap: 10px;
+        padding-left: 10px;
+    }
+
+    .belowTextdiv{
+        height: 400px;
+        width: 600px;
+        font-size: 27px;
+        font-weight: 500;
+        font-family:'Poppins';
+    }
+    
+    .belowTextdiv2{
+        width: 400px;
+        font-family: 'Poppins';
+    }
+}
+@media screen and (min-width: 1033px) and (max-width: 1091px) {
+    .dashboardCard1{
+        width: 250px;
+        height: 260px;
+        background-color: #fff;
+        text-align: center;
+        font-size: 23px;
+        font-weight: 550;
+        font-family:'Courier New', Courier, monospace;
+    }
+    
+    .dashboardCard2{
+        width: 250px;
+        height: 260px;
+        background-color: #FFA500;
+        color: #fff;
+        text-align: center;
+        font-size: 23px;
+        font-weight: 550;
+        font-family:'Courier New', Courier, monospace;
+    }
+    
+    .dashboardCard3{
+        width: 250px;
+        height: 260px;
+        background-color:#fff;
+        text-align: center;
+        font-size: 23px;
+        font-weight: 550;
+        font-family:'Courier New', Courier, monospace;
+    }
+    
+    .dashboardCard4{
+        width: 250px;
+        height: 260px;
+        background-color: #FFA500;
+        color: #fff;
+        text-align: center;
+        font-size: 23px;
+        font-weight: 550;
+        font-family:'Courier New', Courier, monospace;
+        
+    }
+    
+    .additionalTextGrid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 auto;
+        gap: 10px;
+        padding-left: 45px;
+    }
+}
+@media screen and (min-width: 1091px) and (max-width: 1124px) {
+    .dashboardCard1{
+        width: 250px;
+        height: 260px;
+        background-color: #fff;
+        text-align: center;
+        font-size: 23px;
+        font-weight: 550;
+        font-family:'Courier New', Courier, monospace;
+    }
+    
+    .dashboardCard2{
+        width: 250px;
+        height: 260px;
+        background-color: #FFA500;
+        color: #fff;
+        text-align: center;
+        font-size: 23px;
+        font-weight: 550;
+        font-family:'Courier New', Courier, monospace;
+    }
+    
+    .dashboardCard3{
+        width: 250px;
+        height: 260px;
+        background-color:#fff;
+        text-align: center;
+        font-size: 23px;
+        font-weight: 550;
+        font-family:'Courier New', Courier, monospace;
+    }
+    
+    .dashboardCard4{
+        width: 250px;
+        height: 260px;
+        background-color: #FFA500;
+        color: #fff;
+        text-align: center;
+        font-size: 23px;
+        font-weight: 550;
+        font-family:'Courier New', Courier, monospace;
+        
+    }
+    
+    .additionalTextGrid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 auto;
+        gap: 10px;
+        padding-left: 45px;
+    }
+}
+@media screen and (min-width: 1125px) and (max-width: 1230px) {
+    
+.dashboardCard1{
+    width: 270px;
+    height: 260px;
+    background-color: #fff;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 550;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.dashboardCard2{
+    width: 270px;
+    height: 260px;
+    background-color: #FFA500;
+    color: #fff;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 550;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.dashboardCard3{
+    width: 270px;
+    height: 260px;
+    background-color:#fff;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 550;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.dashboardCard4{
+    width: 270px;
+    height: 260px;
+    background-color: #FFA500;
+    color: #fff;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 550;
+    font-family:'Courier New', Courier, monospace;
+    
+}
+
+.additionalTextGrid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+    gap: 10px;
+    padding-left: 25px;
+}
+
+
+}
+
