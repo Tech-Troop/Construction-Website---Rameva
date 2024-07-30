@@ -1,9 +1,6 @@
 //services.js
 import React from "react";
 import "./Services.css";
-import house1 from "../images/house1.jpg"
-import house2 from "../images/house2.jpeg"
-import house3 from "../images/house3.jpeg"
 import img1 from "../images/skyscraper.png";
 import img2 from "../images/building.png";
 import img3 from "../images/civil-engineering.png";
@@ -30,12 +27,6 @@ function Services() {
             <span className="bestServiceText">WE PROVIDE THE BEST SERVICES</span>
             <span className="HeroText">We are here to make your dreams come true</span>
           </div>  
-        </div>
-        
-        <div className="headerpicsdiv">
-          <img src={house3} className="house3"/>
-          <img src={house1} className="house1"/>
-          <img src={house2} className="house2"/>
         </div>
       </div>
       <div className="servicepageContent">

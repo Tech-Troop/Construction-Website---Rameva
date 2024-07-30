@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
+import './MiniChat.css'
 
 // Theme colors for consistency
 const colors = {
@@ -99,7 +100,7 @@ const MiniChat = () => {
           </ChatMessage>
         ))}
       </MessagesContainer>
-      <InputContainer>
+      <InputContainer className='questionInputContainer'>
         <Input
           type="text"
           placeholder="Type your question here..."
@@ -107,7 +108,7 @@ const MiniChat = () => {
           value={messageInput}
           onChange={(e) => setMessageInput(e.target.value)}
         />
-        <Button onClick={handleSendMessage} aria-label="Send message">
+        <Button onClick={handleSendMessage} aria-label="Send message" className='askCommunityBtn'>
           Ask
         </Button>
       </InputContainer>

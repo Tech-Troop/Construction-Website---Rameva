@@ -1,11 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Grid } from '@mui/material';
+import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
+import HandshakeIcon from '@mui/icons-material/Handshake';
 import {
   AccountCircle,
-  Message,
   Security,
-  Settings,
   BugReport,
   HelpOutline,
 } from '@mui/icons-material';
@@ -58,9 +58,9 @@ const ServiceName = styled.div`
 
 const services = [
   { name: 'Getting Started', icon: <AccountCircle />, link: '/getting-started' },
-  { name: 'Messaging & Chatting', icon: <Message />, link: '/messaging-chatting' },
+  { name: 'Book an Appointment', icon: <CalendarMonthIcon />, link: '/howtobookanAppointment' },
   { name: 'Privacy & Security', icon: <Security />, link: '/privacy-security' },
-  { name: 'Customization', icon: <Settings />, link: '/customization' },
+  { name: 'Become a Partner', icon: <HandshakeIcon />, link: '/becomeaPartner' },
   { name: 'Troubleshooting', icon: <BugReport />, link: '/troubleshooting' },
   { name: 'Advanced Features', icon: <HelpOutline />, link: '/advanced-features' },
 ];

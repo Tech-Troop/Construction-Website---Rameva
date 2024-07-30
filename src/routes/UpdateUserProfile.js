@@ -10,7 +10,7 @@ const UserProfile = () => {
   const [user, setUser] = useState({
     firstName: 'User',
     lastName: 'Surname',
-    email: 'user.surname@example.com',
+    email: 'useremail@example.com',
     phone: '123-456-7890',
     address: '123 Main St, Anytown, Ghana',
   });
