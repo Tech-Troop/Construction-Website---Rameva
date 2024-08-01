@@ -1,185 +1,62 @@
 /* Global Styles */
 
-* {
+.Techsupportpagecontainer * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
   }
   
-  body {
+  .Techsupportpagecontainer body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     color: #333;
     background-color: #f9f9f9;
   }
   
-  h1, h2, h3, h4, h5, h6 {
+  .Techsupportpagecontainer h1 {
     font-weight: bold;
-    color: #333;
+    color: #fff;
     margin-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
   }
   
-  p {
+  .Techsupportpagecontainer p {
     margin-bottom: 20px;
   }
   
-  a {
+  .Techsupportpagecontainer a {
     text-decoration: none;
     color: #337ab7;
   }
   
-  a:hover {
+  .Techsupportpagecontainer a:hover {
     color: #23527c;
   }
   
   /* Header Styles */
   
-  header {
+  .Techsupportpagecontainer header {
     background-color: #337ab7;
     padding: 20px;
     text-align: center;
     color: #fff;
   }
   
-  header h1 {
+  .Techsupportpagecontainer header h1 {
     font-size: 24px;
     margin-bottom: 10px;
   }
   
-  header p {
+  .Techsupportpagecontainer header p {
     font-size: 16px;
     margin-bottom: 20px;
   }
   
-  /* Ask a Question Styles */
-  
-  #ask-question {
-    padding: 20px;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-  }
-  
-  #ask-question h2 {
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
-  
-  #ask-question form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-  }
-  
-  #ask-question label {
-    margin-bottom: 10px;
-  }
-  
-  #ask-question input[type="text"] {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-  }
-  
-  #ask-question select {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-  }
-  
-  #ask-question button[type="submit"] {
-    background-color: #337ab7;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  #ask-question button[type="submit"]:hover {
-    background-color: #23527c;
-  }
-  
-  /* FAQs Styles */
-  
-  #faqs {
-    padding: 20px;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-  }
-  
-  #faqs h2 {
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
-  
-  #faqs ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  #faqs li {
-    padding: 20px;
-    border-bottom: 1px solid #ddd;
-  }
-  
-  #faqs li:last-child {
-    border-bottom: none;
-  }
-  
-  #faqs h3 {
-    font-size: 16px;
-    margin-bottom: 10px;
-  }
-  
-  #faqs p {
-    font-size: 14px;
-    margin-bottom: 20px;
-  }
-  
-  /* Community Forum Styles */
-  
-  #community-forum {
-    padding: 20px;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-  }
-  
-  #community-forum h2 {
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
-  
-  #community-forum ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  #community-forum li {
-    padding: 20px;
-    border-bottom: 1px solid #ddd;
-  }
-  
-  #community-forum li:last-child {
-    border-bottom: none;
-  }
-  
-  #community-forum h3 {
-    font-size: 16px;
-    margin-bottom: 10px;
-  }
-  
-  #community-forum p {
-    font-size: 14px;
-    margin-bottom: 20px;
-  }
+.Techsupportpagecontainer{
+  color: #333;
+  background-color: #333;
+  padding-bottom: 40px;
+}
+
+ 
