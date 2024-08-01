@@ -33,7 +33,7 @@ function Navbar() {
           </li>
         </ul>
         <a href="/Bookings" className="action_btn">
-          Bookings
+          Account
         </a>
         <div className="toggle_btn" onClick={toggleMenu}>
           <i className={isOpen ? "fa-solid fa-xmark" : "fa-solid fa-bars"}></i>
