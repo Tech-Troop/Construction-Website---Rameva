@@ -1,0 +1,2897 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.about-container{
+  margin: 1rem 0rem;
+  text-align: start;
+  /* background-color: #f0f0f0; */
+}
+
+.HeaderContainer{
+  display: flex;
+  flex-direction: row;
+}
+
+.greenBgdiv{
+  background-image: url("../images/construction-plan-and-circle-CW7042.jpg");
+  background-size: 600px 800px; /* Width and height for the background image */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Don't repeat the image */ 
+  border-top-right-radius: 2000px;
+  border-bottom-right-radius: 2000px;
+  height: 600px;
+  width: 350px;
+}
+
+.Text{
+  font-size: 40px;
+  font-weight: 600;
+  color:  white;
+  text-align: center;
+  width: 100%;
+  margin-left: 30px;
+}
+
+.Text2{
+  font-size: 30px;
+  font-weight: 600;
+  color:  orange;
+  width: 100%;
+  margin-left: 30px;
+}
+
+.aboutBox1grid{
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  align-self: center;
+  width: 70rem;
+  margin-left: 12rem;
+  margin-bottom: 90px;
+}
+
+.about-container h1{
+  color: #152262;
+  font-weight: 600;
+}
+
+.aboutBox1Content1{
+  border-right-width: 2px;
+  border-right-style: solid;
+  border-right-color: #152262;
+  padding-right: 15px;
+}
+
+.aboutBox1Content1,
+.aboutBox1Content2, p {
+  font-size: 14px;
+  font-family:'Poppins', 'Roboto',sans-serif ;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.whatWeDo,
+.whyChooseUs {
+  height: 120px;
+  width: 120px;
+  margin-left: 150px;
+}
+
+.aboutpageHeader {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  background-image: url("../images/about2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 400px; 
+  border-radius: 1800px;
+  margin-left: -200px;
+  margin-top: 90px;
+}
+
+.aboutpageHeader::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* adjust the opacity value to your liking */
+  border-radius: 1800px;
+}
+
+.about-container h1 {
+  padding-bottom: 1rem;
+
+}
+
+.aboutRAMEVA{
+  width:700px;
+  margin-top: 90px;
+  margin-left: 50px;
+}
+
+.aboutRAMEVA p {
+  font-family:'Poppins', 'Roboto',sans-serif ;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.headerUnderline{
+  text-decoration: underline; 
+  text-decoration-color: #152262;
+  text-underline-offset: 10px;
+}
+
+.anonymous{
+  height: 60px;
+  width: 60px;
+  position:relative;
+  margin-top: -70px;
+  margin-left: 640px;
+
+  /* float:right; */
+
+}
+
+.testimonialContainer{
+  background-color: #f4f4f4;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  padding-top: 20px;
+  border-top-left-radius: 90px;
+  border-bottom-right-radius: 90px;
+  padding-bottom: 20px;
+  width: 1300px;
+  margin-left: 80px;
+  
+}
+
+.testimonialheader{
+  /* color: #98BC7E; */
+  margin-left: 25rem;
+  color:#152262;
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.about-container p{
+  padding-bottom: 1rem;
+}
+
+.testimonialcardsContainer{
+  display: grid;
+  margin-top: 60px;
+  /* margin-left: 210px; */
+  grid-template-columns: repeat(4, 1fr);
+  position: relative;
+  gap: 30px;
+  /* background-color: #F8F9FA; */
+  padding-top: 10px;
+  padding-left: 5rem;
+  padding-bottom: 40px;
+  /* column-gap: -3px; */
+  width: 70%;
+  /* z-index: 2; */
+}
+
+.testimonialCard1,
+.testimonialCard2,
+.testimonialCard3 {
+  height: 250px;
+  width: 350px;
+  /* background-color: #98BC7E; */
+  /* background-color: #7ebabc; */
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgb(22, 59, 96);
+}
+
+.quoteImage{
+  height: 30px;
+  width: 30px;
+  display: block;
+  position: relative;
+  z-index: 2;
+  margin-top: -35px;
+  margin-left: 5px;
+}
+
+.testimonialUserdiv{
+  display: flex;
+  flex-direction: row;
+  margin-top: 1.5rem;
+}
+
+.testimonialText{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: #6D6D6D;
+  font-size: 14px;
+}
+
+.Kelvin{
+  height: 70px;
+  width: 70px;
+  border-radius: 40px;
+}
+
+.Jessica{
+  height: 70px;
+  width: 70px;
+  border-radius: 40px;
+}
+
+.Godwin{
+  height: 70px;
+  width: 70px;
+  border-radius: 40px;
+}
+
+.userName{
+  display: block;
+  color: #020202;
+  margin-left: 10px;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+@media screen and (max-width: 850px){
+  .about-container{
+      margin: 4rem 2rem;
+  }
+} */
+
+
+@media screen and (min-width:200px) and (max-width: 400px) {
+  .HeaderContainer{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .greenBgdiv{
+    background-image: url("../images/construction-plan-and-circle-CW7042.jpg");
+    background-size: 0px 0px; /* Width and height for the background image */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Don't repeat the image */ 
+    border-bottom-left-radius: 4000px;
+    border-bottom-right-radius: 4000px;
+    height: 0px;
+    width: 0px;
+    /* margin-top: -180px; */
+  }
+
+  .aboutpageHeader {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-image: url("../images/about2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%; 
+    /* border-radius: 1800px; */
+    margin-left: 0px;
+    margin-top: -120px;
+    border-bottom-left-radius: 9000px;
+    border-bottom-right-radius: 9000px;
+  }
+  
+  .aboutpageHeader::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* adjust the opacity value to your liking */
+    /* border-radius: 1800px; */
+    border-bottom-left-radius: 9000px;
+    border-bottom-right-radius: 9000px;
+  }
+
+  .Text{
+    font-size: 32px;
+    font-weight: 600;
+    color:  white;
+    text-align: center;
+    width: 100%;
+    margin-left: 30px;
+    margin-top: 40px;
+  }
+  
+  .Text2{
+    font-size: 32px;
+    font-weight: 600;
+    color:  orange;
+    width: 100%;
+    /* margin-left: 30px; */
+  }
+
+  .aboutRAMEVA{
+    width:90%;
+    margin-top: 30px;
+    margin-left: 25px;
+  }
+  
+  .aboutRAMEVA p {
+    font-family:'Poppins', 'Roboto',sans-serif ;
+    font-weight: 300;
+    text-align: justify;
+    font-size: 10px;
+  }
+  
+  .headerUnderline{
+    text-decoration: underline; 
+    text-decoration-color: #152262;
+    text-underline-offset: 10px;
+  }
+  
+  .anonymous{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    margin-top: -90px;
+    margin-left: 320px;
+    /* float:right; */
+  }
+
+  .aboutBox1grid{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+    align-self: center;
+    width: 90%;
+    margin-left: 20px;
+    margin-bottom: 90px;
+  }
+  
+  .about-container h1{
+    color: #152262;
+    font-weight: 600;
+  }
+  
+  .aboutBox1Content1{
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #152262;
+    padding-right: 0px;
+    border-right-style: none;
+  }
+
+  .aboutBox1Content2{
+    margin-top: 20px;
+  }
+  
+  .aboutBox1Content1,
+  .aboutBox1Content2, p {
+    font-size: 10px;
+    font-family:'Poppins', 'Roboto',sans-serif ;
+    font-weight: 300;
+    text-align: justify;
+  }
+  
+  .whatWeDo,
+  .whyChooseUs {
+    height: 60px;
+    width: 60px;
+    margin-left: 80px;
+  }
+
+  .testimonialContainer{
+    background-color: #f4f4f4;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding-top: 20px;
+    border-top-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+    padding-bottom: 20px;
+    width: 90%;
+    margin-left: 10px;
+  }
+  
+  .testimonialheader{
+    /* color: #98BC7E; */
+    margin-left: 50px;
+    color:#152262;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  
+  .about-container p{
+    padding-bottom: 1rem;
+  }
+  
+  .testimonialcardsContainer{
+    display: grid;
+    margin-top: 60px;
+    /* margin-left: 210px; */
+    grid-template-columns: repeat(1, 1fr);
+    position: relative;
+    gap: 30px;
+    /* background-color: #F8F9FA; */
+    padding-top: 10px;
+    padding-left: 5rem;
+    padding-bottom: 40px;
+    /* column-gap: -3px; */
+    width: 70%;
+    /* z-index: 2; */
+  }
+  
+  .testimonialCard1,
+  .testimonialCard2,
+  .testimonialCard3 {
+    height: 200px;
+    width: 250px;
+    /* background-color: #98BC7E; */
+    /* background-color: #7ebabc; */
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgb(22, 59, 96);
+    margin-left: -30px;
+  }
+  
+  .quoteImage{
+    height: 30px;
+    width: 30px;
+    display: block;
+    position: relative;
+    z-index: 2;
+    margin-top: -35px;
+    margin-left: 5px;
+  }
+  
+  .testimonialUserdiv{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5rem;
+  }
+  
+  .testimonialText{
+    font-family:Poppins;
+    font-weight: 400;
+    color: #6D6D6D;
+    font-size: 10px;
+  }
+  
+  .Kelvin{
+    height: 50px;
+    width: 50px;
+    border-radius: 40px;
+  }
+  
+  .Jessica{
+    height: 50px;
+    width: 50px;
+    border-radius: 40px;
+  }
+  
+  .Godwin{
+    height: 50px;
+    width: 50px;
+    border-radius: 40px;
+  }
+  
+  .userName{
+    display: block;
+    color: #020202;
+    margin-left: 10px;
+    font-size: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 500px) {
+  .HeaderContainer{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .greenBgdiv{
+    background-image: url("../images/construction-plan-and-circle-CW7042.jpg");
+    background-size: 0px 0px; /* Width and height for the background image */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Don't repeat the image */ 
+    border-bottom-left-radius: 4000px;
+    border-bottom-right-radius: 4000px;
+    height: 0px;
+    width: 0px;
+    /* margin-top: -180px; */
+  }
+
+  .aboutpageHeader {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-image: url("../images/about2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%; 
+    /* border-radius: 1800px; */
+    margin-left: 0px;
+    margin-top: -150px;
+    border-bottom-left-radius: 9000px;
+    border-bottom-right-radius: 9000px;
+  }
+  
+  .aboutpageHeader::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* adjust the opacity value to your liking */
+    /* border-radius: 1800px; */
+    border-bottom-left-radius: 9000px;
+    border-bottom-right-radius: 9000px;
+  }
+
+  .Text{
+    font-size: 32px;
+    font-weight: 600;
+    color:  white;
+    text-align: center;
+    width: 100%;
+    margin-left: 30px;
+    margin-top: 90px;
+  }
+  
+  .Text2{
+    font-size: 32px;
+    font-weight: 600;
+    color:  orange;
+    width: 100%;
+    /* margin-left: 30px; */
+  }
+
+  .aboutRAMEVA{
+    width:90%;
+    margin-top: 30px;
+    margin-left: 25px;
+  }
+  
+  .aboutRAMEVA p {
+    font-family:'Poppins', 'Roboto',sans-serif ;
+    font-weight: 300;
+    text-align: justify;
+    font-size: 12px;
+  }
+  
+  .headerUnderline{
+    text-decoration: underline; 
+    text-decoration-color: #152262;
+    text-underline-offset: 10px;
+  }
+  
+  .anonymous{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    margin-top: -90px;
+    margin-left: 420px;
+    /* float:right; */
+  }
+
+  .aboutBox1grid{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+    align-self: center;
+    width: 90%;
+    margin-left: 20px;
+    margin-bottom: 90px;
+  }
+  
+  .about-container h1{
+    color: #152262;
+    font-weight: 600;
+  }
+  
+  .aboutBox1Content1{
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #152262;
+    padding-right: 0px;
+    border-right-style: none;
+  }
+
+  .aboutBox1Content2{
+    margin-top: 20px;
+  }
+  
+  .aboutBox1Content1,
+  .aboutBox1Content2, p {
+    font-size: 12px;
+    font-family:'Poppins', 'Roboto',sans-serif ;
+    font-weight: 300;
+    text-align: justify;
+  }
+  
+  .whatWeDo,
+  .whyChooseUs {
+    height: 60px;
+    width: 60px;
+    margin-left: 80px;
+  }
+
+  .testimonialContainer{
+    background-color: #f4f4f4;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding-top: 20px;
+    border-top-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+    padding-bottom: 20px;
+    width: 90%;
+    margin-left: 10px;
+  }
+  
+  .testimonialheader{
+    /* color: #98BC7E; */
+    margin-left: 90px;
+    color:#152262;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+  .about-container p{
+    padding-bottom: 1rem;
+  }
+  
+  .testimonialcardsContainer{
+    display: grid;
+    margin-top: 60px;
+    /* margin-left: 210px; */
+    grid-template-columns: repeat(1, 1fr);
+    position: relative;
+    gap: 30px;
+    /* background-color: #F8F9FA; */
+    padding-top: 10px;
+    padding-left: 5rem;
+    padding-bottom: 40px;
+    /* column-gap: -3px; */
+    width: 70%;
+    /* z-index: 2; */
+  }
+  
+  .testimonialCard1,
+  .testimonialCard2,
+  .testimonialCard3 {
+    height: 250px;
+    width: 300px;
+    /* background-color: #98BC7E; */
+    /* background-color: #7ebabc; */
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgb(22, 59, 96);
+    margin-left: -18px;
+  }
+  
+  .quoteImage{
+    height: 30px;
+    width: 30px;
+    display: block;
+    position: relative;
+    z-index: 2;
+    margin-top: -35px;
+    margin-left: 5px;
+  }
+  
+  .testimonialUserdiv{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5rem;
+  }
+  
+  .testimonialText{
+    font-family:Poppins;
+    font-weight: 400;
+    color: #6D6D6D;
+    font-size: 14px;
+  }
+  
+  .Kelvin{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+  }
+  
+  .Jessica{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+  }
+  
+  .Godwin{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+  }
+  
+  .userName{
+    display: block;
+    color: #020202;
+    margin-left: 10px;
+    font-size: 14px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+}
+@media screen and (min-width: 501px) and (max-width: 600px) {
+  .HeaderContainer{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .greenBgdiv{
+    background-image: url("../images/construction-plan-and-circle-CW7042.jpg");
+    background-size: 0px 0px; /* Width and height for the background image */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Don't repeat the image */ 
+    border-bottom-left-radius: 4000px;
+    border-bottom-right-radius: 4000px;
+    height: 0px;
+    width: 0px;
+    /* margin-top: -180px; */
+  }
+
+  .aboutpageHeader {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-image: url("../images/about2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%; 
+    /* border-radius: 1800px; */
+    margin-left: 0px;
+    margin-top: -150px;
+    border-bottom-left-radius: 9000px;
+    border-bottom-right-radius: 9000px;
+  }
+  
+  .aboutpageHeader::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* adjust the opacity value to your liking */
+    /* border-radius: 1800px; */
+    border-bottom-left-radius: 9000px;
+    border-bottom-right-radius: 9000px;
+  }
+
+  .Text{
+    font-size: 32px;
+    font-weight: 600;
+    color:  white;
+    text-align: center;
+    width: 100%;
+    margin-left: 30px;
+    margin-top: 90px;
+  }
+  
+  .Text2{
+    font-size: 32px;
+    font-weight: 600;
+    color:  orange;
+    width: 100%;
+    /* margin-left: 30px; */
+  }
+
+  .aboutRAMEVA{
+    width:90%;
+    margin-top: 30px;
+    margin-left: 35px;
+  }
+  
+  .aboutRAMEVA p {
+    font-family:'Poppins', 'Roboto',sans-serif ;
+    font-weight: 300;
+    text-align: justify;
+    font-size: 12px;
+  }
+  
+  .headerUnderline{
+    text-decoration: underline; 
+    text-decoration-color: #152262;
+    text-underline-offset: 10px;
+  }
+  
+  .anonymous{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    margin-top: -90px;
+    margin-left: 420px;
+    /* float:right; */
+  }
+
+  .aboutBox1grid{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+    align-self: center;
+    width: 90%;
+    margin-left: 35px;
+    margin-bottom: 90px;
+  }
+  
+  .about-container h1{
+    color: #152262;
+    font-weight: 600;
+  }
+  
+  .aboutBox1Content1{
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #152262;
+    padding-right: 0px;
+    border-right-style: none;
+  }
+
+  .aboutBox1Content2{
+    margin-top: 20px;
+  }
+  
+  .aboutBox1Content1,
+  .aboutBox1Content2, p {
+    font-size: 12px;
+    font-family:'Poppins', 'Roboto',sans-serif ;
+    font-weight: 300;
+    text-align: justify;
+  }
+  
+  .whatWeDo,
+  .whyChooseUs {
+    height: 60px;
+    width: 60px;
+    margin-left: 80px;
+  }
+
+  .testimonialContainer{
+    background-color: #f4f4f4;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding-top: 20px;
+    border-top-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+    padding-bottom: 20px;
+    width: 90%;
+    margin-left: 10px;
+  }
+  
+  .testimonialheader{
+    /* color: #98BC7E; */
+    margin-left: 90px;
+    color:#152262;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+  .about-container p{
+    padding-bottom: 1rem;
+  }
+  
+  .testimonialcardsContainer{
+    display: grid;
+    margin-top: 60px;
+    /* margin-left: 210px; */
+    grid-template-columns: repeat(1, 1fr);
+    position: relative;
+    gap: 30px;
+    /* background-color: #F8F9FA; */
+    padding-top: 10px;
+    padding-left: 5rem;
+    padding-bottom: 40px;
+    /* column-gap: -3px; */
+    width: 70%;
+    /* z-index: 2; */
+  }
+  
+  .testimonialCard1,
+  .testimonialCard2,
+  .testimonialCard3 {
+    height: 70%px;
+    width: 60%px;
+    /* background-color: #98BC7E; */
+    /* background-color: #7ebabc; */
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgb(22, 59, 96);
+    margin-left: -18px;
+  }
+  
+  .quoteImage{
+    height: 30px;
+    width: 30px;
+    display: block;
+    position: relative;
+    z-index: 2;
+    margin-top: -35px;
+    margin-left: 5px;
+  }
+  
+  .testimonialUserdiv{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5rem;
+  }
+  
+  .testimonialText{
+    font-family:Poppins;
+    font-weight: 400;
+    color: #6D6D6D;
+    font-size: 14px;
+  }
+  
+  .Kelvin{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+  }
+  
+  .Jessica{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+  }
+  
+  .Godwin{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+  }
+  
+  .userName{
+    display: block;
+    color: #020202;
+    margin-left: 10px;
+    font-size: 14px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 700px) {
+  .HeaderContainer{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .greenBgdiv{
+    background-image: url("../images/construction-plan-and-circle-CW7042.jpg");
+    background-size: 0px 0px; /* Width and height for the background image */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Don't repeat the image */ 
+    border-bottom-left-radius: 4000px;
+    border-bottom-right-radius: 4000px;
+    height: 0px;
+    width: 0px;
+    /* margin-top: -180px; */
+  }
+
+  .aboutpageHeader {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-image: url("../images/about2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%; 
+    /* border-radius: 1800px; */
+    margin-left: 0px;
+    margin-top: -150px;
+    border-bottom-left-radius: 9000px;
+    border-bottom-right-radius: 9000px;
+  }
+  
+  .aboutpageHeader::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* adjust the opacity value to your liking */
+    /* border-radius: 1800px; */
+    border-bottom-left-radius: 9000px;
+    border-bottom-right-radius: 9000px;
+  }
+
+  .Text{
+    font-size: 32px;
+    font-weight: 600;
+    color:  white;
+    text-align: center;
+    width: 100%;
+    margin-left: 30px;
+    margin-top: 90px;
+  }
+  
+  .Text2{
+    font-size: 32px;
+    font-weight: 600;
+    color:  orange;
+    width: 100%;
+    /* margin-left: 30px; */
+  }
+
+  .aboutRAMEVA{
+    width:90%;
+    margin-top: 30px;
+    margin-left: 35px;
+  }
+  
+  .aboutRAMEVA p {
+    font-family:'Poppins', 'Roboto',sans-serif ;
+    font-weight: 300;
+    text-align: justify;
+    font-size: 12px;
+  }
+  
+  .headerUnderline{
+    text-decoration: underline; 
+    text-decoration-color: #152262;
+    text-underline-offset: 10px;
+  }
+  
+  .anonymous{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    margin-top: -90px;
+    margin-left: 420px;
+    /* float:right; */
+  }
+
+  .aboutBox1grid{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+    align-self: center;
+    width: 90%;
+    margin-left: 35px;
+    margin-bottom: 90px;
+  }
+  
+  .about-container h1{
+    color: #152262;
+    font-weight: 600;
+  }
+  
+  .aboutBox1Content1{
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #152262;
+    padding-right: 0px;
+    border-right-style: none;
+  }
+
+  .aboutBox1Content2{
+    margin-top: 20px;
+  }
+  
+  .aboutBox1Content1,
+  .aboutBox1Content2, p {
+    font-size: 12px;
+    font-family:'Poppins', 'Roboto',sans-serif ;
+    font-weight: 300;
+    text-align: justify;
+  }
+  
+  .whatWeDo,
+  .whyChooseUs {
+    height: 60px;
+    width: 60px;
+    margin-left: 80px;
+  }
+
+  .testimonialContainer{
+    background-color: #f4f4f4;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding-top: 20px;
+    border-top-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+    padding-bottom: 20px;
+    width: 90%;
+    margin-left: 10px;
+  }
+  
+  .testimonialheader{
+    /* color: #98BC7E; */
+    margin-left: 90px;
+    color:#152262;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+  .about-container p{
+    padding-bottom: 1rem;
+  }
+  
+  .testimonialcardsContainer{
+    display: grid;
+    margin-top: 60px;
+    /* margin-left: 210px; */
+    grid-template-columns: repeat(1, 1fr);
+    position: relative;
+    gap: 30px;
+    /* background-color: #F8F9FA; */
+    padding-top: 10px;
+    padding-left: 5rem;
+    padding-bottom: 40px;
+    /* column-gap: -3px; */
+    width: 70%;
+    /* z-index: 2; */
+  }
+  
+  .testimonialCard1,
+  .testimonialCard2,
+  .testimonialCard3 {
+    height: 70%px;
+    width: 60%px;
+    /* background-color: #98BC7E; */
+    /* background-color: #7ebabc; */
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgb(22, 59, 96);
+    margin-left: -18px;
+  }
+  
+  .quoteImage{
+    height: 30px;
+    width: 30px;
+    display: block;
+    position: relative;
+    z-index: 2;
+    margin-top: -35px;
+    margin-left: 5px;
+  }
+  
+  .testimonialUserdiv{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5rem;
+  }
+  
+  .testimonialText{
+    font-family:Poppins;
+    font-weight: 400;
+    color: #6D6D6D;
+    font-size: 14px;
+  }
+  
+  .Kelvin{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+  }
+  
+  .Jessica{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+  }
+  
+  .Godwin{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+  }
+  
+  .userName{
+    display: block;
+    color: #020202;
+    margin-left: 10px;
+    font-size: 14px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+}
+@media screen and (min-width: 701px) and (max-width: 800px) {
+  .HeaderContainer{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .greenBgdiv{
+    background-image: url("../images/construction-plan-and-circle-CW7042.jpg");
+    background-size: 0px 0px; /* Width and height for the background image */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Don't repeat the image */ 
+    border-bottom-left-radius: 4000px;
+    border-bottom-right-radius: 4000px;
+    height: 0px;
+    width: 0px;
+    /* margin-top: -180px; */
+  }
+
+  .aboutpageHeader {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-image: url("../images/about2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%; 
+    /* border-radius: 1800px; */
+    margin-left: 0px;
+    margin-top: -150px;
+    border-bottom-left-radius: 9000px;
+    border-bottom-right-radius: 9000px;
+  }
+  
+  .aboutpageHeader::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* adjust the opacity value to your liking */
+    /* border-radius: 1800px; */
+    border-bottom-left-radius: 9000px;
+    border-bottom-right-radius: 9000px;
+  }
+
+  .Text{
+    font-size: 32px;
+    font-weight: 600;
+    color:  white;
+    text-align: center;
+    width: 100%;
+    margin-left: 30px;
+    margin-top: 90px;
+  }
+  
+  .Text2{
+    font-size: 32px;
+    font-weight: 600;
+    color:  orange;
+    width: 100%;
+    /* margin-left: 30px; */
+  }
+
+  .aboutRAMEVA{
+    width:90%;
+    margin-top: 30px;
+    margin-left: 35px;
+  }
+  
+  .aboutRAMEVA p {
+    font-family:'Poppins', 'Roboto',sans-serif ;
+    font-weight: 300;
+    text-align: justify;
+    font-size: 12px;
+  }
+  
+  .headerUnderline{
+    text-decoration: underline; 
+    text-decoration-color: #152262;
+    text-underline-offset: 10px;
+  }
+  
+  .anonymous{
+    height: 0px;
+    width: 0px;
+    position: relative;
+    margin-top: -90px;
+    margin-left: 420px;
+    /* float:right; */
+  }
+
+  .aboutBox1grid{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+    align-self: center;
+    width: 90%;
+    margin-left: 35px;
+    margin-bottom: 90px;
+  }
+  
+  .about-container h1{
+    color: #152262;
+    font-weight: 600;
+  }
+  
+  .aboutBox1Content1{
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #152262;
+    padding-right: 0px;
+    border-right-style: none;
+  }
+
+  .aboutBox1Content2{
+    margin-top: 20px;
+  }
+  
+  .aboutBox1Content1,
+  .aboutBox1Content2, p {
+    font-size: 12px;
+    font-family:'Poppins', 'Roboto',sans-serif ;
+    font-weight: 300;
+    text-align: justify;
+  }
+  
+  .whatWeDo,
+  .whyChooseUs {
+    height: 60px;
+    width: 60px;
+    margin-left: 80px;
+  }
+
+  .testimonialContainer{
+    background-color: #f4f4f4;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding-top: 20px;
+    border-top-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+    padding-bottom: 20px;
+    width: 90%;
+    margin-left: 10px;
+  }
+  
+  .testimonialheader{
+    /* color: #98BC7E; */
+    margin-left: 90px;
+    color:#152262;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+  .about-container p{
+    padding-bottom: 1rem;
+  }
+  
+  .testimonialcardsContainer{
+    display: grid;
+    margin-top: 60px;
+    /* margin-left: 210px; */
+    grid-template-columns: repeat(1, 1fr);
+    position: relative;
+    gap: 30px;
+    /* background-color: #F8F9FA; */
+    padding-top: 10px;
+    padding-left: 5rem;
+    padding-bottom: 40px;
+    /* column-gap: -3px; */
+    width: 70%;
+    /* z-index: 2; */
+  }
+  
+  .testimonialCard1,
+  .testimonialCard2,
+  .testimonialCard3 {
+    height: 70%px;
+    width: 60%px;
+    /* background-color: #98BC7E; */
+    /* background-color: #7ebabc; */
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgb(22, 59, 96);
+    margin-left: -18px;
+  }
+  
+  .quoteImage{
+    height: 30px;
+    width: 30px;
+    display: block;
+    position: relative;
+    z-index: 2;
+    margin-top: -35px;
+    margin-left: 5px;
+  }
+  
+  .testimonialUserdiv{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5rem;
+  }
+  
+  .testimonialText{
+    font-family:Poppins;
+    font-weight: 400;
+    color: #6D6D6D;
+    font-size: 14px;
+  }
+  
+  .Kelvin{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+  }
+  
+  .Jessica{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+  }
+  
+  .Godwin{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+  }
+  
+  .userName{
+    display: block;
+    color: #020202;
+    margin-left: 10px;
+    font-size: 14px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+}
+@media screen and (min-width: 801px) and (max-width: 900px) {
+  .HeaderContainer{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .greenBgdiv{
+    background-image: url("../images/construction-plan-and-circle-CW7042.jpg");
+    background-size: 0px 0px; /* Width and height for the background image */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Don't repeat the image */ 
+    border-bottom-left-radius: 4000px;
+    border-bottom-right-radius: 4000px;
+    height: 0px;
+    width: 0px;
+    /* margin-top: -180px; */
+  }
+
+  .aboutpageHeader {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-image: url("../images/about2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%; 
+    /* border-radius: 1800px; */
+    margin-left: 0px;
+    margin-top: -150px;
+    border-bottom-left-radius: 9000px;
+    border-bottom-right-radius: 9000px;
+  }
+  
+  .aboutpageHeader::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* adjust the opacity value to your liking */
+    /* border-radius: 1800px; */
+    border-bottom-left-radius: 9000px;
+    border-bottom-right-radius: 9000px;
+  }
+
+  .Text{
+    font-size: 32px;
+    font-weight: 600;
+    color:  white;
+    text-align: center;
+    width: 100%;
+    margin-left: 30px;
+    margin-top: 90px;
+  }
+  
+  .Text2{
+    font-size: 32px;
+    font-weight: 600;
+    color:  orange;
+    width: 100%;
+    /* margin-left: 30px; */
+  }
+
+  .aboutRAMEVA{
+    width:90%;
+    margin-top: 30px;
+    margin-left: 35px;
+  }
+  
+  .aboutRAMEVA p {
+    font-family:'Poppins', 'Roboto',sans-serif ;
+    font-weight: 300;
+    text-align: justify;
+    font-size: 12px;
+  }
+  
+  .headerUnderline{
+    text-decoration: underline; 
+    text-decoration-color: #152262;
+    text-underline-offset: 10px;
+  }
+  
+  .anonymous{
+    height: 0px;
+    width: 0px;
+    position: relative;
+    margin-top: -90px;
+    margin-left: 420px;
+    /* float:right; */
+  }
+
+  .aboutBox1grid{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+    align-self: center;
+    width: 90%;
+    margin-left: 35px;
+    margin-bottom: 90px;
+  }
+  
+  .about-container h1{
+    color: #152262;
+    font-weight: 600;
+  }
+  
+  .aboutBox1Content1{
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #152262;
+    padding-right: 0px;
+    border-right-style: none;
+  }
+
+  .aboutBox1Content2{
+    margin-top: 20px;
+  }
+  
+  .aboutBox1Content1,
+  .aboutBox1Content2, p {
+    font-size: 12px;
+    font-family:'Poppins', 'Roboto',sans-serif ;
+    font-weight: 300;
+    text-align: justify;
+  }
+  
+  .whatWeDo,
+  .whyChooseUs {
+    height: 60px;
+    width: 60px;
+    margin-left: 80px;
+  }
+
+  .testimonialContainer{
+    background-color: #f4f4f4;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding-top: 20px;
+    border-top-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+    padding-bottom: 20px;
+    width: 90%;
+    margin-left: 10px;
+  }
+  
+  .testimonialheader{
+    /* color: #98BC7E; */
+    margin-left: 90px;
+    color:#152262;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+  .about-container p{
+    padding-bottom: 1rem;
+  }
+  
+  .testimonialcardsContainer{
+    display: grid;
+    margin-top: 60px;
+    /* margin-left: 210px; */
+    grid-template-columns: repeat(1, 1fr);
+    position: relative;
+    gap: 30px;
+    /* background-color: #F8F9FA; */
+    padding-top: 10px;
+    padding-left: 5rem;
+    padding-bottom: 40px;
+    /* column-gap: -3px; */
+    width: 70%;
+    /* z-index: 2; */
+  }
+  
+  .testimonialCard1,
+  .testimonialCard2,
+  .testimonialCard3 {
+    height: 70%px;
+    width: 60%px;
+    /* background-color: #98BC7E; */
+    /* background-color: #7ebabc; */
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgb(22, 59, 96);
+    margin-left: -18px;
+  }
+  
+  .quoteImage{
+    height: 30px;
+    width: 30px;
+    display: block;
+    position: relative;
+    z-index: 2;
+    margin-top: -35px;
+    margin-left: 5px;
+  }
+  
+  .testimonialUserdiv{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5rem;
+  }
+  
+  .testimonialText{
+    font-family:Poppins;
+    font-weight: 400;
+    color: #6D6D6D;
+    font-size: 14px;
+  }
+  
+  .Kelvin{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+  }
+  
+  .Jessica{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+  }
+  
+  .Godwin{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+  }
+  
+  .userName{
+    display: block;
+    color: #020202;
+    margin-left: 10px;
+    font-size: 14px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+}
+@media screen and (min-width: 901px) and (max-width: 1000px) {
+  .HeaderContainer{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .greenBgdiv{
+    background-image: url("../images/construction-plan-and-circle-CW7042.jpg");
+    background-size: 0px 0px; /* Width and height for the background image */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Don't repeat the image */ 
+    border-bottom-left-radius: 4000px;
+    border-bottom-right-radius: 4000px;
+    height: 0px;
+    width: 0px;
+    /* margin-top: -180px; */
+  }
+
+  .aboutpageHeader {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-image: url("../images/about2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%; 
+    /* border-radius: 1800px; */
+    margin-left: 0px;
+    margin-top: -150px;
+    border-bottom-left-radius: 9000px;
+    border-bottom-right-radius: 9000px;
+  }
+  
+  .aboutpageHeader::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* adjust the opacity value to your liking */
+    /* border-radius: 1800px; */
+    border-bottom-left-radius: 9000px;
+    border-bottom-right-radius: 9000px;
+  }
+
+  .Text{
+    font-size: 32px;
+    font-weight: 600;
+    color:  white;
+    text-align: center;
+    width: 100%;
+    margin-left: 30px;
+    margin-top: 90px;
+  }
+  
+  .Text2{
+    font-size: 32px;
+    font-weight: 600;
+    color:  orange;
+    width: 100%;
+    /* margin-left: 30px; */
+  }
+
+  .aboutRAMEVA{
+    width:90%;
+    margin-top: 30px;
+    margin-left: 35px;
+  }
+  
+  .aboutRAMEVA p {
+    font-family:'Poppins', 'Roboto',sans-serif ;
+    font-weight: 300;
+    text-align: justify;
+    font-size: 12px;
+  }
+  
+  .headerUnderline{
+    text-decoration: underline; 
+    text-decoration-color: #152262;
+    text-underline-offset: 10px;
+  }
+  
+  .anonymous{
+    height: 0px;
+    width: 0px;
+    position: relative;
+    margin-top: -90px;
+    margin-left: 420px;
+    /* float:right; */
+  }
+
+  .aboutBox1grid{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    align-self: center;
+    width: 90%;
+    margin-left: 35px;
+    margin-bottom: 90px;
+  }
+  
+  .about-container h1{
+    color: #152262;
+    font-weight: 600;
+  }
+  
+  .aboutBox1Content1{
+    border-right-width: 2px;
+    border-right-style: solid;
+    border-right-color: #152262;
+    padding-right: 10px;
+    /* border-right-style: none; */
+  }
+
+  .aboutBox1Content2{
+    margin-top: 20px;
+  }
+  
+  .aboutBox1Content1,
+  .aboutBox1Content2, p {
+    font-size: 12px;
+    font-family:'Poppins', 'Roboto',sans-serif ;
+    font-weight: 300;
+    text-align: justify;
+  }
+  
+  .whatWeDo,
+  .whyChooseUs {
+    height: 60px;
+    width: 60px;
+    margin-left: 80px;
+  }
+
+  .testimonialContainer{
+    background-color: #f4f4f4;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding-top: 20px;
+    border-top-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+    padding-bottom: 20px;
+    width: 90%;
+    margin-left: 10px;
+  }
+  
+  .testimonialheader{
+    /* color: #98BC7E; */
+    margin-left: 90px;
+    color:#152262;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+  .about-container p{
+    padding-bottom: 1rem;
+  }
+  
+  .testimonialcardsContainer{
+    display: grid;
+    margin-top: 60px;
+    /* margin-left: 210px; */
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    gap: 30px;
+    /* background-color: #F8F9FA; */
+    padding-top: 10px;
+    padding-left: 5rem;
+    padding-bottom: 40px;
+    /* column-gap: -3px; */
+    width: 70%;
+    /* z-index: 2; */
+  }
+  
+  .testimonialCard1,
+  .testimonialCard2,
+  .testimonialCard3 {
+    height: 70%px;
+    width: 60%px;
+    /* background-color: #98BC7E; */
+    /* background-color: #7ebabc; */
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgb(22, 59, 96);
+    margin-left: -18px;
+  }
+  
+  .quoteImage{
+    height: 30px;
+    width: 30px;
+    display: block;
+    position: relative;
+    z-index: 2;
+    margin-top: -35px;
+    margin-left: 5px;
+  }
+  
+  .testimonialUserdiv{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5rem;
+  }
+  
+  .testimonialText{
+    font-family:Poppins;
+    font-weight: 400;
+    color: #6D6D6D;
+    font-size: 14px;
+  }
+  
+  .Kelvin{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+  }
+  
+  .Jessica{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+  }
+  
+  .Godwin{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+  }
+  
+  .userName{
+    display: block;
+    color: #020202;
+    margin-left: 10px;
+    font-size: 14px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+}
+@media screen and (min-width: 1001px) and (max-width: 1012px) {
+  .HeaderContainer{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .greenBgdiv{
+    background-image: url("../images/construction-plan-and-circle-CW7042.jpg");
+    background-size: 0px 0px; /* Width and height for the background image */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Don't repeat the image */ 
+    border-bottom-left-radius: 4000px;
+    border-bottom-right-radius: 4000px;
+    height: 0px;
+    width: 0px;
+    /* margin-top: -180px; */
+  }
+
+  .aboutpageHeader {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-image: url("../images/about2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%; 
+    /* border-radius: 1800px; */
+    margin-left: 0px;
+    margin-top: -150px;
+    border-bottom-left-radius: 9000px;
+    border-bottom-right-radius: 9000px;
+  }
+  
+  .aboutpageHeader::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* adjust the opacity value to your liking */
+    /* border-radius: 1800px; */
+    border-bottom-left-radius: 9000px;
+    border-bottom-right-radius: 9000px;
+  }
+
+  .Text{
+    font-size: 32px;
+    font-weight: 600;
+    color:  white;
+    text-align: center;
+    width: 100%;
+    margin-left: 30px;
+    margin-top: 90px;
+  }
+  
+  .Text2{
+    font-size: 32px;
+    font-weight: 600;
+    color:  orange;
+    width: 100%;
+    /* margin-left: 30px; */
+  }
+
+  .aboutRAMEVA{
+    width:90%;
+    margin-top: 30px;
+    margin-left: 35px;
+  }
+  
+  .aboutRAMEVA p {
+    font-family:'Poppins', 'Roboto',sans-serif ;
+    font-weight: 300;
+    text-align: justify;
+    font-size: 12px;
+  }
+  
+  .headerUnderline{
+    text-decoration: underline; 
+    text-decoration-color: #152262;
+    text-underline-offset: 10px;
+  }
+  
+  .anonymous{
+    height: 0px;
+    width: 0px;
+    position: relative;
+    margin-top: -90px;
+    margin-left: 420px;
+    /* float:right; */
+  }
+
+  .aboutBox1grid{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    align-self: center;
+    width: 90%;
+    margin-left: 35px;
+    margin-bottom: 90px;
+  }
+  
+  .about-container h1{
+    color: #152262;
+    font-weight: 600;
+  }
+  
+  .aboutBox1Content1{
+    border-right-width: 2px;
+    border-right-style: solid;
+    border-right-color: #152262;
+    padding-right: 10px;
+    /* border-right-style: none; */
+  }
+
+  .aboutBox1Content2{
+    margin-top: 20px;
+  }
+  
+  .aboutBox1Content1,
+  .aboutBox1Content2, p {
+    font-size: 12px;
+    font-family:'Poppins', 'Roboto',sans-serif ;
+    font-weight: 300;
+    text-align: justify;
+  }
+  
+  .whatWeDo,
+  .whyChooseUs {
+    height: 60px;
+    width: 60px;
+    margin-left: 80px;
+  }
+
+  .testimonialContainer{
+    background-color: #f4f4f4;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding-top: 20px;
+    border-top-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+    padding-bottom: 20px;
+    width: 90%;
+    margin-left: 10px;
+  }
+  
+  .testimonialheader{
+    /* color: #98BC7E; */
+    margin-left: 90px;
+    color:#152262;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+  .about-container p{
+    padding-bottom: 1rem;
+  }
+  
+  .testimonialcardsContainer{
+    display: grid;
+    margin-top: 60px;
+    /* margin-left: 210px; */
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    gap: 30px;
+    /* background-color: #F8F9FA; */
+    padding-top: 10px;
+    padding-left: 5rem;
+    padding-bottom: 40px;
+    /* column-gap: -3px; */
+    width: 70%;
+    /* z-index: 2; */
+  }
+  
+  .testimonialCard1,
+  .testimonialCard2,
+  .testimonialCard3 {
+    height: 70%px;
+    width: 60%px;
+    /* background-color: #98BC7E; */
+    /* background-color: #7ebabc; */
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgb(22, 59, 96);
+    margin-left: -18px;
+  }
+  
+  .quoteImage{
+    height: 30px;
+    width: 30px;
+    display: block;
+    position: relative;
+    z-index: 2;
+    margin-top: -35px;
+    margin-left: 5px;
+  }
+  
+  .testimonialUserdiv{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5rem;
+  }
+  
+  .testimonialText{
+    font-family:Poppins;
+    font-weight: 400;
+    color: #6D6D6D;
+    font-size: 14px;
+  }
+  
+  .Kelvin{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+  }
+  
+  .Jessica{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+  }
+  
+  .Godwin{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+  }
+  
+  .userName{
+    display: block;
+    color: #020202;
+    margin-left: 10px;
+    font-size: 14px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+}
+@media screen and (min-width: 1013px) and (max-width: 1032px) {
+  .HeaderContainer{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .greenBgdiv{
+    background-image: url("../images/construction-plan-and-circle-CW7042.jpg");
+    background-size: 0px 0px; /* Width and height for the background image */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Don't repeat the image */ 
+    border-bottom-left-radius: 4000px;
+    border-bottom-right-radius: 4000px;
+    height: 0px;
+    width: 0px;
+    /* margin-top: -180px; */
+  }
+
+  .aboutpageHeader {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-image: url("../images/about2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%; 
+    /* border-radius: 1800px; */
+    margin-left: 0px;
+    margin-top: -150px;
+    border-bottom-left-radius: 9000px;
+    border-bottom-right-radius: 9000px;
+  }
+  
+  .aboutpageHeader::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* adjust the opacity value to your liking */
+    /* border-radius: 1800px; */
+    border-bottom-left-radius: 9000px;
+    border-bottom-right-radius: 9000px;
+  }
+
+  .Text{
+    font-size: 32px;
+    font-weight: 600;
+    color:  white;
+    text-align: center;
+    width: 100%;
+    margin-left: 30px;
+    margin-top: 90px;
+  }
+  
+  .Text2{
+    font-size: 32px;
+    font-weight: 600;
+    color:  orange;
+    width: 100%;
+    /* margin-left: 30px; */
+  }
+
+  .aboutRAMEVA{
+    width:90%;
+    margin-top: 30px;
+    margin-left: 35px;
+  }
+  
+  .aboutRAMEVA p {
+    font-family:'Poppins', 'Roboto',sans-serif ;
+    font-weight: 300;
+    text-align: justify;
+    font-size: 12px;
+  }
+  
+  .headerUnderline{
+    text-decoration: underline; 
+    text-decoration-color: #152262;
+    text-underline-offset: 10px;
+  }
+  
+  .anonymous{
+    height: 0px;
+    width: 0px;
+    position: relative;
+    margin-top: -90px;
+    margin-left: 420px;
+    /* float:right; */
+  }
+
+  .aboutBox1grid{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    align-self: center;
+    width: 90%;
+    margin-left: 35px;
+    margin-bottom: 90px;
+  }
+  
+  .about-container h1{
+    color: #152262;
+    font-weight: 600;
+  }
+  
+  .aboutBox1Content1{
+    border-right-width: 2px;
+    border-right-style: solid;
+    border-right-color: #152262;
+    padding-right: 10px;
+    /* border-right-style: none; */
+  }
+
+  .aboutBox1Content2{
+    margin-top: 20px;
+  }
+  
+  .aboutBox1Content1,
+  .aboutBox1Content2, p {
+    font-size: 12px;
+    font-family:'Poppins', 'Roboto',sans-serif ;
+    font-weight: 300;
+    text-align: justify;
+  }
+  
+  .whatWeDo,
+  .whyChooseUs {
+    height: 60px;
+    width: 60px;
+    margin-left: 80px;
+  }
+
+  .testimonialContainer{
+    background-color: #f4f4f4;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding-top: 20px;
+    border-top-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+    padding-bottom: 20px;
+    width: 90%;
+    margin-left: 10px;
+  }
+  
+  .testimonialheader{
+    /* color: #98BC7E; */
+    margin-left: 90px;
+    color:#152262;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+  .about-container p{
+    padding-bottom: 1rem;
+  }
+  
+  .testimonialcardsContainer{
+    display: grid;
+    margin-top: 60px;
+    /* margin-left: 210px; */
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    gap: 30px;
+    /* background-color: #F8F9FA; */
+    padding-top: 10px;
+    padding-left: 5rem;
+    padding-bottom: 40px;
+    /* column-gap: -3px; */
+    width: 70%;
+    /* z-index: 2; */
+  }
+  
+  .testimonialCard1,
+  .testimonialCard2,
+  .testimonialCard3 {
+    height: 70%px;
+    width: 60%px;
+    /* background-color: #98BC7E; */
+    /* background-color: #7ebabc; */
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgb(22, 59, 96);
+    margin-left: -18px;
+  }
+  
+  .quoteImage{
+    height: 30px;
+    width: 30px;
+    display: block;
+    position: relative;
+    z-index: 2;
+    margin-top: -35px;
+    margin-left: 5px;
+  }
+  
+  .testimonialUserdiv{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5rem;
+  }
+  
+  .testimonialText{
+    font-family:Poppins;
+    font-weight: 400;
+    color: #6D6D6D;
+    font-size: 14px;
+  }
+  
+  .Kelvin{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+  }
+  
+  .Jessica{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+  }
+  
+  .Godwin{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+  }
+  
+  .userName{
+    display: block;
+    color: #020202;
+    margin-left: 10px;
+    font-size: 14px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+}
+@media screen and (min-width: 1033px) and (max-width: 1090px) {
+  .HeaderContainer{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .greenBgdiv{
+    background-image: url("../images/construction-plan-and-circle-CW7042.jpg");
+    background-size: 0px 0px; /* Width and height for the background image */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Don't repeat the image */ 
+    border-bottom-left-radius: 4000px;
+    border-bottom-right-radius: 4000px;
+    height: 0px;
+    width: 0px;
+    /* margin-top: -180px; */
+  }
+
+  .aboutpageHeader {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-image: url("../images/about2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%; 
+    /* border-radius: 1800px; */
+    margin-left: 0px;
+    margin-top: -150px;
+    border-bottom-left-radius: 9000px;
+    border-bottom-right-radius: 9000px;
+  }
+  
+  .aboutpageHeader::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* adjust the opacity value to your liking */
+    /* border-radius: 1800px; */
+    border-bottom-left-radius: 9000px;
+    border-bottom-right-radius: 9000px;
+  }
+
+  .Text{
+    font-size: 32px;
+    font-weight: 600;
+    color:  white;
+    text-align: center;
+    width: 100%;
+    margin-left: 30px;
+    margin-top: 90px;
+  }
+  
+  .Text2{
+    font-size: 32px;
+    font-weight: 600;
+    color:  orange;
+    width: 100%;
+    /* margin-left: 30px; */
+  }
+
+  .aboutRAMEVA{
+    width:90%;
+    margin-top: 30px;
+    margin-left: 35px;
+  }
+  
+  .aboutRAMEVA p {
+    font-family:'Poppins', 'Roboto',sans-serif ;
+    font-weight: 300;
+    text-align: justify;
+    font-size: 12px;
+  }
+  
+  .headerUnderline{
+    text-decoration: underline; 
+    text-decoration-color: #152262;
+    text-underline-offset: 10px;
+  }
+  
+  .anonymous{
+    height: 0px;
+    width: 0px;
+    position: relative;
+    margin-top: -90px;
+    margin-left: 420px;
+    /* float:right; */
+  }
+
+  .aboutBox1grid{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    align-self: center;
+    width: 90%;
+    margin-left: 35px;
+    margin-bottom: 90px;
+  }
+  
+  .about-container h1{
+    color: #152262;
+    font-weight: 600;
+  }
+  
+  .aboutBox1Content1{
+    border-right-width: 2px;
+    border-right-style: solid;
+    border-right-color: #152262;
+    padding-right: 10px;
+    /* border-right-style: none; */
+  }
+
+  .aboutBox1Content2{
+    margin-top: 20px;
+  }
+  
+  .aboutBox1Content1,
+  .aboutBox1Content2, p {
+    font-size: 12px;
+    font-family:'Poppins', 'Roboto',sans-serif ;
+    font-weight: 300;
+    text-align: justify;
+  }
+  
+  .whatWeDo,
+  .whyChooseUs {
+    height: 60px;
+    width: 60px;
+    margin-left: 80px;
+  }
+
+  .testimonialContainer{
+    background-color: #f4f4f4;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding-top: 20px;
+    border-top-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+    padding-bottom: 20px;
+    width: 90%;
+    margin-left: 10px;
+  }
+  
+  .testimonialheader{
+    /* color: #98BC7E; */
+    margin-left: 90px;
+    color:#152262;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+  .about-container p{
+    padding-bottom: 1rem;
+  }
+  
+  .testimonialcardsContainer{
+    display: grid;
+    margin-top: 60px;
+    /* margin-left: 210px; */
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    gap: 30px;
+    /* background-color: #F8F9FA; */
+    padding-top: 10px;
+    padding-left: 5rem;
+    padding-bottom: 40px;
+    /* column-gap: -3px; */
+    width: 70%;
+    /* z-index: 2; */
+  }
+  
+  .testimonialCard1,
+  .testimonialCard2,
+  .testimonialCard3 {
+    height: 70%px;
+    width: 60%px;
+    /* background-color: #98BC7E; */
+    /* background-color: #7ebabc; */
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgb(22, 59, 96);
+    margin-left: -18px;
+  }
+  
+  .quoteImage{
+    height: 30px;
+    width: 30px;
+    display: block;
+    position: relative;
+    z-index: 2;
+    margin-top: -35px;
+    margin-left: 5px;
+  }
+  
+  .testimonialUserdiv{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5rem;
+  }
+  
+  .testimonialText{
+    font-family:Poppins;
+    font-weight: 400;
+    color: #6D6D6D;
+    font-size: 14px;
+  }
+  
+  .Kelvin{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+  }
+  
+  .Jessica{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+  }
+  
+  .Godwin{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+  }
+  
+  .userName{
+    display: block;
+    color: #020202;
+    margin-left: 10px;
+    font-size: 14px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+}
+@media screen and (min-width: 1091px) and (max-width: 1124px) {
+  .HeaderContainer{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .greenBgdiv{
+    background-image: url("../images/construction-plan-and-circle-CW7042.jpg");
+    background-size: 0px 0px; /* Width and height for the background image */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Don't repeat the image */ 
+    border-bottom-left-radius: 4000px;
+    border-bottom-right-radius: 4000px;
+    height: 0px;
+    width: 0px;
+    /* margin-top: -180px; */
+  }
+
+  .aboutpageHeader {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-image: url("../images/about2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%; 
+    /* border-radius: 1800px; */
+    margin-left: 0px;
+    margin-top: -150px;
+    border-bottom-left-radius: 9000px;
+    border-bottom-right-radius: 9000px;
+  }
+  
+  .aboutpageHeader::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* adjust the opacity value to your liking */
+    /* border-radius: 1800px; */
+    border-bottom-left-radius: 9000px;
+    border-bottom-right-radius: 9000px;
+  }
+
+  .Text{
+    font-size: 32px;
+    font-weight: 600;
+    color:  white;
+    text-align: center;
+    width: 100%;
+    margin-left: 30px;
+    margin-top: 90px;
+  }
+  
+  .Text2{
+    font-size: 32px;
+    font-weight: 600;
+    color:  orange;
+    width: 100%;
+    /* margin-left: 30px; */
+  }
+
+  .aboutRAMEVA{
+    width:90%;
+    margin-top: 30px;
+    margin-left: 35px;
+  }
+  
+  .aboutRAMEVA p {
+    font-family:'Poppins', 'Roboto',sans-serif ;
+    font-weight: 300;
+    text-align: justify;
+    font-size: 12px;
+  }
+  
+  .headerUnderline{
+    text-decoration: underline; 
+    text-decoration-color: #152262;
+    text-underline-offset: 10px;
+  }
+  
+  .anonymous{
+    height: 0px;
+    width: 0px;
+    position: relative;
+    margin-top: -90px;
+    margin-left: 420px;
+    /* float:right; */
+  }
+
+  .aboutBox1grid{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    align-self: center;
+    width: 90%;
+    margin-left: 35px;
+    margin-bottom: 90px;
+  }
+  
+  .about-container h1{
+    color: #152262;
+    font-weight: 600;
+  }
+  
+  .aboutBox1Content1{
+    border-right-width: 2px;
+    border-right-style: solid;
+    border-right-color: #152262;
+    padding-right: 10px;
+    /* border-right-style: none; */
+  }
+
+  .aboutBox1Content2{
+    margin-top: 20px;
+  }
+  
+  .aboutBox1Content1,
+  .aboutBox1Content2, p {
+    font-size: 12px;
+    font-family:'Poppins', 'Roboto',sans-serif ;
+    font-weight: 300;
+    text-align: justify;
+  }
+  
+  .whatWeDo,
+  .whyChooseUs {
+    height: 60px;
+    width: 60px;
+    margin-left: 80px;
+  }
+
+  .testimonialContainer{
+    background-color: #f4f4f4;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding-top: 20px;
+    border-top-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+    padding-bottom: 20px;
+    width: 90%;
+    margin-left: 10px;
+  }
+  
+  .testimonialheader{
+    /* color: #98BC7E; */
+    margin-left: 90px;
+    color:#152262;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+  .about-container p{
+    padding-bottom: 1rem;
+  }
+  
+  .testimonialcardsContainer{
+    display: grid;
+    margin-top: 60px;
+    /* margin-left: 210px; */
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    gap: 30px;
+    /* background-color: #F8F9FA; */
+    padding-top: 10px;
+    padding-left: 5rem;
+    padding-bottom: 40px;
+    /* column-gap: -3px; */
+    width: 70%;
+    /* z-index: 2; */
+  }
+  
+  .testimonialCard1,
+  .testimonialCard2,
+  .testimonialCard3 {
+    height: 70%px;
+    width: 60%px;
+    /* background-color: #98BC7E; */
+    /* background-color: #7ebabc; */
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgb(22, 59, 96);
+    margin-left: -18px;
+  }
+  
+  .quoteImage{
+    height: 30px;
+    width: 30px;
+    display: block;
+    position: relative;
+    z-index: 2;
+    margin-top: -35px;
+    margin-left: 5px;
+  }
+  
+  .testimonialUserdiv{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5rem;
+  }
+  
+  .testimonialText{
+    font-family:Poppins;
+    font-weight: 400;
+    color: #6D6D6D;
+    font-size: 14px;
+  }
+  
+  .Kelvin{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+  }
+  
+  .Jessica{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+  }
+  
+  .Godwin{
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+  }
+  
+  .userName{
+    display: block;
+    color: #020202;
+    margin-left: 10px;
+    font-size: 14px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+}
+@media screen and (min-width: 1125px) and (max-width: 1200px) {}
+@media screen and (min-width: 1201px) and (max-width: 1300px) {}
+@media screen and (min-width: 1600px) and (max-width: 2000px) {}
+@media screen and (min-width: 2000px) and (max-width: 3000px) {}

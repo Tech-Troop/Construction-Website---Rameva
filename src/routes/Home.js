@@ -6,6 +6,7 @@ import ServiceHome from './ServiceHome';
 import Stats from "./Stats";
 import Welcome from './Welcome'
 import React, { useEffect, useState } from 'react';
+import Testimonials from "./Testimonials";
 
 
 const Home=() =>{
@@ -22,8 +23,8 @@ const Home=() =>{
     <div className="App" style={{ height: isLoad ? "fit-content" : "100vh", overflowY: isLoad ? "" : "hidden" }}>
       <Welcome isLoad={isLoad} />
       <ServiceHome/>
-      <Stats/>
       <AboutHome/>
+      
      
 
     </div>

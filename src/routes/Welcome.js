@@ -1,12 +1,24 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import styles from "./Welcome.module.css";
+import video from "../images/vid3.mp4"
 
 
 
 export default function Welcome({ isLoad }) {
   return (
     <div className={styles.mainContainer} id='home' >
+        <video 
+        autoPlay 
+        loop 
+        muted 
+        className={styles.backgroundVideo}
+      >
+        <source 
+          src={video} 
+          type="video/mp4"
+        />
+        </video>
     <div className={styles.welcomeContext}>
         <div className={styles.welcomeTop}>
             <motion.h1

@@ -80,7 +80,7 @@ function AboutUs() {
      
       </div>
       <div className="testimonialContainer">
-        <span className="testimonialheader"> ────── TESTIMONIALS ────── </span>
+       <span className="testimonialheader"> ────── TESTIMONIALS ────── </span>
         
         <div className='testimonialcardsContainer'>
           <div className='testimonialCard1'> 
@@ -124,7 +124,7 @@ function AboutUs() {
         </div>
 
 
-      </div>
+      </div> 
     </div>
   );
 }
