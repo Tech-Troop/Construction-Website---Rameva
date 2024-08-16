@@ -1,0 +1,114 @@
+
+.changeUserProfilegrid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin: 0 auto;
+}
+
+.profilepictureUploaddiv{
+  width: 600px;
+}
+
+
+@media screen and (min-width: 100px) and (max-width: 299px) {
+  .changeUserProfilegrid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    margin: 0 auto;
+  }
+  
+  .profilepictureUploaddiv{
+    width: 100%;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 400px) {
+  .changeUserProfilegrid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    margin: 0 auto;
+  }
+  
+  .profilepictureUploaddiv{
+    width: 100%;
+  }
+}
+@media screen and (min-width: 401px) and (max-width: 500px) {
+  .changeUserProfilegrid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    margin: 0 auto;
+  }
+  
+  .profilepictureUploaddiv{
+    width: 80%;
+  }
+}
+@media screen and (min-width: 501px) and (max-width: 600px) {
+  .changeUserProfilegrid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    margin: 0 auto;
+  }
+  
+  .profilepictureUploaddiv{
+    width: 100%;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 700px) {
+  .changeUserProfilegrid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    margin: 0 auto;
+  }
+  
+  .profilepictureUploaddiv{
+    width: 100%;
+  }
+}
+@media screen and (min-width: 701px) and (max-width: 800px) {
+  .changeUserProfilegrid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    margin: 0 auto;
+  }
+  
+  .profilepictureUploaddiv{
+    width: 100%;
+  }
+}
+@media screen and (min-width: 801px) and (max-width: 900px) {
+  .changeUserProfilegrid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    margin: 0 auto;
+  }
+  
+  .profilepictureUploaddiv{
+    width: 100%;
+  }
+}
+@media screen and (min-width: 901px) and (max-width: 1000px) {
+  .changeUserProfilegrid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    margin: 0 auto;
+  }
+  
+  .profilepictureUploaddiv{
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1001px) and (max-width: 1012px) {}
+@media screen and (min-width: 1013px) and (max-width: 1032px) {}
+@media screen and (min-width: 1033px) and (max-width: 1091px) {}
+@media screen and (min-width: 1091px) and (max-width: 1124px) {}
+@media screen and (min-width: 1125px) and (max-width: 1230px) {}

@@ -1,0 +1,30 @@
+.carousel-container {
+    position: relative;
+    overflow: hidden;  /* Ensures content does not overflow */
+  }
+  
+  .carousel .carousel-item img {
+    max-height: 100vh;  /* Adjusts the height of the images */
+    object-fit: cover;  /* Ensures the images cover the entire carousel item */
+  }
+  
+  @media (max-width: 768px) {
+    .carousel .carousel-item img {
+      max-height: 70vh;  /* Adjusts the height of the images on smaller screens */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .carousel .carousel-item img {
+      max-height: 60vh;  /* Adjusts the height of the images on very small screens */
+    }
+  }
+  
+  .carousel-control-prev, .carousel-control-next {
+    filter: invert(1);  /* Optional: changes the color of the controls for better visibility */
+  }
+  
+  .carousel-indicators {
+    bottom: 10px;  /* Optional: adjust the position of the indicators */
+  }
+  

@@ -1,0 +1,479 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+.userProfileContainer {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    margin-bottom: 40px;
+  }
+  
+  
+  .profileHeader {
+    text-align: center;
+    color: #333333;
+    font-family: 'Poppins';
+  }
+  
+  .profileCard {
+    margin-top: 20px;
+    width: 500px;
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr); */
+  }
+  
+  .profileItem {
+
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+  
+  .profileLabel {
+    font-weight: bold;
+    color: #333333;
+  }
+  
+  .profileValue,
+  .profileInput {
+    flex: 1;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 1rem;
+    color: #555555;
+  }
+  
+  .profileInput {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 400px;
+  }
+  
+  .profileActions {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .button {
+    background-color: #4caf50;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+  }
+  
+  .saveBtn {
+    background-color: #4caf50;
+  }
+  
+  .cancelBtn {
+    background-color: #f44336;
+  }
+  
+  .editBtn {
+    background-color: #007bff;
+  }
+  
+
+  @media screen and (min-width: 100px) and (max-width: 299px) {
+    .userProfileContainer {
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin-top: 50px;
+      margin-bottom: 40px;
+    }
+
+    .profileInput {
+      padding: 5px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      width: 90%;
+      font-size: 10px;
+    }
+
+    .profileItem {
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 15px;
+      padding: 5px;
+      background-color: #f9f9f9;
+      border-radius: 5px;
+      width: 90%;
+    }
+
+    .profileCard {
+      margin-top: 20px;
+      width: 100%;
+      font-size: 10px;
+    }
+  }
+  @media screen and (min-width: 300px) and (max-width: 400px) {
+    .userProfileContainer {
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin-top: 50px;
+      margin-bottom: 40px;
+    }
+
+    .profileInput {
+      padding: 5px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      width: 90%;
+    }
+
+    .profileItem {
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 15px;
+      padding: 10px;
+      background-color: #f9f9f9;
+      border-radius: 5px;
+      width: 90%;
+    }
+
+    .profileCard {
+      margin-top: 20px;
+      width: 100%;
+    }
+  }
+  @media screen and (min-width: 401px) and (max-width: 500px) {
+    .userProfileContainer {
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin-top: 50px;
+      margin-bottom: 40px;
+    }
+
+    .profileInput {
+      padding: 5px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      width: 90%;
+    }
+
+    .profileItem {
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 15px;
+      padding: 10px;
+      background-color: #f9f9f9;
+      border-radius: 5px;
+      width: 400px;
+    }
+
+    .profileCard {
+      margin-top: 20px;
+      width: 100%;
+    }
+  }
+  
+  @media screen and (min-width: 501px) and (max-width: 600px) {
+    .userProfileContainer {
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin-top: 50px;
+      margin-bottom: 40px;
+    }
+
+    .profileInput {
+      padding: 5px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      width: 90%;
+    }
+
+    .profileItem {
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 15px;
+      padding: 10px;
+      background-color: #f9f9f9;
+      border-radius: 5px;
+      width: 400px;
+    }
+
+    .profileCard {
+      margin-top: 20px;
+      width: 100%;
+    }
+  }
+  @media screen and (min-width: 601px) and (max-width: 700px) {
+
+
+    .userProfileContainer {
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin-top: 50px;
+      margin-bottom: 40px;
+    }
+
+    .profileInput {
+      padding: 5px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      width: 90%;
+    }
+
+    .profileItem {
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 15px;
+      padding: 10px;
+      background-color: #f9f9f9;
+      border-radius: 5px;
+      width: 400px;
+    }
+
+    .profileCard {
+      margin-top: 20px;
+      width: 400px;
+    }
+  }
+  @media screen and (min-width: 701px) and (max-width: 800px) {
+    .userProfileContainer {
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin-top: 50px;
+      margin-bottom: 40px;
+    }
+
+    .profileInput {
+      padding: 5px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      width: 90%;
+    }
+
+    .profileItem {
+
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 15px;
+      padding: 10px;
+      background-color: #f9f9f9;
+      border-radius: 5px;
+      width: 400px;
+    }
+
+    .profileCard {
+      margin-top: 20px;
+      width: 100%;
+    }
+  }
+  @media screen and (min-width: 801px) and (max-width: 900px) {}
+
+  @media screen and (min-width: 901px) and (max-width: 1000px) {
+    .userProfileContainer {
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin-top: 50px;
+      margin-bottom: 40px;
+    }
+
+    .profileInput {
+      padding: 5px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      width: 90%;
+    }
+
+    .profileItem {
+
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 15px;
+      padding: 10px;
+      background-color: #f9f9f9;
+      border-radius: 5px;
+      width: 400px;
+    }
+
+    .profileCard {
+      margin-top: 20px;
+      width: 400px;
+    }
+  }
+  @media screen and (min-width: 1001px) and (max-width: 1012px) {
+    .userProfileContainer {
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin-top: 50px;
+      margin-bottom: 40px;
+    }
+
+    .profileInput {
+      padding: 5px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      width: 90%;
+    }
+
+    .profileItem {
+
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 15px;
+      padding: 10px;
+      background-color: #f9f9f9;
+      border-radius: 5px;
+      width: 340px;
+    }
+
+    .profileCard {
+      margin-top: 20px;
+      width: 100%;
+      /* display: grid;
+      grid-template-columns: repeat(3, 1fr); */
+    }
+  }
+  @media screen and (min-width: 1013px) and (max-width: 1032px) {
+    .userProfileContainer {
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin-top: 50px;
+      margin-bottom: 40px;
+    }
+
+    .profileInput {
+      padding: 5px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      width: 90%;
+    }
+
+    .profileItem {
+
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 15px;
+      padding: 10px;
+      background-color: #f9f9f9;
+      border-radius: 5px;
+      width: 350px;
+    }
+
+    .profileCard {
+      margin-top: 20px;
+      width: 100%;
+    }
+  }
+  @media screen and (min-width: 1033px) and (max-width: 1091px) {
+    .userProfileContainer {
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin-top: 50px;
+      margin-bottom: 40px;
+    }
+
+    .profileInput {
+      padding: 5px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      width: 100%;
+    }
+
+    .profileItem {
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 15px;
+      padding: 10px;
+      background-color: #f9f9f9;
+      border-radius: 5px;
+      width: 100%;
+    }
+
+    .profileCard {
+      margin-top: 20px;
+      width: 100%;
+    }
+  }
+  @media screen and (min-width: 1091px) and (max-width: 1124px) {
+    .userProfileContainer {
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin-top: 50px;
+      margin-bottom: 40px;
+    }
+
+    .profileInput {
+      padding: 5px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      width: 400px;
+    }
+
+    .profileItem {
+
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 15px;
+      padding: 10px;
+      background-color: #f9f9f9;
+      border-radius: 5px;
+      width: 100%;
+    }
+
+    .profileCard {
+      margin-top: 20px;
+      width: 100%;
+    }
+  }
+  @media screen and (min-width: 1125px) and (max-width: 1230px) {}
