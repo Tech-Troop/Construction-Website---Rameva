@@ -4,14 +4,14 @@ import { getFirestore } from "firebase/firestore";
 
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAhH7fg2bBH9Y8QN5FcjKnDCuaKJGaFnZk",
-    authDomain: "rameva-construction.firebaseapp.com",
-    projectId: "rameva-construction",
-    storageBucket: "rameva-construction.appspot.com",
-    messagingSenderId: "593211160796",
-    appId: "1:593211160796:web:25d78d7b8816d213d61c19",
-    measurementId: "G-JS6522JFQK"
-  };
+  apiKey: "AIzaSyC0MwvwHPmkcFnH4KypcVkVSk5dS3CeWq4",
+  authDomain: "rameva-construction-34baf.firebaseapp.com",
+  projectId: "rameva-construction-34baf",
+  storageBucket: "rameva-construction-34baf.appspot.com",
+  messagingSenderId: "108670688015",
+  appId: "1:108670688015:web:fad25e456a7126032dfc7a",
+  measurementId: "G-57WDE7S2XK"
+};
 
 
 
