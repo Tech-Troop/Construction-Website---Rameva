@@ -7,7 +7,7 @@ import anonymous from '../images/anonymous.png'
 import why_choose_us from '../images/why_choose_us.png'
 import what_we_do from '../images/what_we_do.png'
 
-function AboutUs() {
+function About() {
   return (
     <div className="about-container">
       <div className="HeaderContainer">
@@ -129,4 +129,4 @@ function AboutUs() {
   );
 }
 
-export default AboutUs;
+export default About;
