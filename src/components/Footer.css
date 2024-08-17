@@ -39,10 +39,12 @@ a{
 .socialmedia{
     display: flex;
     flex-direction: row;
+    color: blue;
 }
 
 .socialmedia img{
     width: 80%;
+    color: blue;
 }
 
 .sb_footer-links_div h4{

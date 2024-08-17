@@ -13,16 +13,25 @@
     background-position: center;
     background-size: cover;
 }
-.backgroundVideo {
+.background {
+    background-image: url("../images/cranes-construction-site.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Or whatever height you need */
+    width: 100%; /* Or whatever width you need */
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    aspect-ratio: 16/9;
     z-index: -1;
+
   }
+  @media (max-width: 768px) {
+    .background {
+      height: 100vh; /* Ensure full viewport height on small screens */
+      width: 100vw; /* Ensure full viewport width on small screens */
+    }
+  }
+  
   @media only screen and (max-width: 768px) {
     .backgroundVideo {
       height: 50vh; /* Reduce the height on smaller screens */
@@ -57,7 +66,7 @@
     font-size: 1.4rem;
     padding-right: 30%;
     line-height: 1.5;
-    font-weight: 700;
+    font-weight: 300;
 }
 
 .welcomeBottom {
@@ -77,16 +86,16 @@
 }
 
 .welcomeCard h2 {
-    font-size: 1.4rem;
-    color: var(--white);
-    font-weight: 600;
+    font-size: 1.7rem;
+    color:  white;
+    font-weight: 500;
     margin-bottom: 30px;
 }
 
 .welcomeCard p {
     font-size: 1.1rem;
-    font-weight: 500;
-    color: #c0c0c0;
+    font-weight: 300;
+    color: white;
     margin-bottom: 20px;
 }
 

@@ -59,7 +59,7 @@ function Navbar() {
     </li>
     <li>
       <a href="/Bookings" className="action_btn">
-        Bookings
+       <strong>Account</strong> 
       </a>
     </li>
   </ul>

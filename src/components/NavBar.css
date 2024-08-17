@@ -81,8 +81,8 @@ nav {
   border: none;
   outline: none;
   border-radius: 20px;
-  font-size: 0.8rem;
-  font-weight: bold;
+  font-size: 0.9rem;
+  font-weight: 600;
   cursor: pointer;
   transition: scale 0.2 ease;
   text-decoration: none;
@@ -123,14 +123,22 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: black;
 }
 
 .dropdown_menu .action_btn {
   width: 100%;
   display: flex;
   justify-content: center;
+  font-weight: 600;
 }
-
+.dropdown_menu .action_btn a{
+  font-weight: 600;
+}
+.dropdown_menu ul a{
+  color: black;
+  font-weight: 600;
+}
 
 /* RESPONSIVE DESIGN */
 
@@ -138,6 +146,7 @@ nav {
   .navbar .links,
   .navbar .action_btn {
     display: none;
+    font-weight: 600;
   }
 
   .navbar .toggle_btn {
